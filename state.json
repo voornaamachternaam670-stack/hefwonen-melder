@@ -167,8 +167,965 @@
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-20T15:16:26.631Z",
       "gone": false
+    },
+    "ikw:6e40a9b982c4f1ace767f82a0ee4b96c": {
+      "title": "Appartement Poldermolenplein 102",
+      "price": 1214,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:810871f4811a87435558af662b303e9c": {
+      "title": "Appartement 's-gravelandseweg 565 C",
+      "price": 1765,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:6022ddf54cbe9ef09973dffca9efe0f9": {
+      "title": "Appartement 's-gravelandseweg 1035",
+      "price": 988,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:bed12122813c7857c1ca15df76fd429d": {
+      "title": "Appartement Hoornsingel 1 F",
+      "price": 1450,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:4807fb72036be67d0b2664ab6d76aa57": {
+      "title": "Eengezinswoning Paul Desmondsingel 112",
+      "price": 1614,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:4952ed76a2b1063daefb7e844eb471dd": {
+      "title": "Appartement Jufferstraat 13 F",
+      "price": 1574,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:b41fca8114f46439ef0005a312956154": {
+      "title": "Appartement Louis Pregerkade 476",
+      "price": 1675,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:faa6b525a99bda0e99c5c30892dc0028": {
+      "title": "Appartement 's-gravelandseweg 661",
+      "price": 1440,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:a45bd0b8a3c01a40761df93c6a6711b3": {
+      "title": "Appartement 's-gravelandseweg 1047",
+      "price": 1221,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:2220d5926230ce9e9063ba0894512bfa": {
+      "title": "Appartement Van Oldenbarneveltplaats 16 D",
+      "price": 1850,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:3e97ea3dc5b3d97b89309477110ba653": {
+      "title": "Appartement Jufferhof 50 S",
+      "price": 1764,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:ca1d66782372849ea08ec95347890552": {
+      "title": "Appartement Jufferstraat 13 D",
+      "price": 1922,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:3adf83556b01f27e1252bbba156e6789": {
+      "title": "Appartement Laan Op Zuid 1583",
+      "price": 1233,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:520fe40183026e7f80ee0de10a390e3c": {
+      "title": "Appartement Laan Op Zuid 1497",
+      "price": 1822,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:de1ecbea1fa7eed5bf7adcf77aa8aabd": {
+      "title": "Eengezinswoning Hofnar 55",
+      "price": 1475,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:c2042ff9733e9c80a91835100cecf236": {
+      "title": "Appartement Diepeveenstraat 50",
+      "price": 1324,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:04ec669ad719d7fed78771c413ec4725": {
+      "title": "Appartement Laan op Zuid 1544",
+      "price": 1500,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:782d29f48e9f55f837790d823d8c9a75": {
+      "title": "Appartement Poldermolenplein 96",
+      "price": 1370,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:7e513308efe718863679cc0d7fb859df": {
+      "title": "Eengezinswoning Parkstraat 71",
+      "price": 1644,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:ab40f9bc803e3f9a1eadccfd7a6d47ad": {
+      "title": "Appartement Stieltjesstraat 196",
+      "price": 1659,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:014ec220053408f08bae934f059eea07": {
+      "title": "Eengezinswoning Paul Desmondsingel 80",
+      "price": 1603,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:8d79fcee63a68933e2182f11f89f1e9d": {
+      "title": "Appartement Jufferhof 50 A",
+      "price": 1201,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:759467208ab98827987bfbecb37842d1": {
+      "title": "Appartement 's-gravelandseweg 927",
+      "price": 1002,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:60db1e4689e0b5ad1946437f4c46df40": {
+      "title": "Appartement Van Oldenbarneveltplaats 22 B",
+      "price": 1850,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:5cf657d0817bb339f80973178c6612e5": {
+      "title": "Appartement Van Oldenbarneveltplaats 16 B",
+      "price": 1850,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:2294e1e117647009be143059cdb6639e": {
+      "title": "Appartement Van Oldenbarneveltplaats 32 H",
+      "price": 2150,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:c5a18068d147ceab047eb090f43bd77b": {
+      "title": "Appartement Oostplein 519",
+      "price": 1581,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:6e15b9e5c6fedcd9bf9c1753e6c8f195": {
+      "title": "Appartement Mia Van Ijperenplein 221",
+      "price": 1593,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:429ed786b91a8009926e4be3d47666e2": {
+      "title": "Eengezinswoning King Pleasurepad 9",
+      "price": 1609,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:620988105277f448d06338b70d07e6f4": {
+      "title": "Eengezinswoning Oosterscheldestraat 82",
+      "price": 1625,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:cdacb9f98dd0da490a8a4f6dae1c7b24": {
+      "title": "Eengezinswoning Hillelaan 153",
+      "price": 1440,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:9fab783820967ca9906d13f154268826": {
+      "title": "Appartement Samuel Soesmanstraat 128",
+      "price": 1811,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:e77acf671b29fef8ba0140e6f3a274ee": {
+      "title": "Appartement Louis Pregerkade 162",
+      "price": 1492,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:27b6aae34d391c1b175b67260c79fb41": {
+      "title": "Appartement 's-gravelandseweg 919",
+      "price": 1415,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:034376b7d3fb3df225048f75685e0db2": {
+      "title": "Eengezinswoning Klapwijksepad 3",
+      "price": 1644,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:6851161bc9a0e325d3b7e505a4e520c7": {
+      "title": "Appartement Hoge Filterweg 562",
+      "price": 1250,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:8ebbc9d75b935405b4fb5c59253804f9": {
+      "title": "Eengezinswoning Astanaplein 76",
+      "price": 1425,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:e4ab4b76e1d9c63974ba0bdb527a1a2a": {
+      "title": "Appartement Van Der Hoevenplein 325",
+      "price": 1670,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:292e6711f6013a84d0502b9679a2fab0": {
+      "title": "Appartement Laan op Zuid 1204",
+      "price": 1750,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:90781503dc5b10ee22e520f8a88d2c44": {
+      "title": "Appartement Hoge Filterweg 638",
+      "price": 1200,
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:08404de4bd656348347581e28436c1a9": {
+      "title": "Eengezinswoning Oosterscheldestraat 138",
+      "price": 1600,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:318427acfc4768fb8e083d9887de9122": {
+      "title": "Appartement Laan Op Zuid 1607",
+      "price": 1586,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:201ba7700a6077a04b4139e66f449eae": {
+      "title": "Appartement Jean Monnetring 193",
+      "price": 1036,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:dd7877c27bfc33ab484eb5d7f31d0e09": {
+      "title": "Eengezinswoning Simon Carmiggeltstraat 74",
+      "price": 1570,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:04a826b79b8baffe00c234fbe7bf53b9": {
+      "title": "Appartement Jufferhof 50 K",
+      "price": 1159,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:a816f2fbb29985b1274f80a6d1bd2bef": {
+      "title": "Appartement Louis Pregerkade 180",
+      "price": 1491,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:45c8c3163e0090d8536a0f365f78bdbd": {
+      "title": "Appartement 's-gravelandseweg 677",
+      "price": 1340,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:c29c20ae8c4aa489389dfaaf33780a87": {
+      "title": "Appartement Backershagen 384",
+      "price": 1350,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:bdaf9b9a037dff2434f41c9b6c3c3d4f": {
+      "title": "Appartement Karl Weisbardstraat 107",
+      "price": 1580,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:28755fe17f8bf061ccf2f5a4442c1567": {
+      "title": "Appartement Louis Pregerkade 138",
+      "price": 1433,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:dd8f7475313d97153f4383291b208214": {
+      "title": "Appartement Boezemlaan 51 H",
+      "price": 1665,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:4de0978eb190ecde31c167c5bb7ea690": {
+      "title": "Appartement Laan op Zuid 1496",
+      "price": 1590,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:f2e2478e7bbc9ccb842478b40924623d": {
+      "title": "Eengezinswoning Gildebrink 5",
+      "price": 1485,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:fb26b54ef5aa02de3b3bbbdf5dc727c9": {
+      "title": "Appartement Van Oldenbarneveltplaats 28 J",
+      "price": 1890,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:8e65be7fa89eb433cb382ce74f3bebc3": {
+      "title": "Appartement Diepeveenstraat 46",
+      "price": 1613,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:3680f369bf2b999cde17c1299fb22e4a": {
+      "title": "Appartement Louis Pregerkade 42",
+      "price": 1859,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:a5feda9882ce2a59db44ff6f69d631d4": {
+      "title": "Appartement Jufferstraat 11 H",
+      "price": 1580,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:c2486386c4c62e4dca400d7eb60f6025": {
+      "title": "Appartement Karl Weisbardstraat 51",
+      "price": 1990,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:9fee49e04f9a7fbf9c75fab995d50b9f": {
+      "title": "Appartement Laan op Zuid 1218",
+      "price": 1800,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:878e32b30c077162d00e09e2a7aae62d": {
+      "title": "Appartement 's-gravelandseweg 923",
+      "price": 1290,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:22d11dbbf16d7af1b227ff4d7a83c7f6": {
+      "title": "Appartement Jean Monnetring 209",
+      "price": 1044,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:f9b0327dd0555a6f6b8a1c58c15f2ffd": {
+      "title": "Appartement Laan op Zuid 1510",
+      "price": 1430,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:392ccc9f20a78e14f879bd7c038b2f51": {
+      "title": "Eengezinswoning Laan van Magisch Realisme 49",
+      "price": 1775,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:2a9a84a1de0954d8d625b88d080944d0": {
+      "title": "Appartement Wijnhaven 77 D",
+      "price": 2100,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
+      "title": "Appartement 's-gravelandseweg 729",
+      "price": 1440,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:9ccc247c5451494aa95932a81e6b6e8c": {
+      "title": "Appartement Laan Op Zuid 1479",
+      "price": 1569,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:776b0b1e6ebdd4a2ec8ac8aa317cb135": {
+      "title": "Appartement Jufferstraat 13 E",
+      "price": 1785,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:126a46278837381b9fa2a6ada8fc099f": {
+      "title": "Eengezinswoning John Coltranestraat 50",
+      "price": 1603,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:c21c1742f8e5c1761d662f718c4740be": {
+      "title": "Appartement Karl Weisbardstraat 139",
+      "price": 1801,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:15e45370fff02a714cad92bc1ab0332e": {
+      "title": "Appartement Louis Pregerkade 442",
+      "price": 1617,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:29d6b38133f8e88a9d8aa2c1060cdc68": {
+      "title": "Appartement Samuel Soesmanstraat 102",
+      "price": 1564,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:c3c728db96f8af0a911dd07733e36a20": {
+      "title": "Appartement Cypruslaan 129",
+      "price": 1875,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:583acf128ae54339780e8772a55fce7f": {
+      "title": "Appartement Oostplein 553",
+      "price": 1300,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:8c2b79e85ced7a9bd68d37e05b7ac74d": {
+      "title": "Eengezinswoning Dirkje Goedhartstraat 114",
+      "price": 1688,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:72b2200fdeb28d05ca3a8d0e6471975d": {
+      "title": "Appartement Louis Pregerkade 64",
+      "price": 1471,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:848c26f9260175411fdd5f4adb681743": {
+      "title": "Appartement Laan op Zuid 1352",
+      "price": 1825,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:e36cbce311f86963776a61fb5c328374": {
+      "title": "Appartement Van Der Hoevenplein 297",
+      "price": 1520,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:6f7cf9a2745d91da5cb4d3315d95e7c8": {
+      "title": "Eengezinswoning Paul Desmondsingel 66",
+      "price": 1605,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:7f0e5fd00a5403c58df333c7916737ab": {
+      "title": "Appartement 's-gravelandseweg 811",
+      "price": 1221,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:90d41b17c9883ddca84cf37a62e2df12": {
+      "title": "Appartement Van Oldenbarneveltplaats 24 A",
+      "price": 1705,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:9f79c05f0f156a2cd22df2918fe13ab3": {
+      "title": "Appartement Van Oldenbarneveltplaats 18 E",
+      "price": 1905,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:e84c5af805e32d7771399fad0e136b22": {
+      "title": "Appartement Van Oldenbarneveltplaats 14 K",
+      "price": 1990,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:834446340b49c46e1ff533093039d96c": {
+      "title": "Appartement 's-gravelandseweg 665",
+      "price": 1290,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:04da51aca4b66649fbcfa0ecaa12c0e1": {
+      "title": "Appartement Van der Duijn van Maasdamweg 136",
+      "price": 1335,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:ece9f73968886d698bb8bfd28058b534": {
+      "title": "Appartement Karl Weisbardstraat 337",
+      "price": 2004,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:4fce2cb07d825bc2a54eb3f37ed8911a": {
+      "title": "Appartement Drierivierenlaan 471",
+      "price": 1325,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:70aa51a4d6bc837f556425813c248358": {
+      "title": "Appartement Van Oldenbarneveltplaats 14 C",
+      "price": 2215,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:2ac3c61563a4b5d27d8a5ca4984ff230": {
+      "title": "Appartement Wijnhaven 77 C",
+      "price": 2190,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:7f37cbba86c44811ab720e0c3200ff16": {
+      "title": "Appartement Samuel Soesmanstraat 116",
+      "price": 1802,
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:3683bff43dfb43104c12f7014e7bc2c4": {
+      "title": "Appartement Boonstraat, Louis Paul 43",
+      "price": 1510,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:957b26e0f4e6c3a456e121baba0eb9c3": {
+      "title": "Appartement Laan op Zuid 1196",
+      "price": 1750,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:4a2799d1f97ee4361e47c06f97ab6450": {
+      "title": "Appartement Backershagen 426",
+      "price": 1350,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:02ec921fc4930e733bb5d5dc1e0753db": {
+      "title": "Appartement Karl Weisbardstraat 61",
+      "price": 1990,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:64044c521881506d97a60e7c2a898b29": {
+      "title": "Appartement Karl Weisbardstraat 353",
+      "price": 1643,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:990b148105c26208114df6e7cfc55da1": {
+      "title": "Appartement Van Oldenbarneveltplaats 14 A",
+      "price": 1850,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:beea51030236cea90f0335ac4db813c1": {
+      "title": "Appartement Oosterscheldestraat 17",
+      "price": 1029,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:ec03928dfbda98a3e20d7dc1ca676dd0": {
+      "title": "Eengezinswoning Lenny Tristanostraat 15",
+      "price": 1609,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:2f1aebab54d6bee8d9d9f14931c8c46c": {
+      "title": "Appartement Karl Weisbardstraat 287",
+      "price": 2016,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:a68f928ce45608d0189688b42c6cefd8": {
+      "title": "Appartement Louis Pregerkade 178",
+      "price": 1591,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "ikw:83bde1c929756767aea6c0c41619a6ca": {
+      "title": "Eengezinswoning Astanaplein 74",
+      "price": 1450,
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90662": {
+      "title": "Westerzicht 141",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90663": {
+      "title": "Van Dishoeckstraat 236",
+      "price": 635.53,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90541": {
+      "title": "Ambrosius Bosschaertstraat 3",
+      "price": 190000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90140": {
+      "title": "Schaepmanstraat 29",
+      "price": 185000,
+      "statusCode": "available",
+      "statusLabel": "In koopprijs verlaagd",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90213": {
+      "title": "Van Hogendorpweg 64",
+      "price": 219000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90492": {
+      "title": "Sterkenburg 4",
+      "price": 165000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90511": {
+      "title": "Schaepmanstraat 169",
+      "price": 190000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90542": {
+      "title": "Zeewijksingel 42",
+      "price": 210000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
+    },
+    "zww:90543": {
+      "title": "Beatrixlaan 123",
+      "price": 205000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-10-20T17:59:06.397Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-20",
-  "failures": 0
+  "sources": {
+    "hefwonen": {
+      "initialized": true,
+      "failures": 0
+    },
+    "ikwilhuren": {
+      "lastFullScan": "2026-10-20",
+      "failures": 0,
+      "initialized": true
+    },
+    "zuidwestwonen": {
+      "failures": 0,
+      "initialized": true
+    }
+  },
+  "geoCache": {
+    "2652KX": 7.9,
+    "3119XT": 5.8,
+    "2624GD": 12.3,
+    "3042NL": 4.1,
+    "3069XT": 8.1,
+    "2729HN": 16.2,
+    "2742MX": 16.1,
+    "2624BE": 12.3,
+    "2711CA": 15.5,
+    "3011XL": 0.7,
+    "3071AZ": 1.7,
+    "3012AH": 0.6,
+    "2625WL": 12.6,
+    "2809TH": 16,
+    "3011XN": 0.7,
+    "3072DB": 2.2,
+    "2743HX": 16.1,
+    "3161LE": 8.6,
+    "3029PA": 3.5,
+    "2627CD": 12.6,
+    "3071AC": 2.6,
+    "2624ER": 12.3,
+    "2652DJ": 8,
+    "3071JX": 1.5,
+    "3031EP": 0.7,
+    "3065JK": 4.2,
+    "3069XS": 8.1,
+    "2692GM": 22,
+    "2652JG": 8.6,
+    "3072JE": 2.4,
+    "3015GL": 2.2,
+    "2652JZ": 8,
+    "3063KK": 3.2,
+    "3072JR": 2.4,
+    "3072MK": 1.9,
+    "3063KM": 3.1,
+    "2721DR": 15.5,
+    "3137DC": 9.8,
+    "2652KD": 7.8,
+    "3343DA": 14.1,
+    "2665HN": 10.5,
+    "3078SB": 6.6,
+    "3015GM": 2.1,
+    "3034XD": 1.8,
+    "3161LC": 8.6,
+    "2625GB": 12.6,
+    "2743EG": 16.8,
+    "3261JD": 12.6,
+    "3232RA": 22.3,
+    "2611DW": 12.7,
+    "3059VJ": 8.9,
+    "2625GC": 12.6,
+    "3011WK": 0.5,
+    "3261GE": 12.7,
+    "2729HW": 16.3,
+    "3069XK": 8.3,
+    "3059XA": 9.4,
+    "2721DX": 15.7,
+    "2711DC": 15.3,
+    "3065GJ": 4.3,
+    "3045PE": 3.8,
+    "2711DH": 15.2,
+    "2983GW": 9.8,
+    "2671JC": 20.8,
+    "2611DV": 12.8,
+    "2652KC": 7.7,
+    "2721EP": 16.4,
+    "2652DB": 8.6,
+    "3069XL": 8.3
+  }
 }
