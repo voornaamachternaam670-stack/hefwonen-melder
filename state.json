@@ -1039,6 +1039,22 @@
       "statusLabel": "Nieuw in verkoop",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
+    },
+    "rent:13209944": {
+      "title": "Susannadijk 141",
+      "price": 960,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T18:33:34.311Z",
+      "gone": false
+    },
+    "rent:13209945": {
+      "title": "Susannadijk 71",
+      "price": 1000,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T18:33:34.311Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-20",
