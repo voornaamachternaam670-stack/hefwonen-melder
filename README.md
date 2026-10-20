@@ -1,4 +1,4 @@
-# Huurmelder (Hef Wonen + ikwilhuren.nu)
+# Huurmelder (Hef Wonen + ikwilhuren.nu + Zuidwestwonen)
 
 Controleert elke 10 minuten deze sites en stuurt een Telegram-bericht bij:
 
@@ -6,6 +6,7 @@ Controleert elke 10 minuten deze sites en stuurt een Telegram-bericht bij:
 |---|---|---|
 | [Hef Wonen](https://huuraanbod.hefwonen.nl/huuraanbod) | alles (woningen, bedrijfsruimte, parkeren) | hele lijst elke run |
 | [ikwilhuren.nu](https://ikwilhuren.nu/aanbod/) | woningen binnen 10 km van Rotterdam | 3 nieuwste pagina's elke run, alles 1x per dag na 07:00 |
+| [Zuidwestwonen](https://www.zuidwestwonen.nl/aanbod) | huur- en koopwoningen in Vlissingen en Oost-Souburg (geen woningruil/parkeren) | hele lijst elke run |
 
 Gebied en straal voor ikwilhuren staan bovenin `check.js` (`IKW_CENTER`, `IKW_RADIUS_KM`).
 

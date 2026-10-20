@@ -208,7 +208,70 @@ const ikwilhuren = {
   },
 };
 
-const SOURCES = [hefwonen, ikwilhuren];
+// ---------- bron 3: Zuidwestwonen (ZIG-portaal) ----------
+
+const ZWW_BASE = 'https://www.zuidwestwonen.nl';
+const ZWW_CITIES = ['Vlissingen', 'Oost-Souburg'];
+
+const nlDate = (s) => (s || '').replace(/^(\d{4})-(\d{2})-(\d{2}).*/, '$3-$2-$1');
+const euro = (n) => '€ ' + n.toLocaleString('nl-NL', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 });
+
+const zuidwestwonen = {
+  id: 'zuidwestwonen',
+  name: 'Zuidwestwonen',
+  page: ZWW_BASE + '/aanbod',
+  owns: (key) => key.startsWith('zww:'),
+
+  async fetch() {
+    const res = await fetch(ZWW_BASE + '/portal/object/frontend/getallobjects/format/json', {
+      method: 'POST',
+      headers: { 'User-Agent': UA, 'X-Requested-With': 'XMLHttpRequest' },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status} bij Zuidwestwonen`);
+    const all = (await res.json()).result;
+    if (!Array.isArray(all) || all.length === 0) throw new Error('Geen advertenties gevonden bij Zuidwestwonen; waarschijnlijk is de structuur veranderd');
+
+    const listings = [];
+    for (const o of all) {
+      const city = o.city && o.city.name;
+      const model = (o.model && o.model.modelCategorie && o.model.modelCategorie.code) || null;
+      // Alleen huur- en koopwoningen; geen woningruil en geen parkeren.
+      if (!ZWW_CITIES.includes(city)) continue;
+      if (!o.dwellingType || o.dwellingType.categorie !== 'woning') continue;
+      if (o.isWoningruil || model === 'woningruil') continue;
+      const koop = o.rentBuy === 'Koop';
+      if (!koop && o.rentBuy !== 'Huur') continue;
+
+      const price = koop ? Number(o.sellingPrice) || null : Number(o.totalRent) || null;
+      const label = o.energyLabel && o.energyLabel.icon ? o.energyLabel.icon.replace(/^icon_label_/, '').toUpperCase() : null;
+      const action = o.actionLabel && o.actionLabel.localizedLabel;
+      listings.push({
+        key: `zww:${o.id}`,
+        category: koop ? 'Koopwoning' : 'Woning',
+        title: [o.street, o.houseNumber, o.houseNumberAddition].filter(Boolean).join(' '),
+        place: [o.postalcode, city].filter(Boolean).join(' '),
+        price,
+        priceText: price ? euro(price) : null,
+        priceSuffix: koop ? ' k.k.' : ' p.m.',
+        serviceText: null,
+        netRentText: !koop && o.netRent ? euro(Number(o.netRent)) : null,
+        statusCode: 'available',
+        statusLabel: action || (koop ? 'Te koop' : 'Te huur'),
+        area: o.areaDwelling ? `${o.areaDwelling} m²` : null,
+        rooms: null,
+        bedrooms: o.sleepingRoom && Number(o.sleepingRoom.amountOfRooms) || null,
+        type: [o.dwellingType.localizedName, model].filter(Boolean).join(' · '),
+        energy: label,
+        available: o.closingDate ? `reageren tot ${nlDate(o.closingDate)}` : null,
+        photo: o.pictures && o.pictures[0] ? ZWW_BASE + o.pictures[0].uri : null,
+        url: `${ZWW_BASE}/aanbod/nu-te-huur/${koop ? 'te-koop' : 'huurwoningen'}/details/${o.urlKey}`,
+      });
+    }
+    return { listings, complete: true };
+  },
+};
+
+const SOURCES = [hefwonen, ikwilhuren, zuidwestwonen];
 
 // ---------- Telegram ----------
 
@@ -254,7 +317,10 @@ function describe(l, headline) {
   const lines = [`<b>${esc(headline)}</b>`, `<b>${esc(l.title)}</b>`];
   if (l.place) lines.push(esc(l.place));
   const facts = [];
-  if (l.priceText) facts.push(`${esc(l.priceText)} p.m.` + (l.serviceText ? ` (+ ${esc(l.serviceText)} service)` : ''));
+  if (l.priceText) {
+    facts.push(`${esc(l.priceText)}${l.priceSuffix || ' p.m.'}` +
+      (l.serviceText ? ` (+ ${esc(l.serviceText)} service)` : l.netRentText ? ` (kaal ${esc(l.netRentText)})` : ''));
+  }
   if (l.area) facts.push(esc(l.area));
   if (l.rooms) facts.push(`${l.rooms} kamers` + (l.bedrooms ? ` (${l.bedrooms} slaapk.)` : ''));
   else if (l.bedrooms) facts.push(`${l.bedrooms} slaapk.`);
