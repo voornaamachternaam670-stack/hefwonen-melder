@@ -1,75 +1,214 @@
-// Hef Wonen melder: haalt het huuraanbod op, vergelijkt met state.json en
-// stuurt Telegram-meldingen bij nieuwe advertenties, prijswijzigingen en
-// woningen die weer beschikbaar komen. Plus een dagelijkse "ik leef nog".
+// Huurmelder: haalt het huuraanbod van Hef Wonen en ikwilhuren.nu op,
+// vergelijkt met state.json en stuurt Telegram-meldingen bij nieuwe
+// advertenties, prijswijzigingen en woningen die weer beschikbaar komen.
+// Plus een dagelijkse "ik leef nog".
 //
 // Gebruik:  node check.js           (echt draaien, stuurt berichten)
 //           node check.js --dry     (toont berichten alleen in de console)
+//           node check.js --dry --full   (ikwilhuren: forceer volledige scan)
 // Nodig:    Node 18+, env TELEGRAM_TOKEN en TELEGRAM_CHAT_ID
 
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const BASE = 'https://huuraanbod.hefwonen.nl';
-const PAGE = BASE + '/huuraanbod';
 const STATE_FILE = path.join(__dirname, 'state.json');
 const DRY = process.argv.includes('--dry');
+const FORCE_FULL = process.argv.includes('--full');
 const HEARTBEAT_HOUR = 8; // Nederlandse tijd
+const FULL_SCAN_HOUR = 7; // ikwilhuren: dagelijkse volledige scan vanaf dit uur
 const FAIL_ALERT_AFTER = 3; // na zoveel mislukte runs op rij een waarschuwing
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Huurmelder/1.0';
 
-const CATEGORIES = { rent: 'Woning', bog: 'Bedrijfsruimte', park: 'Parkeren' };
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// ---------- ophalen en uitlezen ----------
-
-async function fetchListings() {
-  const res = await fetch(PAGE, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) HefWonenMelder/1.0' },
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status} bij ophalen aanbod`);
-  const html = await res.text();
-
-  // De site stuurt het aanbod mee als Nuxt-state: window.__NUXT__=(function(a,b,...){...}(...))
-  const m = html.match(/<script>window\.__NUXT__=([\s\S]*?);?<\/script>/);
-  if (!m) throw new Error('Nuxt-state niet gevonden; is de site veranderd?');
-
-  // Evalueren in een lege sandbox zonder require/process/netwerk, met tijdslimiet.
-  const ctx = vm.createContext(Object.create(null));
-  const nuxt = vm.runInContext('(' + m[1] + ')', ctx, { timeout: 2000 });
-  const state = JSON.parse(JSON.stringify(nuxt && nuxt.state ? nuxt.state : {}));
-
-  const listings = [];
-  for (const [cat, label] of Object.entries(CATEGORIES)) {
-    for (const x of state[cat] || []) {
-      if (!x || !x.id) continue;
-      const a = x.address || {};
-      const ch = x.characteristic || {};
-      const lay = ch.layout || {};
-      const h = x.handover || {};
-      listings.push({
-        key: `${cat}:${x.id}`,
-        category: label,
-        title: x.title || [a.street, a.house_number, a.house_number_extension].filter(Boolean).join(' '),
-        place: [a.postal_code, a.location].filter(Boolean).join(' '),
-        price: typeof h.price === 'number' ? h.price : null,
-        priceText: h.price_formatted || null,
-        serviceText: h.service_costs ? h.service_costs_formatted : null,
-        statusCode: (x.status && x.status.code) || null,
-        statusLabel: (x.status && x.status.label) || null,
-        area: ch.living_area_formatted || null,
-        rooms: lay.number_of_rooms || null,
-        bedrooms: lay.number_of_bedrooms || null,
-        type: ch.subtype || ch.type || null,
-        energy: ch.energy_label || null,
-        available: x.available_at_label || null,
-        photo: (x.media && x.media.primary_photo) || null,
-        // Sommige slugs bevatten spaties en hebben geen detailpagina; dan naar het overzicht.
-        url: x.slug && !/\s/.test(x.slug) ? `${BASE}/huuraanbod/${x.slug}` : PAGE,
-      });
-    }
-  }
-  if (listings.length === 0) throw new Error('Geen advertenties gevonden in de pagina; waarschijnlijk is de structuur veranderd');
-  return listings;
+async function getText(url) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`HTTP ${res.status} bij ${url}`);
+  return res.text();
 }
+
+// ---------- bron 1: Hef Wonen ----------
+
+const HEF_BASE = 'https://huuraanbod.hefwonen.nl';
+const HEF_PAGE = HEF_BASE + '/huuraanbod';
+const HEF_CATEGORIES = { rent: 'Woning', bog: 'Bedrijfsruimte', park: 'Parkeren' };
+
+const hefwonen = {
+  id: 'hefwonen',
+  name: 'Hef Wonen',
+  page: HEF_PAGE,
+  owns: (key) => /^(rent|bog|park):/.test(key),
+
+  async fetch() {
+    const html = await getText(HEF_PAGE);
+
+    // De site stuurt het aanbod mee als Nuxt-state: window.__NUXT__=(function(a,b,...){...}(...))
+    const m = html.match(/<script>window\.__NUXT__=([\s\S]*?);?<\/script>/);
+    if (!m) throw new Error('Nuxt-state niet gevonden; is de site veranderd?');
+
+    // Evalueren in een lege sandbox zonder require/process/netwerk, met tijdslimiet.
+    const ctx = vm.createContext(Object.create(null));
+    const nuxt = vm.runInContext('(' + m[1] + ')', ctx, { timeout: 2000 });
+    const state = JSON.parse(JSON.stringify(nuxt && nuxt.state ? nuxt.state : {}));
+
+    const listings = [];
+    for (const [cat, label] of Object.entries(HEF_CATEGORIES)) {
+      for (const x of state[cat] || []) {
+        if (!x || !x.id) continue;
+        const a = x.address || {};
+        const ch = x.characteristic || {};
+        const lay = ch.layout || {};
+        const h = x.handover || {};
+        listings.push({
+          key: `${cat}:${x.id}`,
+          category: label,
+          title: x.title || [a.street, a.house_number, a.house_number_extension].filter(Boolean).join(' '),
+          place: [a.postal_code, a.location].filter(Boolean).join(' '),
+          price: typeof h.price === 'number' ? h.price : null,
+          priceText: h.price_formatted || null,
+          serviceText: h.service_costs ? h.service_costs_formatted : null,
+          statusCode: (x.status && x.status.code) || null,
+          statusLabel: (x.status && x.status.label) || null,
+          area: ch.living_area_formatted || null,
+          rooms: lay.number_of_rooms || null,
+          bedrooms: lay.number_of_bedrooms || null,
+          type: ch.subtype || ch.type || null,
+          energy: ch.energy_label || null,
+          available: x.available_at_label || null,
+          photo: (x.media && x.media.primary_photo) || null,
+          // Sommige slugs bevatten spaties en hebben geen detailpagina; dan naar het overzicht.
+          url: x.slug && !/\s/.test(x.slug) ? `${HEF_BASE}/huuraanbod/${x.slug}` : HEF_PAGE,
+        });
+      }
+    }
+    if (listings.length === 0) throw new Error('Geen advertenties gevonden in de pagina; waarschijnlijk is de structuur veranderd');
+    return { listings, complete: true };
+  },
+};
+
+// ---------- bron 2: ikwilhuren.nu (MVGM) ----------
+
+const IKW_BASE = 'https://ikwilhuren.nu';
+const IKW_LIST = IKW_BASE + '/aanbod/?sort=aanbodASC'; // aanbodASC = nieuwste eerst
+const IKW_QUICK_PAGES = 3; // elke run: zoveel nieuwste pagina's (10 per pagina)
+const IKW_CENTER = { name: 'Rotterdam', lat: 51.92248806, lng: 4.48653571 };
+const IKW_RADIUS_KM = 10;
+// Grove voorselectie op postcodecijfers, zodat niet elke postcode van NL opgezocht hoeft te worden.
+const IKW_PC4_RANGE = [2600, 3399];
+
+const decode = (s) => s
+  .replace(/&nbsp;/g, ' ').replace(/&euro;/g, '€').replace(/&amp;/g, '&')
+  .replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/\s+/g, ' ').trim();
+
+function parseIkwPage(html) {
+  const out = [];
+  const chunks = html.split('<div class="card card-woning').slice(1);
+  for (const c of chunks) {
+    const link = c.match(/href="(\/object\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/);
+    if (!link) continue;
+    const slug = link[1].replace(/\/$/, '');
+    const hash = (slug.match(/-([0-9a-f]{32})$/) || [])[1] || slug;
+    const pc = c.match(/<span>(\d{4}) ?([A-Z]{2}) ([^<]+)<\/span>/);
+    const status = c.match(/status-dot bg-status-([a-z-]+)[^>]*><\/span>([^<]*)/);
+    const price = c.match(/€\s*([\d.]+),-\s*\/mnd/);
+    const area = c.match(/(\d+)\s*m<sup>2<\/sup>/);
+    const bedrooms = c.match(/(\d+)\s*slaapkamer/);
+    const avail = c.match(/fa-calendar[^>]*><\/i><\/span>([^<]+)/);
+    // De CDN-host (x.static.nbo.nl) weigert directe verzoeken; hetzelfde pad werkt via ikwilhuren.nu.
+    const img = c.match(/src=['"](?:https?:)?(?:\/\/[^/'"]+)?(\/media\/[^'"]+)['"]/);
+    out.push({
+      key: `ikw:${hash}`,
+      category: 'Woning',
+      title: decode(link[2]),
+      pc4: pc ? Number(pc[1]) : null,
+      postcode: pc ? pc[1] + pc[2] : null,
+      place: pc ? `${pc[1]} ${pc[2]} ${decode(pc[3])}` : '',
+      price: price ? Number(price[1].replace(/\./g, '')) : null,
+      priceText: price ? `€ ${price[1]}` : null,
+      serviceText: null,
+      statusCode: status ? (status[1] === 'te-huur' ? 'available' : status[1]) : null,
+      statusLabel: status ? decode(status[2]) : null,
+      area: area ? `${area[1]} m²` : null,
+      rooms: null,
+      bedrooms: bedrooms ? Number(bedrooms[1]) : null,
+      type: null,
+      energy: null,
+      available: avail ? decode(avail[1]) : null,
+      photo: img ? IKW_BASE + img[1] : null,
+      url: IKW_BASE + slug + '/',
+    });
+  }
+  return out;
+}
+
+function distanceKm(a, b) {
+  const R = 6371, rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad, dLng = (b.lng - a.lng) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+// Postcode -> afstand tot het middelpunt, via PDOK (gratis geodienst van de overheid). Cache in state.
+async function postcodeDistance(postcode, cache) {
+  if (postcode in cache) return cache[postcode];
+  const url = `https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=${postcode}&fq=type:postcode&rows=1&fl=centroide_ll`;
+  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  if (!res.ok) throw new Error(`PDOK HTTP ${res.status}`);
+  const doc = ((await res.json()).response || {}).docs?.[0];
+  const m = doc && doc.centroide_ll && doc.centroide_ll.match(/POINT\(([\d.]+) ([\d.]+)\)/);
+  const km = m ? Math.round(distanceKm(IKW_CENTER, { lng: Number(m[1]), lat: Number(m[2]) }) * 10) / 10 : null;
+  cache[postcode] = km;
+  return km;
+}
+
+const ikwilhuren = {
+  id: 'ikwilhuren',
+  name: 'ikwilhuren.nu',
+  page: IKW_BASE + '/aanbod/',
+  owns: (key) => key.startsWith('ikw:'),
+
+  async fetch(state, nl) {
+    state.sources.ikwilhuren = state.sources.ikwilhuren || {};
+    const src = state.sources.ikwilhuren;
+    const full = FORCE_FULL || !src.lastFullScan || (nl.hour >= FULL_SCAN_HOUR && src.lastFullScan !== nl.date);
+
+    const first = await getText(IKW_LIST + '&page=1');
+    const lastPage = Math.max(1, ...[...first.matchAll(/[?&]page=(\d+)/g)].map((m) => Number(m[1])));
+    const pages = full ? lastPage : Math.min(IKW_QUICK_PAGES, lastPage);
+
+    const all = parseIkwPage(first);
+    for (let p = 2; p <= pages; p++) {
+      await sleep(full ? 400 : 150);
+      all.push(...parseIkwPage(await getText(`${IKW_LIST}&page=${p}`)));
+    }
+    if (all.length === 0) throw new Error('Geen advertenties gevonden op ikwilhuren.nu; waarschijnlijk is de structuur veranderd');
+
+    // Alleen woningen binnen de straal houden.
+    state.geoCache = state.geoCache || {};
+    const listings = [];
+    const seen = new Set();
+    for (const l of all) {
+      if (seen.has(l.key)) continue;
+      seen.add(l.key);
+      if (!l.postcode || l.pc4 < IKW_PC4_RANGE[0] || l.pc4 > IKW_PC4_RANGE[1]) continue;
+      const km = await postcodeDistance(l.postcode, state.geoCache);
+      if (km == null || km > IKW_RADIUS_KM) continue;
+      l.type = `${km.toString().replace('.', ',')} km van ${IKW_CENTER.name}`;
+      delete l.pc4;
+      delete l.postcode;
+      listings.push(l);
+    }
+
+    if (full) src.lastFullScan = nl.date;
+    console.log(`ikwilhuren: ${pages} pagina('s), ${all.length} advertenties, ${listings.length} binnen ${IKW_RADIUS_KM} km${full ? ' (volledige scan)' : ''}`);
+    // Alleen bij een volledige scan weten we zeker wat er niet meer staat.
+    return { listings, complete: full };
+  },
+};
+
+const SOURCES = [hefwonen, ikwilhuren];
 
 // ---------- Telegram ----------
 
@@ -94,13 +233,14 @@ async function send(text, photo) {
   if (photo) {
     try {
       // Foto zelf downloaden en uploaden: Telegram accepteert .webp-URL's niet altijd als foto.
-      const img = await fetch(photo);
+      const img = await fetch(photo, { headers: { 'User-Agent': UA } });
       if (!img.ok) throw new Error('foto HTTP ' + img.status);
+      const type = img.headers.get('content-type') || 'image/jpeg';
       const fd = new FormData();
       fd.append('chat_id', chat_id);
       fd.append('caption', text);
       fd.append('parse_mode', 'HTML');
-      fd.append('photo', new Blob([await img.arrayBuffer()], { type: img.headers.get('content-type') || 'image/webp' }), 'foto.webp');
+      fd.append('photo', new Blob([await img.arrayBuffer()], { type }), 'foto.' + (type.split('/')[1] || 'jpg'));
       await tg('sendPhoto', fd);
       return;
     } catch (e) {
@@ -117,6 +257,7 @@ function describe(l, headline) {
   if (l.priceText) facts.push(`${esc(l.priceText)} p.m.` + (l.serviceText ? ` (+ ${esc(l.serviceText)} service)` : ''));
   if (l.area) facts.push(esc(l.area));
   if (l.rooms) facts.push(`${l.rooms} kamers` + (l.bedrooms ? ` (${l.bedrooms} slaapk.)` : ''));
+  else if (l.bedrooms) facts.push(`${l.bedrooms} slaapk.`);
   if (facts.length) lines.push(facts.join(' · '));
   const extra = [l.category !== 'Woning' ? l.category : null, l.type, l.energy ? `label ${l.energy}` : null].filter(Boolean);
   if (extra.length) lines.push(esc(extra.join(' · ')));
@@ -145,51 +286,42 @@ function nlNow() {
 
 // ---------- hoofdlogica ----------
 
-async function main() {
-  if (!DRY && (!process.env.TELEGRAM_TOKEN || !process.env.TELEGRAM_CHAT_ID)) {
-    throw new Error('TELEGRAM_TOKEN en TELEGRAM_CHAT_ID moeten gezet zijn (of gebruik --dry)');
-  }
-  const now = new Date().toISOString();
-  const nl = nlNow();
-  const prev = loadState();
-  const state = prev || { listings: {}, lastHeartbeat: null, failures: 0 };
+async function processSource(source, state, nl, now) {
+  const src = (state.sources[source.id] = state.sources[source.id] || {});
+  const firstRun = !src.initialized;
 
-  let listings;
+  let result;
   try {
-    listings = await fetchListings();
+    result = await source.fetch(state, nl);
   } catch (e) {
-    state.failures = (state.failures || 0) + 1;
-    console.error('Ophalen mislukt:', e.message);
-    if (state.failures === FAIL_ALERT_AFTER) {
-      await send(`<b>Hef Wonen melder: let op</b>\nHet aanbod kon ${FAIL_ALERT_AFTER} keer op rij niet worden gelezen.\nFout: ${esc(e.message)}`).catch(() => {});
+    src.failures = (src.failures || 0) + 1;
+    console.error(`${source.name}: ophalen mislukt:`, e.message);
+    if (src.failures === FAIL_ALERT_AFTER) {
+      await send(`<b>Huurmelder: let op</b>\n${esc(source.name)} kon ${FAIL_ALERT_AFTER} keer op rij niet worden gelezen.\nFout: ${esc(e.message)}`).catch(() => {});
     }
-    if (prev) saveState(state);
-    process.exitCode = 1;
-    return;
+    return { ok: false };
   }
-  if (state.failures >= FAIL_ALERT_AFTER) {
-    await send('<b>Hef Wonen melder</b>\nHet aanbod wordt weer normaal gelezen.');
+  if (src.failures >= FAIL_ALERT_AFTER) {
+    await send(`<b>Huurmelder</b>\n${esc(source.name)} wordt weer normaal gelezen.`);
   }
-  state.failures = 0;
+  src.failures = 0;
 
-  const firstRun = !prev;
   const seenNow = new Set();
   let sent = 0;
-
-  for (const l of listings) {
+  for (const l of result.listings) {
     seenNow.add(l.key);
     const old = state.listings[l.key];
     let headline = null;
 
     if (!old) {
-      headline = '🏠 Nieuwe advertentie';
+      headline = `🏠 Nieuw bij ${source.name}`;
     } else if (old.gone) {
-      headline = '🔁 Weer online';
+      headline = `🔁 Weer online bij ${source.name}`;
     } else if (old.price != null && l.price != null && old.price !== l.price) {
       const diff = l.price - old.price;
-      headline = `💶 Prijswijziging: € ${old.price.toLocaleString('nl-NL')} → € ${l.price.toLocaleString('nl-NL')} (${diff > 0 ? '+' : '−'}€ ${Math.abs(diff).toLocaleString('nl-NL')})`;
+      headline = `💶 Prijswijziging bij ${source.name}: € ${old.price.toLocaleString('nl-NL')} → € ${l.price.toLocaleString('nl-NL')} (${diff > 0 ? '+' : '−'}€ ${Math.abs(diff).toLocaleString('nl-NL')})`;
     } else if (old.statusCode && old.statusCode !== 'available' && l.statusCode === 'available') {
-      headline = `✅ Weer beschikbaar (was: ${old.statusLabel || old.statusCode})`;
+      headline = `✅ Weer beschikbaar bij ${source.name} (was: ${old.statusLabel || old.statusCode})`;
     }
 
     if (headline && !firstRun) {
@@ -207,24 +339,54 @@ async function main() {
     };
   }
 
-  // Wat niet meer op de site staat markeren als verdwenen (zonder melding).
-  for (const [key, v] of Object.entries(state.listings)) {
-    if (!seenNow.has(key) && !v.gone) { v.gone = true; v.goneSince = now; }
+  // Wat niet meer op de site staat markeren als verdwenen (zonder melding), alleen bij een volledige lijst.
+  if (result.complete) {
+    for (const [key, v] of Object.entries(state.listings)) {
+      if (source.owns(key) && !seenNow.has(key) && !v.gone) { v.gone = true; v.goneSince = now; }
+    }
   }
 
-  if (firstRun) {
-    const counts = Object.values(CATEGORIES).map((c) => `${listings.filter((l) => l.category === c).length} ${c.toLowerCase()}`).join(', ');
-    await send(`<b>Hef Wonen melder is actief</b>\nHuidig aanbod vastgelegd (${counts}). Vanaf nu krijg je een bericht bij nieuwe advertenties, prijswijzigingen en woningen die weer beschikbaar komen.`);
-    state.lastHeartbeat = nl.date;
-  } else if (nl.hour >= HEARTBEAT_HOUR && state.lastHeartbeat !== nl.date) {
-    const woningen = listings.filter((l) => l.category === 'Woning');
-    const vrij = woningen.filter((l) => l.statusCode === 'available').length;
-    await send(`<b>Hef Wonen melder leeft nog</b> 👋\nNu online: ${woningen.length} woningen (${vrij} beschikbaar, ${woningen.length - vrij} onder optie), ${listings.length - woningen.length} overig.\n<a href="${PAGE}">Bekijk het aanbod</a>`);
+  src.initialized = true;
+  console.log(`${source.name}: ${result.listings.length} advertenties, ${sent} melding(en)${firstRun ? ' (eerste run, alleen vastgelegd)' : ''}.`);
+  return { ok: true, firstRun, count: result.listings.length };
+}
+
+async function main() {
+  if (!DRY && (!process.env.TELEGRAM_TOKEN || !process.env.TELEGRAM_CHAT_ID)) {
+    throw new Error('TELEGRAM_TOKEN en TELEGRAM_CHAT_ID moeten gezet zijn (of gebruik --dry)');
+  }
+  const now = new Date().toISOString();
+  const nl = nlNow();
+  const state = loadState() || { listings: {}, lastHeartbeat: null };
+
+  // Overstap vanaf de versie met alleen Hef Wonen.
+  if (!state.sources) {
+    state.sources = { hefwonen: { initialized: Object.keys(state.listings).length > 0, failures: state.failures || 0 } };
+    delete state.failures;
+  }
+
+  const results = {};
+  for (const s of SOURCES) results[s.id] = await processSource(s, state, nl, now);
+
+  const started = SOURCES.filter((s) => results[s.id].firstRun);
+  if (started.length) {
+    const what = started.map((s) => `${s.name}: ${results[s.id].count} advertenties`).join('\n');
+    await send(`<b>Huurmelder: nieuwe bron actief</b>\nHuidig aanbod vastgelegd.\n${esc(what)}\nVanaf nu krijg je hiervan ook meldingen.`);
+  }
+
+  if (nl.hour >= HEARTBEAT_HOUR && state.lastHeartbeat !== nl.date) {
+    const lines = SOURCES.map((s) => {
+      const items = Object.entries(state.listings).filter(([k, v]) => s.owns(k) && !v.gone && (s.id !== 'hefwonen' || k.startsWith('rent:')));
+      const vrij = items.filter(([, v]) => v.statusCode === 'available').length;
+      const status = results[s.id].ok ? '' : ' ⚠️ laatste check mislukt';
+      return `${esc(s.name)}: ${items.length} woningen (${vrij} beschikbaar)${status}`;
+    });
+    await send(`<b>Huurmelder leeft nog</b> 👋\n${lines.join('\n')}`);
     state.lastHeartbeat = nl.date;
   }
 
   saveState(state);
-  console.log(`${listings.length} advertenties gelezen, ${sent} melding(en) verstuurd${firstRun ? ' (eerste run, alleen vastgelegd)' : ''}.`);
+  if (SOURCES.every((s) => !results[s.id].ok)) process.exitCode = 1;
 }
 
 main().catch((e) => {

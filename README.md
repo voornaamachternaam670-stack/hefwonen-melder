@@ -1,6 +1,15 @@
-# Hef Wonen melder
+# Huurmelder (Hef Wonen + ikwilhuren.nu)
 
-Controleert elke 10 minuten https://huuraanbod.hefwonen.nl/huuraanbod en stuurt een Telegram-bericht bij:
+Controleert elke 10 minuten deze sites en stuurt een Telegram-bericht bij:
+
+| Site | Wat | Hoe |
+|---|---|---|
+| [Hef Wonen](https://huuraanbod.hefwonen.nl/huuraanbod) | alles (woningen, bedrijfsruimte, parkeren) | hele lijst elke run |
+| [ikwilhuren.nu](https://ikwilhuren.nu/aanbod/) | woningen binnen 10 km van Rotterdam | 3 nieuwste pagina's elke run, alles 1x per dag na 07:00 |
+
+Gebied en straal voor ikwilhuren staan bovenin `check.js` (`IKW_CENTER`, `IKW_RADIUS_KM`).
+
+Meldingen:
 
 - 🏠 een nieuwe advertentie (woning, bedrijfsruimte of parkeren), met foto
 - 💶 een prijswijziging
