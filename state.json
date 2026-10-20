@@ -1,0 +1,174 @@
+{
+  "listings": {
+    "rent:13000210": {
+      "title": "Bornerveld 206",
+      "price": 1135,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13004358": {
+      "title": "Zwaardvisstraat 22",
+      "price": 1275,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13029630": {
+      "title": "Park Vossendijk 427",
+      "price": 1075,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13037430": {
+      "title": "Heemskerkstraat 5 B",
+      "price": 1400,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13120408": {
+      "title": "Huigendijk 3",
+      "price": 960,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13124924": {
+      "title": "Bierstraat 113",
+      "price": 1274,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13144158": {
+      "title": "Carry van Bruggensingel 1",
+      "price": 1082,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13144746": {
+      "title": "Albert Camusplaats 159",
+      "price": 1015,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13181037": {
+      "title": "Burgemeester Brokxlaan 2064",
+      "price": 1134,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13181340": {
+      "title": "Burgemeester Brokxlaan 1960",
+      "price": 1230,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13181644": {
+      "title": "Peur 10",
+      "price": 1300,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13189959": {
+      "title": "Dennekruid 31",
+      "price": 1250,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13191199": {
+      "title": "Laan op Zuid 905",
+      "price": 1115,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13191200": {
+      "title": "Laan op Zuid 663",
+      "price": 1166,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "rent:13191201": {
+      "title": "Vuurplaat 274",
+      "price": 1353,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "bog:12112258": {
+      "title": "Briggemandreef 20",
+      "price": 460,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "bog:12245099": {
+      "title": "Hongerlandsedijk 638",
+      "price": 862.5,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "bog:12623826": {
+      "title": "Briggemandreef 22",
+      "price": 1776.37,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "bog:12802262": {
+      "title": "Hongerlandsedijk 640",
+      "price": 956.25,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "park:13125802": {
+      "title": "Garageboxen omgeving Zuidwijk/ Langenhorst",
+      "price": 130,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    },
+    "park:13182266": {
+      "title": "Garagebox Boomkor 69",
+      "price": 155.1,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-20T15:16:26.631Z",
+      "gone": false
+    }
+  },
+  "lastHeartbeat": "2026-10-20",
+  "failures": 0
+}
