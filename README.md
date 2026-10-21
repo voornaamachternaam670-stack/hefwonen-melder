@@ -1,4 +1,4 @@
-# Huurmelder (Hef Wonen + ikwilhuren.nu + Zuidwestwonen)
+# Huurmelder (Hef Wonen + ikwilhuren.nu + Zuidwestwonen + Corpowonen)
 
 Controleert elke 10 minuten deze sites en stuurt een Telegram-bericht bij:
 
@@ -7,6 +7,7 @@ Controleert elke 10 minuten deze sites en stuurt een Telegram-bericht bij:
 | [Hef Wonen](https://huuraanbod.hefwonen.nl/huuraanbod) | alles (woningen, bedrijfsruimte, parkeren) | hele lijst elke run |
 | [ikwilhuren.nu](https://ikwilhuren.nu/aanbod/) | woningen binnen 10 km van Rotterdam | 3 nieuwste pagina's elke run, alles 1x per dag na 07:00 |
 | [Zuidwestwonen](https://www.zuidwestwonen.nl/aanbod) | huur- en koopwoningen in Vlissingen en Oost-Souburg (geen woningruil/parkeren) | hele lijst elke run |
+| [Corpowonen](https://www.corpowonen.nl/aanbod/) | huur- en koopwoningen in Amsterdam, Utrecht en Rotterdam | hele lijst elke run (~23 verzoeken) |
 
 Gebied en straal voor ikwilhuren staan bovenin `check.js` (`IKW_CENTER`, `IKW_RADIUS_KM`).
 
@@ -17,7 +18,7 @@ Meldingen:
 - ✅ een advertentie die van "Onder optie" terug naar "Beschikbaar" gaat
 - 🔁 een advertentie die van de site verdwenen was en terugkomt
 - 👋 elke ochtend na 08:00 een "ik leef nog"-bericht
-- ⚠️ een waarschuwing als het aanbod 3 keer op rij niet gelezen kan worden
+- ⚠️ een waarschuwing als een site langer dan 3 uur offline is, of na 3 runs als de site veranderd lijkt; plus een bericht als het weer werkt
 
 De eerste run legt alleen het huidige aanbod vast en stuurt één bevestiging.
 

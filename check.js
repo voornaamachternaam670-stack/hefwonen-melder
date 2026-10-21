@@ -22,10 +22,44 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Huurmelder/1.0';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+const OFFLINE_ALERT_AFTER_MS = 3 * 60 * 60 * 1000; // site offline: pas na 3 uur waarschuwen
+
+// Fout die betekent dat de site (tijdelijk) niet bereikbaar is, in plaats van dat de structuur veranderd is.
+function offlineError(msg) {
+  const e = new Error(msg);
+  e.offline = true;
+  return e;
+}
+
+// fetch met time-out en één herpoging. Netwerkfouten, time-outs, 5xx en onderhoudspagina's tellen als "offline".
+async function http(url, opts = {}) {
+  let lastErr;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const res = await fetch(url, {
+        ...opts,
+        headers: { 'User-Agent': UA, ...(opts.headers || {}) },
+        signal: AbortSignal.timeout(25000),
+      });
+      if (res.ok) return res;
+      const body = await res.text().catch(() => '');
+      const host = new URL(url).host;
+      if (res.status >= 500 || res.status === 429 || /offline|onderhoud|maintenance/i.test(body.slice(0, 2000))) {
+        lastErr = offlineError(`${host} geeft HTTP ${res.status}${/offline|onderhoud|maintenance/i.test(body.slice(0, 2000)) ? ' (onderhoudspagina)' : ''}`);
+      } else {
+        throw new Error(`${host} geeft HTTP ${res.status}`);
+      }
+    } catch (e) {
+      if (!e.offline && !(e.name === 'TimeoutError' || e.name === 'AbortError' || e.name === 'TypeError')) throw e;
+      lastErr = e.offline ? e : offlineError(`${new URL(url).host} reageert niet (${e.name === 'TimeoutError' ? 'time-out' : e.message})`);
+    }
+    if (attempt === 1) await sleep(5000);
+  }
+  throw lastErr;
+}
+
 async function getText(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`HTTP ${res.status} bij ${url}`);
-  return res.text();
+  return (await http(url)).text();
 }
 
 // ---------- bron 1: Hef Wonen ----------
@@ -154,8 +188,7 @@ function distanceKm(a, b) {
 async function postcodeDistance(postcode, cache) {
   if (postcode in cache) return cache[postcode];
   const url = `https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=${postcode}&fq=type:postcode&rows=1&fl=centroide_ll`;
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`PDOK HTTP ${res.status}`);
+  const res = await http(url);
   const doc = ((await res.json()).response || {}).docs?.[0];
   const m = doc && doc.centroide_ll && doc.centroide_ll.match(/POINT\(([\d.]+) ([\d.]+)\)/);
   const km = m ? Math.round(distanceKm(IKW_CENTER, { lng: Number(m[1]), lat: Number(m[2]) }) * 10) / 10 : null;
@@ -223,11 +256,10 @@ const zuidwestwonen = {
   owns: (key) => key.startsWith('zww:'),
 
   async fetch() {
-    const res = await fetch(ZWW_BASE + '/portal/object/frontend/getallobjects/format/json', {
+    const res = await http(ZWW_BASE + '/portal/object/frontend/getallobjects/format/json', {
       method: 'POST',
-      headers: { 'User-Agent': UA, 'X-Requested-With': 'XMLHttpRequest' },
+      headers: { 'X-Requested-With': 'XMLHttpRequest' },
     });
-    if (!res.ok) throw new Error(`HTTP ${res.status} bij Zuidwestwonen`);
     const all = (await res.json()).result;
     if (!Array.isArray(all) || all.length === 0) throw new Error('Geen advertenties gevonden bij Zuidwestwonen; waarschijnlijk is de structuur veranderd');
 
@@ -271,7 +303,89 @@ const zuidwestwonen = {
   },
 };
 
-const SOURCES = [hefwonen, ikwilhuren, zuidwestwonen];
+// ---------- bron 4: Corpowonen (makelaar voor corporaties, vooral koop) ----------
+
+const CORPO_BASE = 'https://www.corpowonen.nl';
+// Plaatsen zoals Corpowonen ze in de URL gebruikt; koop en huur worden allebei gevolgd.
+const CORPO_CITIES = ['amsterdam', 'utrecht', 'rotterdam'];
+const CORPO_TYPES = ['koop', 'huur'];
+const CORPO_MAX_PAGES = 40; // veiligheidsgrens per zoekopdracht
+
+function parseCorpoRows(html, type) {
+  const out = [];
+  for (const r of html.split('<div class="object-row">').slice(1)) {
+    const link = r.match(/<span class="address"><a href="(\/object\/(\d+)\/[^"]+)">([^<]+)<\/a>/);
+    if (!link) continue;
+    const pc = r.match(/<span class="postcode">([^<]+)<\/span>/);
+    // Bij "Bijna verkocht" staat de prijs doorgestreept in een extra span.
+    const price = r.match(/<span class="price">(?:<span[^>]*>)?([^<]+)</);
+    const size = r.match(/<span class="size">([^<]+)<\/span>/);
+    const rooms = r.match(/<span class="rooms">(\d+)/);
+    const img = r.match(/<img[^>]+src="([^"]+)"/);
+    // Labels staan er dubbel in (mobiel + desktop), daarom ontdubbelen. vov = verkocht onder voorbehoud.
+    const labels = [...new Map([...r.matchAll(/label label-([a-z-]+)">([^<]*)/g)]
+      .map((m) => [m[1], { code: m[1], text: decode(m[2]) }])).values()];
+    const priceText = price ? decode(price[1]) : null;
+    const amount = priceText && priceText.match(/€\s*([\d.]+)/);
+    const sold = labels.find((l) => /^vov$|bod|verkocht|verhuurd|optie|voorbehoud/.test(l.code));
+    out.push({
+      key: `corpo:${link[2]}`,
+      category: type === 'koop' ? 'Koopwoning' : 'Woning',
+      title: decode(link[3]),
+      place: pc ? decode(pc[1]) : '',
+      price: amount ? Number(amount[1].replace(/\./g, '')) : null,
+      priceText: priceText ? priceText.replace(/\s*(k\.k\.|v\.o\.n\.|p\/?m\.?|per maand)$/i, '') : null,
+      priceSuffix: priceText && /v\.o\.n\./i.test(priceText) ? ' v.o.n.' : type === 'koop' ? ' k.k.' : ' p.m.',
+      serviceText: null,
+      statusCode: sold ? sold.code : 'available',
+      statusLabel: sold ? sold.text : labels.map((l) => l.text).filter(Boolean).join(', ') || (type === 'koop' ? 'Te koop' : 'Te huur'),
+      area: size ? decode(size[1]).replace('&sup2;', '²') : null,
+      rooms: rooms ? Number(rooms[1]) : null,
+      bedrooms: null,
+      type: null,
+      energy: null,
+      available: null,
+      photo: img ? (img[1].startsWith('/') ? CORPO_BASE + img[1] : img[1]).replace('_thumb.', '_large.') : null,
+      url: CORPO_BASE + link[1],
+    });
+  }
+  return out;
+}
+
+const corpowonen = {
+  id: 'corpowonen',
+  name: 'Corpowonen',
+  page: CORPO_BASE + '/aanbod/',
+  owns: (key) => key.startsWith('corpo:'),
+
+  async fetch() {
+    const byKey = new Map();
+    let requests = 0;
+    for (const type of CORPO_TYPES) {
+      for (const city of CORPO_CITIES) {
+        const found = new Set();
+        for (let p = 1; p <= CORPO_MAX_PAGES; p++) {
+          if (requests++) await sleep(300);
+          const url = `${CORPO_BASE}/objecten-ophalen/${type}/${city}/${p > 1 ? `pagina-${p}/` : ''}`;
+          let j;
+          try { j = await (await http(url)).json(); }
+          catch (e) { if (e.offline) throw e; throw new Error(`Corpowonen gaf geen geldige data (${e.message}); waarschijnlijk is de site veranderd`); }
+          if (typeof j.properties !== 'string') throw new Error('Corpowonen: veld "properties" ontbreekt; waarschijnlijk is de site veranderd');
+          const rows = parseCorpoRows(j.properties, type);
+          const before = found.size;
+          for (const l of rows) { byKey.set(l.key, l); found.add(l.key); }
+          // Klaar zodra alles van deze zoekopdracht binnen is of een pagina niets nieuws oplevert.
+          if (found.size === before || found.size >= (Number(j.totalResults) || 0)) break;
+        }
+      }
+    }
+    const listings = [...byKey.values()];
+    console.log(`Corpowonen: ${requests} verzoeken, ${listings.length} advertenties`);
+    return { listings, complete: true };
+  },
+};
+
+const SOURCES = [hefwonen, ikwilhuren, zuidwestwonen, corpowonen];
 
 // ---------- Telegram ----------
 
@@ -361,16 +475,26 @@ async function processSource(source, state, nl, now) {
     result = await source.fetch(state, nl);
   } catch (e) {
     src.failures = (src.failures || 0) + 1;
-    console.error(`${source.name}: ophalen mislukt:`, e.message);
-    if (src.failures === FAIL_ALERT_AFTER) {
-      await send(`<b>Huurmelder: let op</b>\n${esc(source.name)} kon ${FAIL_ALERT_AFTER} keer op rij niet worden gelezen.\nFout: ${esc(e.message)}`).catch(() => {});
+    src.failingSince = src.failingSince || now;
+    console.error(`${source.name}: ophalen mislukt (${e.offline ? 'site offline' : 'structuur?'}):`, e.message);
+    // Een site die tijdelijk plat ligt is normaal; pas waarschuwen als het lang duurt.
+    // Een andere fout betekent meestal dat de site veranderd is; dan sneller waarschuwen.
+    const longOffline = Date.parse(now) - Date.parse(src.failingSince) >= OFFLINE_ALERT_AFTER_MS;
+    if (!src.alerted && (e.offline ? longOffline : src.failures >= FAIL_ALERT_AFTER)) {
+      const text = e.offline
+        ? `<b>Huurmelder: ${esc(source.name)} is al ruim 3 uur onbereikbaar</b>\nDe site ligt er waarschijnlijk tijdelijk uit. De melder blijft het proberen en laat het weten als het weer werkt.\nFout: ${esc(e.message)}`
+        : `<b>Huurmelder: ${esc(source.name)} kan niet meer gelezen worden</b>\nDe site is waarschijnlijk aangepast, de melder moet bijgewerkt worden.\nFout: ${esc(e.message)}`;
+      await send(text).catch(() => {});
+      src.alerted = true;
     }
     return { ok: false };
   }
-  if (src.failures >= FAIL_ALERT_AFTER) {
-    await send(`<b>Huurmelder</b>\n${esc(source.name)} wordt weer normaal gelezen.`);
+  if (src.alerted) {
+    await send(`<b>Huurmelder</b>\n${esc(source.name)} wordt weer normaal gelezen. ✅`);
   }
   src.failures = 0;
+  delete src.failingSince;
+  delete src.alerted;
 
   const seenNow = new Set();
   let sent = 0;
@@ -429,6 +553,11 @@ async function main() {
   if (!state.sources) {
     state.sources = { hefwonen: { initialized: Object.keys(state.listings).length > 0, failures: state.failures || 0 } };
     delete state.failures;
+  }
+
+  // Overstap: de oude versie waarschuwde na 3 mislukte runs zonder dat te onthouden.
+  for (const src of Object.values(state.sources)) {
+    if (src.failures >= FAIL_ALERT_AFTER && src.alerted === undefined) src.alerted = true;
   }
 
   const results = {};
