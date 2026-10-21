@@ -934,7 +934,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-21T05:23:28.530Z"
     },
     "ikw:ec03928dfbda98a3e20d7dc1ca676dd0": {
       "title": "Eengezinswoning Lenny Tristanostraat 15",
@@ -1064,7 +1065,7 @@
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-20",
+      "lastFullScan": "2026-10-21",
       "failures": 0,
       "initialized": true
     },
