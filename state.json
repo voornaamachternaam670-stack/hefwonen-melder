@@ -1056,32 +1056,1184 @@
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T18:33:34.311Z",
       "gone": false
+    },
+    "corpo:73032": {
+      "title": "Boutenburg 233",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72971": {
+      "title": "Boutenburg 271",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73121": {
+      "title": "Boutenburg 341",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72050": {
+      "title": "Boutenburg 89",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72960": {
+      "title": "Boutenburg 9",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73197": {
+      "title": "De Egmondenstraat 210",
+      "price": 400000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66393": {
+      "title": "Haardstee 28",
+      "price": 370000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72424": {
+      "title": "Millingenhof 163",
+      "price": 375000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72425": {
+      "title": "Millingenhof 292",
+      "price": 355000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66894": {
+      "title": "Osdorper Ban 89",
+      "price": 327500,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66445": {
+      "title": "Papendrechtstraat 27",
+      "price": 290000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66622": {
+      "title": "Schoorlstraat 112",
+      "price": 385000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72059": {
+      "title": "Schoorlstraat 19",
+      "price": 400000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73035": {
+      "title": "Schoorlstraat 85",
+      "price": 400000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66852": {
+      "title": "Theodorus Dobbestraat 72-1",
+      "price": 320000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66968": {
+      "title": "Van Mourik Broekmanstraat 7-2",
+      "price": 375000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66648": {
+      "title": "De Egmondenstraat 160",
+      "price": 385000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66575": {
+      "title": "Hendrik de Bruynstraat 15-1",
+      "price": 375000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66897": {
+      "title": "Osdorper Ban 221",
+      "price": 325000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66401": {
+      "title": "Peursumstraat 24",
+      "price": 325000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66555": {
+      "title": "Peursumstraat 50",
+      "price": 290000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66715": {
+      "title": "Ring 6",
+      "price": 245000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65376": {
+      "title": "Jaap Edendreef 8",
+      "price": 285000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66761": {
+      "title": "Kneppelhoutstraat 13",
+      "price": 329000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66096": {
+      "title": "Kneppelhoutstraat 19-BSA",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66647": {
+      "title": "Kneppelhoutstraat 9-BS",
+      "price": 295000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:64669": {
+      "title": "Theemsdreef 75",
+      "price": 289000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65783": {
+      "title": "Valparaisodreef 93",
+      "price": 340000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72817": {
+      "title": "Henk Miliusstraat 48",
+      "price": 400000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72480": {
+      "title": "Achterkreek 30",
+      "price": 385000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66683": {
+      "title": "Alerdincksingel 127",
+      "price": 310000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66608": {
+      "title": "Bartholomeus Everardus Molen 9",
+      "price": 375000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72948": {
+      "title": "Belgischestraat 16-A",
+      "price": 293500,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:64780": {
+      "title": "Boslandwerf 15",
+      "price": 360000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72715": {
+      "title": "Burgemeester Hazenberglaan 125",
+      "price": 265000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66964": {
+      "title": "C.P.Tielestraat 9-b",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66022": {
+      "title": "Cannemanstraat 93",
+      "price": 390000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66740": {
+      "title": "Cannenburchstraat 8",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66258": {
+      "title": "Da Costastraat 117",
+      "price": 355000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66068": {
+      "title": "Deensestraat 53-c",
+      "price": 305000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:62566": {
+      "title": "Deensestraat 71-A",
+      "price": 275000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72451": {
+      "title": "Dorpsweg 95-B",
+      "price": 215000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66289": {
+      "title": "Dosiostraat 68",
+      "price": 285000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65730": {
+      "title": "Drinkwaterweg 108",
+      "price": 350000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66739": {
+      "title": "Drinkwaterweg 162",
+      "price": 315000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:63348": {
+      "title": "Drinkwaterweg 300",
+      "price": 340000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66726": {
+      "title": "Edmond Hellenraadstraat 44",
+      "price": 275000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66789": {
+      "title": "Evenaar 286",
+      "price": 245000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66124": {
+      "title": "Fontenellestraat 7",
+      "price": 360000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65786": {
+      "title": "Frankendaal 135",
+      "price": 290000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72364": {
+      "title": "Friesestraat 29",
+      "price": 270000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72445": {
+      "title": "Galjootstraat 14-a",
+      "price": 220000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72450": {
+      "title": "Gordelweg 101-C",
+      "price": 390000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:61759": {
+      "title": "Hingmanstraat 22",
+      "price": 300000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73106": {
+      "title": "Hontenissestraat 107",
+      "price": 235000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72908": {
+      "title": "Hontenissestraat 147",
+      "price": 215000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72483": {
+      "title": "Houdringeweg 22",
+      "price": 355000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66743": {
+      "title": "Hovendaal 39",
+      "price": 345000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73010": {
+      "title": "Jaffadwarsstraat 71",
+      "price": 375000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73157": {
+      "title": "Jan Trooststraat 37",
+      "price": 270000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72992": {
+      "title": "Japarastraat 83",
+      "price": 242250,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Koopgarant",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72112": {
+      "title": "Joostingstraat 19",
+      "price": 385000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67187": {
+      "title": "Kiplingstraat 67",
+      "price": 225000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66426": {
+      "title": "Kopenhagenstraat 83",
+      "price": 305000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67212": {
+      "title": "Korte Bajonetstraat 6",
+      "price": 335000,
+      "statusCode": "available",
+      "statusLabel": "Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65533": {
+      "title": "Langegeer 178",
+      "price": 280000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66634": {
+      "title": "Libanonweg 106",
+      "price": 350000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65587": {
+      "title": "Moerkapellestraat 18",
+      "price": 349000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72581": {
+      "title": "Moerkerkestraat 4-B",
+      "price": 265000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66233": {
+      "title": "Moermondstraat 14",
+      "price": 297500,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72118": {
+      "title": "Nachtegaalplein 20-B",
+      "price": 250000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66854": {
+      "title": "Nassauhaven 264",
+      "price": 330000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72668": {
+      "title": "Oostmaaslaan 225-D",
+      "price": 337000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65726": {
+      "title": "Passerelstraat 105",
+      "price": 327250,
+      "statusCode": "available",
+      "statusLabel": "Koopgarant",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66463": {
+      "title": "Pleinweg 23-A",
+      "price": 275000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67144": {
+      "title": "Pleinweg 27-C",
+      "price": 250000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67151": {
+      "title": "Pleinweg 39-C",
+      "price": 315000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72481": {
+      "title": "Rhijnauwensingel 21",
+      "price": 285000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73018": {
+      "title": "Rilland Bathstraat 142",
+      "price": 230000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:27463": {
+      "title": "Ruilstraat 4-A",
+      "price": 375000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73044": {
+      "title": "Sara Cornelia Molen 10",
+      "price": 315000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65863": {
+      "title": "Schinnenbaan 108",
+      "price": 330000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67223": {
+      "title": "Sint-Maartensdijkstraat 41",
+      "price": 275000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66756": {
+      "title": "Snelfilterweg 129",
+      "price": 340000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73132": {
+      "title": "Van Hardenbroekstraat 1",
+      "price": 365000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66024": {
+      "title": "Van Harmelenstraat 101",
+      "price": 362500,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67224": {
+      "title": "Vasaristraat 144",
+      "price": 330000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:60072": {
+      "title": "Vletstraat 21-D",
+      "price": 355000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72034": {
+      "title": "Vletstraat 21-E",
+      "price": 335000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67064": {
+      "title": "Vondelweg 120",
+      "price": 400000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65536": {
+      "title": "Vondelweg 130",
+      "price": 379000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:61708": {
+      "title": "Weizichtstraat 21",
+      "price": 320000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:73034": {
+      "title": "Westzeedijk 639",
+      "price": 276250,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Koopgarant",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66457": {
+      "title": "Zijdewindestraat 118",
+      "price": 350000,
+      "statusCode": "available",
+      "statusLabel": "Open huis",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65789": {
+      "title": "Zonnehof 34",
+      "price": 310000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67069": {
+      "title": "Tijmweg 106",
+      "price": 275000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72125": {
+      "title": "Dokter Wasstraat 51",
+      "price": 285000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72124": {
+      "title": "Sagiusstraat 30",
+      "price": 275000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72127": {
+      "title": "2e Hogenbanweg 88",
+      "price": 365000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66490": {
+      "title": "Adrianastraat 128",
+      "price": 400000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66660": {
+      "title": "Adrianastraat 69",
+      "price": 370000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66583": {
+      "title": "Alerdincksingel 19",
+      "price": 280000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72998": {
+      "title": "Amelandsestraat 27-C",
+      "price": 187000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72675": {
+      "title": "Baloeranstraat 207",
+      "price": 306000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65378": {
+      "title": "Bartholomeus Everardus Molen 41",
+      "price": 380000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72143": {
+      "title": "Beverwaardseweg 64",
+      "price": 385000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67207": {
+      "title": "Bloemkwekersstraat 83",
+      "price": 385000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72706": {
+      "title": "Boorn 128",
+      "price": 285000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66428": {
+      "title": "Boorn 134",
+      "price": 275000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65493": {
+      "title": "Dorpsweg 167-C",
+      "price": 222500,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65985": {
+      "title": "Dr. Zamenhofstraat 32-C",
+      "price": 255000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67083": {
+      "title": "Edmond Hellenraadstraat 62",
+      "price": 280000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66031": {
+      "title": "Einsteinplaats 1013",
+      "price": 310000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72727": {
+      "title": "Fazantstraat 49-B",
+      "price": 182750,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66415": {
+      "title": "Groenezoom 169",
+      "price": 350000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66474": {
+      "title": "Hendrick Sorchstraat 75",
+      "price": 360000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67082": {
+      "title": "Hildegardisstraat 16-C",
+      "price": 320000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66349": {
+      "title": "Kemperweg 136",
+      "price": 260000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67181": {
+      "title": "Kiplingstraat 19",
+      "price": 212000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66895": {
+      "title": "Kleine Kreek 84",
+      "price": 385000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67185": {
+      "title": "Langegeer 97",
+      "price": 350000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67114": {
+      "title": "Nachtegaalplein 18-B",
+      "price": 235000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67186": {
+      "title": "Pantelleriapad 75",
+      "price": 386750,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67020": {
+      "title": "Pleinweg 37-D",
+      "price": 210000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72482": {
+      "title": "Rhijnauwensingel 35",
+      "price": 245000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67014": {
+      "title": "Robert van 't Hoffstraat 104",
+      "price": 289000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72473": {
+      "title": "Schoklandsestraat 32-B",
+      "price": 187000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72470": {
+      "title": "Sibajakstraat 156",
+      "price": 246500,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66912": {
+      "title": "Sluiskreek 115",
+      "price": 360000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67183": {
+      "title": "Spitsenhagen 4",
+      "price": 375000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66245": {
+      "title": "Spitsenhagen 69",
+      "price": 355000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:72464": {
+      "title": "Stavenissestraat 311",
+      "price": 200000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67105": {
+      "title": "Steenhagen 26",
+      "price": 370000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66667": {
+      "title": "Van Hardenbroekstraat 33",
+      "price": 300000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:4812": {
+      "title": "Van Hardenbroekstraat 9",
+      "price": 315000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66446": {
+      "title": "Van Heukelomstraat 54",
+      "price": 275000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66710": {
+      "title": "Van Speykstraat 116",
+      "price": 330000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67089": {
+      "title": "Veenoord 372",
+      "price": 263500,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:67018": {
+      "title": "Vondelweg 95-G",
+      "price": 380000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66316": {
+      "title": "Wielrenstraat 9",
+      "price": 265000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:65816": {
+      "title": "Willem Buytewechstraat 196-A03",
+      "price": 199000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66701": {
+      "title": "Zernikeplaats 116",
+      "price": 289000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66737": {
+      "title": "Zijdewindestraat 60",
+      "price": 360000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
+    },
+    "corpo:66848": {
+      "title": "Zijdewindestraat 86",
+      "price": 355000,
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
+      "firstSeen": "2026-10-21T14:20:38.656Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-21",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 4,
+      "failures": 5,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 7,
+      "failures": 8,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "zuidwestwonen": {
-      "failures": 6,
+      "failures": 7,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "corpowonen": {
-      "failures": 3,
-      "failingSince": "2026-10-21T12:10:43.695Z"
+      "failures": 0,
+      "initialized": true
     }
   },
   "geoCache": {
