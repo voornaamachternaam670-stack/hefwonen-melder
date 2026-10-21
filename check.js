@@ -310,6 +310,7 @@ const CORPO_BASE = 'https://www.corpowonen.nl';
 const CORPO_CITIES = ['amsterdam', 'utrecht', 'rotterdam'];
 const CORPO_TYPES = ['koop', 'huur'];
 const CORPO_MAX_PAGES = 40; // veiligheidsgrens per zoekopdracht
+const CORPO_MAX_KOOPPRIJS = 400000; // koopwoningen duurder dan dit worden overgeslagen
 
 function parseCorpoRows(html, type) {
   const out = [];
@@ -379,7 +380,8 @@ const corpowonen = {
         }
       }
     }
-    const listings = [...byKey.values()];
+    // Koopwoningen boven de maximumprijs overslaan; zonder bekende prijs toch meenemen.
+    const listings = [...byKey.values()].filter((l) => l.category !== 'Koopwoning' || l.price == null || l.price <= CORPO_MAX_KOOPPRIJS);
     console.log(`Corpowonen: ${requests} verzoeken, ${listings.length} advertenties`);
     return { listings, complete: true };
   },
@@ -505,11 +507,12 @@ async function processSource(source, state, nl, now) {
 
     if (!old) {
       headline = `🏠 Nieuw bij ${source.name}`;
-    } else if (old.gone) {
-      headline = `🔁 Weer online bij ${source.name}`;
     } else if (old.price != null && l.price != null && old.price !== l.price) {
+      // Ook als hij weg was: bijv. een koopwoning die onder de maximumprijs zakt.
       const diff = l.price - old.price;
       headline = `💶 Prijswijziging bij ${source.name}: € ${old.price.toLocaleString('nl-NL')} → € ${l.price.toLocaleString('nl-NL')} (${diff > 0 ? '+' : '−'}€ ${Math.abs(diff).toLocaleString('nl-NL')})`;
+    } else if (old.gone) {
+      headline = `🔁 Weer online bij ${source.name}`;
     } else if (old.statusCode && old.statusCode !== 'available' && l.statusCode === 'available') {
       headline = `✅ Weer beschikbaar bij ${source.name} (was: ${old.statusLabel || old.statusCode})`;
     }
