@@ -1492,8 +1492,8 @@
     "corpo:73106": {
       "title": "Hontenissestraat 107",
       "price": 235000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2214,13 +2214,13 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 9,
+      "failures": 10,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 12,
+      "failures": 13,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
