@@ -1062,16 +1062,25 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 1
+      "failures": 2,
+      "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 4,
-      "initialized": true
+      "failures": 5,
+      "initialized": true,
+      "alerted": true,
+      "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "zuidwestwonen": {
-      "failures": 3,
-      "initialized": true
+      "failures": 4,
+      "initialized": true,
+      "alerted": true,
+      "failingSince": "2026-10-21T12:10:43.695Z"
+    },
+    "corpowonen": {
+      "failures": 1,
+      "failingSince": "2026-10-21T12:10:43.695Z"
     }
   },
   "geoCache": {
