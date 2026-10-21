@@ -1062,24 +1062,24 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 2,
+      "failures": 3,
       "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 5,
+      "failures": 6,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "zuidwestwonen": {
-      "failures": 4,
+      "failures": 5,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "corpowonen": {
-      "failures": 1,
+      "failures": 2,
       "failingSince": "2026-10-21T12:10:43.695Z"
     }
   },
