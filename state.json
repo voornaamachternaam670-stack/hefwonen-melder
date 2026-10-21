@@ -1701,7 +1701,7 @@
       "title": "Sara Cornelia Molen 10",
       "price": 315000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2214,7 +2214,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 14,
+      "failures": 15,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
