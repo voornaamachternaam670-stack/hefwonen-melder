@@ -1580,8 +1580,8 @@
     "corpo:65533": {
       "title": "Langegeer 178",
       "price": 280000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2214,19 +2214,19 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 7,
+      "failures": 8,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 10,
+      "failures": 11,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
     },
     "zuidwestwonen": {
-      "failures": 9,
+      "failures": 10,
       "initialized": true,
       "alerted": true,
       "failingSince": "2026-10-21T12:10:43.695Z"
