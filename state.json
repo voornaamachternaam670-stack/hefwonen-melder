@@ -1044,16 +1044,16 @@
     "rent:13209944": {
       "title": "Susannadijk 141",
       "price": 960,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T18:33:34.311Z",
       "gone": false
     },
     "rent:13209945": {
       "title": "Susannadijk 71",
       "price": 1000,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T18:33:34.311Z",
       "gone": false
     }
@@ -1066,7 +1066,7 @@
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 1,
+      "failures": 0,
       "initialized": true
     },
     "zuidwestwonen": {
