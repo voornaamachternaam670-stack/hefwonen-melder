@@ -1066,11 +1066,11 @@
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 2,
+      "failures": 3,
       "initialized": true
     },
     "zuidwestwonen": {
-      "failures": 1,
+      "failures": 2,
       "initialized": true
     }
   },
