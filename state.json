@@ -1062,15 +1062,15 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 0
+      "failures": 1
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-21",
-      "failures": 3,
+      "failures": 4,
       "initialized": true
     },
     "zuidwestwonen": {
-      "failures": 2,
+      "failures": 3,
       "initialized": true
     }
   },
