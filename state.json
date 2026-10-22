@@ -1827,7 +1827,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-22T15:16:34.013Z"
     },
     "corpo:72125": {
       "title": "Dokter Wasstraat 51",
@@ -2171,7 +2172,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-22T15:16:34.013Z"
     },
     "corpo:66316": {
       "title": "Wielrenstraat 9",
@@ -2250,15 +2252,14 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 45,
+      "failures": 46,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-22",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-22T14:40:05.695Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
