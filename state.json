@@ -1577,7 +1577,7 @@
       "title": "Korte Bajonetstraat 6",
       "price": 335000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1609,7 +1609,7 @@
       "title": "Moerkerkestraat 4-B",
       "price": 265000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1809,7 +1809,7 @@
       "title": "Zijdewindestraat 118",
       "price": 350000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2276,7 +2276,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 53,
+      "failures": 54,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
@@ -2286,9 +2286,8 @@
       "initialized": true
     },
     "zuidwestwonen": {
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-22T19:21:32.503Z"
+      "failures": 0,
+      "initialized": true
     },
     "corpowonen": {
       "failures": 0,
