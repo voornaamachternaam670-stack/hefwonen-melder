@@ -2246,13 +2246,37 @@
       "statusLabel": "Te koop",
       "firstSeen": "2026-10-22T12:28:41.422Z",
       "gone": false
+    },
+    "zww:90704": {
+      "title": "Hogeweg 10",
+      "price": 566.37,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-22T18:04:49.496Z",
+      "gone": false
+    },
+    "zww:90706": {
+      "title": "Vincent van Goghlaan 153",
+      "price": 649.69,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-22T18:04:49.496Z",
+      "gone": false
+    },
+    "zww:90705": {
+      "title": "Vredehoflaan 48",
+      "price": 703.13,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-22T18:04:49.496Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-22",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 50,
+      "failures": 51,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
