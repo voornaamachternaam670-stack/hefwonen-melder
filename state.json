@@ -2228,13 +2228,21 @@
       "statusLabel": "Nieuw, Open huis",
       "firstSeen": "2026-10-22T04:13:24.291Z",
       "gone": false
+    },
+    "ikw:e32b905ea7ef0ef0139b16c506072588": {
+      "title": "Appartement Mia Van Ijperenplein 22",
+      "price": 1784,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-22T10:37:33.256Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-22",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 38,
+      "failures": 39,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
@@ -2244,9 +2252,8 @@
       "initialized": true
     },
     "zuidwestwonen": {
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-22T10:03:57.766Z"
+      "failures": 0,
+      "initialized": true
     },
     "corpowonen": {
       "failures": 0,
