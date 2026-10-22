@@ -1264,8 +1264,8 @@
     "corpo:66647": {
       "title": "Kneppelhoutstraat 9-BS",
       "price": 295000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2276,7 +2276,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 54,
+      "failures": 55,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
