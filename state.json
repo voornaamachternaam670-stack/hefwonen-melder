@@ -2234,7 +2234,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 37,
+      "failures": 38,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
@@ -2244,8 +2244,9 @@
       "initialized": true
     },
     "zuidwestwonen": {
-      "failures": 0,
-      "initialized": true
+      "failures": 1,
+      "initialized": true,
+      "failingSince": "2026-10-22T10:03:57.766Z"
     },
     "corpowonen": {
       "failures": 0,
