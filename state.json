@@ -1625,7 +1625,7 @@
       "title": "Nachtegaalplein 20-B",
       "price": 250000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1681,7 +1681,7 @@
       "title": "Rhijnauwensingel 21",
       "price": 285000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2242,7 +2242,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 39,
+      "failures": 40,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
