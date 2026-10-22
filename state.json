@@ -187,8 +187,8 @@
     "ikw:6022ddf54cbe9ef09973dffca9efe0f9": {
       "title": "Appartement 's-gravelandseweg 1035",
       "price": 988,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -451,24 +451,24 @@
     "ikw:6851161bc9a0e325d3b7e505a4e520c7": {
       "title": "Appartement Hoge Filterweg 562",
       "price": 1250,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:8ebbc9d75b935405b4fb5c59253804f9": {
       "title": "Eengezinswoning Astanaplein 76",
       "price": 1425,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:e4ab4b76e1d9c63974ba0bdb527a1a2a": {
       "title": "Appartement Van Der Hoevenplein 325",
       "price": 1670,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -918,7 +918,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-22T05:24:01.485Z"
     },
     "ikw:990b148105c26208114df6e7cfc55da1": {
       "title": "Appartement Van Oldenbarneveltplaats 14 A",
@@ -943,7 +944,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-22T05:24:01.485Z"
     },
     "ikw:2f1aebab54d6bee8d9d9f14931c8c46c": {
       "title": "Appartement Karl Weisbardstraat 287",
@@ -959,7 +961,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-22T05:24:01.485Z"
     },
     "ikw:83bde1c929756767aea6c0c41619a6ca": {
       "title": "Eengezinswoning Astanaplein 74",
@@ -967,7 +970,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-22T05:24:01.485Z"
     },
     "zww:90662": {
       "title": "Westerzicht 141",
@@ -2230,12 +2234,12 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 30,
+      "failures": 31,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-21",
+      "lastFullScan": "2026-10-22",
       "failures": 0,
       "initialized": true
     },
