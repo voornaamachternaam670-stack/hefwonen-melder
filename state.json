@@ -1257,7 +1257,7 @@
       "title": "Kneppelhoutstraat 19-BSA",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1360,8 +1360,8 @@
     "corpo:66740": {
       "title": "Cannenburchstraat 8",
       "price": 325000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2236,13 +2236,21 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-22T10:37:33.256Z",
       "gone": false
+    },
+    "corpo:66436": {
+      "title": "Van Mourik Broekmanstraat 19-3",
+      "price": 399000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
+      "firstSeen": "2026-10-22T12:28:41.422Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-22",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 41,
+      "failures": 42,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
