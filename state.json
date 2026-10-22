@@ -2208,13 +2208,29 @@
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
+    },
+    "corpo:66482": {
+      "title": "Dorpsweg 165-C",
+      "price": 250000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-22T04:13:24.291Z",
+      "gone": false
+    },
+    "corpo:72365": {
+      "title": "Lodewijk Pincoffsweg 23",
+      "price": 332000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-22T04:13:24.291Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-21",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 28,
+      "failures": 29,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
