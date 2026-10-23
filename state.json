@@ -1338,7 +1338,7 @@
       "title": "Burgemeester Hazenberglaan 125",
       "price": 265000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2286,7 +2286,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 77,
+      "failures": 78,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
