@@ -980,7 +980,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-23T17:02:58.819Z"
     },
     "zww:90663": {
       "title": "Van Dishoeckstraat 236",
@@ -988,7 +989,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-23T17:02:58.819Z"
     },
     "zww:90541": {
       "title": "Ambrosius Bosschaertstraat 3",
@@ -1441,8 +1443,8 @@
     "corpo:66789": {
       "title": "Evenaar 286",
       "price": 245000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2255,7 +2257,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-22T18:04:49.496Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-23T17:02:58.819Z"
     },
     "zww:90706": {
       "title": "Vincent van Goghlaan 153",
@@ -2263,7 +2266,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-22T18:04:49.496Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-23T17:02:58.819Z"
     },
     "zww:90705": {
       "title": "Vredehoflaan 48",
@@ -2286,7 +2290,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 88,
+      "failures": 89,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
