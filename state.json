@@ -1900,7 +1900,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-23T04:23:53.363Z"
     },
     "corpo:72143": {
       "title": "Beverwaardseweg 64",
@@ -2270,13 +2271,21 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-22T18:04:49.496Z",
       "gone": false
+    },
+    "corpo:73377": {
+      "title": "Tijmweg 164",
+      "price": 280000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-23T04:23:53.363Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-22",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 68,
+      "failures": 69,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
