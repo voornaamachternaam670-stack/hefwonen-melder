@@ -2282,11 +2282,11 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-22",
+  "lastHeartbeat": "2026-10-23",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 71,
+      "failures": 72,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
