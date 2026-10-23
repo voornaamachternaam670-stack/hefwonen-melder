@@ -1068,7 +1068,7 @@
       "title": "Boutenburg 233",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1076,7 +1076,7 @@
       "title": "Boutenburg 271",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1084,7 +1084,7 @@
       "title": "Boutenburg 341",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1092,7 +1092,7 @@
       "title": "Boutenburg 89",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1100,7 +1100,7 @@
       "title": "Boutenburg 9",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2354,7 +2354,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 94,
+      "failures": 95,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
