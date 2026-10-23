@@ -483,8 +483,8 @@
     "ikw:90781503dc5b10ee22e520f8a88d2c44": {
       "title": "Appartement Hoge Filterweg 638",
       "price": 1200,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -563,8 +563,8 @@
     "ikw:28755fe17f8bf061ccf2f5a4442c1567": {
       "title": "Appartement Louis Pregerkade 138",
       "price": 1433,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -619,8 +619,8 @@
     "ikw:a5feda9882ce2a59db44ff6f69d631d4": {
       "title": "Appartement Jufferstraat 11 H",
       "price": 1580,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -819,8 +819,8 @@
     "ikw:e84c5af805e32d7771399fad0e136b22": {
       "title": "Appartement Van Oldenbarneveltplaats 14 K",
       "price": 1990,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -927,7 +927,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-23T05:30:20.288Z"
     },
     "ikw:beea51030236cea90f0335ac4db813c1": {
       "title": "Appartement Oosterscheldestraat 17",
@@ -2285,12 +2286,12 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 70,
+      "failures": 71,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-22",
+      "lastFullScan": "2026-10-23",
       "failures": 0,
       "initialized": true
     },
