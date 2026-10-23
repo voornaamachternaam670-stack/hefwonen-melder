@@ -1681,8 +1681,8 @@
     "corpo:72481": {
       "title": "Rhijnauwensingel 21",
       "price": 285000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1802,7 +1802,7 @@
       "title": "Westzeedijk 639",
       "price": 276250,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Koopgarant",
+      "statusLabel": "Koopgarant",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2286,7 +2286,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 84,
+      "failures": 85,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
