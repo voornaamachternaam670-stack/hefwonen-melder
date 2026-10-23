@@ -1754,7 +1754,7 @@
       "title": "Vasaristraat 144",
       "price": 330000,
       "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusLabel": "Open huis",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2286,18 +2286,20 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 85,
+      "failures": 86,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-23",
-      "failures": 0,
-      "initialized": true
+      "failures": 1,
+      "initialized": true,
+      "failingSince": "2026-10-23T15:05:31.544Z"
     },
     "zuidwestwonen": {
-      "failures": 0,
-      "initialized": true
+      "failures": 1,
+      "initialized": true,
+      "failingSince": "2026-10-23T15:05:31.544Z"
     },
     "corpowonen": {
       "failures": 0,
