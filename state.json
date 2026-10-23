@@ -2286,20 +2286,18 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 86,
+      "failures": 87,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-23",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-23T15:05:31.544Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-23T15:05:31.544Z"
+      "failures": 0,
+      "initialized": true
     },
     "corpowonen": {
       "failures": 0,
