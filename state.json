@@ -2276,15 +2276,14 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 62,
+      "failures": 63,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-22",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-23T00:07:55.465Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
