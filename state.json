@@ -2284,13 +2284,77 @@
       "statusLabel": "Nieuw",
       "firstSeen": "2026-10-23T04:23:53.363Z",
       "gone": false
+    },
+    "zww:90718": {
+      "title": "Bloemenlaan 29",
+      "price": 805.79,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90510": {
+      "title": "Regentessestraat 23",
+      "price": 882.45,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90556": {
+      "title": "Poortugaalstraat 32",
+      "price": 908.9,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90576": {
+      "title": "M.A. van de Puttestraat 7",
+      "price": 805.57,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90711": {
+      "title": "Van Dishoeckstraat 292",
+      "price": 637.82,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90712": {
+      "title": "Verkuijl Quakkelaarstraat 181",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90715": {
+      "title": "Jacob Marislaan 5",
+      "price": 777,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
+    },
+    "zww:90716": {
+      "title": "Van Dishoeckstraat 588",
+      "price": 831.03,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-23T18:03:41.429Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-23",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 90,
+      "failures": 91,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
