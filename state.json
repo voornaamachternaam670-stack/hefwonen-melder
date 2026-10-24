@@ -2296,7 +2296,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-24T17:04:04.384Z"
     },
     "zww:90510": {
       "title": "Regentessestraat 23",
@@ -2375,7 +2376,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 133,
+      "failures": 134,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
