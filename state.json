@@ -3184,7 +3184,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 144,
+      "failures": 145,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
@@ -3282,7 +3282,7 @@
     "3069XL": 8.3
   },
   "fx": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "pln": 4.3945
   },
   "darija": {
