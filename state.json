@@ -291,8 +291,8 @@
     "ikw:c2042ff9733e9c80a91835100cecf236": {
       "title": "Appartement Diepeveenstraat 50",
       "price": 1324,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -443,8 +443,8 @@
     "ikw:034376b7d3fb3df225048f75685e0db2": {
       "title": "Eengezinswoning Klapwijksepad 3",
       "price": 1644,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -475,8 +475,8 @@
     "ikw:292e6711f6013a84d0502b9679a2fab0": {
       "title": "Appartement Laan op Zuid 1204",
       "price": 1750,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -547,8 +547,8 @@
     "ikw:c29c20ae8c4aa489389dfaaf33780a87": {
       "title": "Appartement Backershagen 384",
       "price": 1350,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -579,8 +579,8 @@
     "ikw:4de0978eb190ecde31c167c5bb7ea690": {
       "title": "Appartement Laan op Zuid 1496",
       "price": 1590,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -595,8 +595,8 @@
     "ikw:fb26b54ef5aa02de3b3bbbdf5dc727c9": {
       "title": "Appartement Van Oldenbarneveltplaats 28 J",
       "price": 1890,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -667,16 +667,16 @@
     "ikw:392ccc9f20a78e14f879bd7c038b2f51": {
       "title": "Eengezinswoning Laan van Magisch Realisme 49",
       "price": 1775,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:2a9a84a1de0954d8d625b88d080944d0": {
       "title": "Appartement Wijnhaven 77 D",
       "price": 2100,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -763,8 +763,8 @@
     "ikw:72b2200fdeb28d05ca3a8d0e6471975d": {
       "title": "Appartement Louis Pregerkade 64",
       "price": 1471,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -803,8 +803,8 @@
     "ikw:90d41b17c9883ddca84cf37a62e2df12": {
       "title": "Appartement Van Oldenbarneveltplaats 24 A",
       "price": 1705,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -819,8 +819,8 @@
     "ikw:e84c5af805e32d7771399fad0e136b22": {
       "title": "Appartement Van Oldenbarneveltplaats 14 K",
       "price": 1990,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -894,7 +894,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-24T05:05:45.079Z"
     },
     "ikw:4a2799d1f97ee4361e47c06f97ab6450": {
       "title": "Appartement Backershagen 426",
@@ -902,7 +903,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-24T05:05:45.079Z"
     },
     "ikw:02ec921fc4930e733bb5d5dc1e0753db": {
       "title": "Appartement Karl Weisbardstraat 61",
@@ -954,7 +956,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-24T05:05:45.079Z"
     },
     "ikw:a68f928ce45608d0189688b42c6cefd8": {
       "title": "Appartement Louis Pregerkade 178",
@@ -2372,12 +2375,12 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 110,
+      "failures": 111,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-23",
+      "lastFullScan": "2026-10-24",
       "failures": 0,
       "initialized": true
     },
