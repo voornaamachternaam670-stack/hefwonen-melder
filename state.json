@@ -2370,13 +2370,821 @@
       "statusLabel": "Nieuw, Open huis",
       "firstSeen": "2026-10-24T04:33:45.637Z",
       "gone": false
+    },
+    "aybe:378462-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 21290,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382482-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 22290,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:387432-volkswagen-passatvariant": {
+      "title": "Volkswagen Passat Variant",
+      "price": 22390,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:387498-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 21990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385642-bmw-x2": {
+      "title": "BMW X2",
+      "price": 24190,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385636-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 18590,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:386512-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 19990,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:364743-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 18790,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:387300-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 23290,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:386560-bmw-1": {
+      "title": "BMW 1",
+      "price": 24190,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385647-bmw-x1": {
+      "title": "BMW X1",
+      "price": 24990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:386594-mercedes-benz-cla": {
+      "title": "Mercedes-Benz CLA",
+      "price": 24790,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:386697-audi-a3sedan": {
+      "title": "Audi A3 Sedan",
+      "price": 22490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:384989-bmw-x2": {
+      "title": "BMW X2",
+      "price": 21190,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385755-bmw-x1": {
+      "title": "BMW X1",
+      "price": 23890,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:386124-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 23290,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385649-audi-q3": {
+      "title": "Audi Q3",
+      "price": 24990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:384711-volkswagen-passatvariant": {
+      "title": "Volkswagen Passat Variant",
+      "price": 24490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385741-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 24390,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:385316-bmw-3touring": {
+      "title": "BMW 3 Touring",
+      "price": 24490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382928-mercedes-benz-clasb": {
+      "title": "Mercedes-Benz CLA SB",
+      "price": 24990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382078-bmw-x1": {
+      "title": "BMW X1",
+      "price": 19490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:383508-mercedes-benz-glb": {
+      "title": "Mercedes-Benz GLB",
+      "price": 23790,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:384302-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 23790,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:383766-audi-a1sportback": {
+      "title": "Audi A1 Sportback",
+      "price": 17190,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:384259-bmw-x1": {
+      "title": "BMW X1",
+      "price": 20790,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382308-mercedes-benz-asedan": {
+      "title": "Mercedes-Benz A Sedan",
+      "price": 22890,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:372368-audi-a5sportback": {
+      "title": "Audi A5 Sportback",
+      "price": 23890,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:364982-bmw-2grancoupe": {
+      "title": "BMW 2 Gran Coup&eacute;",
+      "price": 24990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:359661-bmw-x2": {
+      "title": "BMW X2",
+      "price": 18990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382434-audi-a3sedan": {
+      "title": "Audi A3 Sedan",
+      "price": 21290,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:383968-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 21490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:381183-audi-a3sportback": {
+      "title": "Audi A3 Sportback",
+      "price": 23590,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:381905-bmw-x1": {
+      "title": "BMW X1",
+      "price": 22390,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382070-volkswagen-taigo": {
+      "title": "Volkswagen Taigo",
+      "price": 21490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:368596-bmw-1": {
+      "title": "BMW 1",
+      "price": 17990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382609-bmw-1": {
+      "title": "BMW 1",
+      "price": 18290,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:380050-volkswagen-passatvariant": {
+      "title": "Volkswagen Passat Variant",
+      "price": 24990,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:382454-mercedes-benz-b": {
+      "title": "Mercedes-Benz B",
+      "price": 23890,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:381013-bmw-3touring": {
+      "title": "BMW 3 Touring",
+      "price": 22790,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:380908-mercedes-benz-b": {
+      "title": "Mercedes-Benz B",
+      "price": 21790,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:381787-mercedes-benz-cla": {
+      "title": "Mercedes-Benz CLA",
+      "price": 22890,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:380791-mercedes-benz-clasb": {
+      "title": "Mercedes-Benz CLA SB",
+      "price": 23990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:364651-mercedes-benz-asedan": {
+      "title": "Mercedes-Benz A Sedan",
+      "price": 24190,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:380106-audi-a4avant": {
+      "title": "Audi A4 Avant",
+      "price": 23890,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:379844-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 21290,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:378021-bmw-x2": {
+      "title": "BMW X2",
+      "price": 22290,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:366414-mercedes-benz-asedan": {
+      "title": "Mercedes-Benz A Sedan",
+      "price": 21990,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:380866-volkswagen-taigo": {
+      "title": "Volkswagen Taigo",
+      "price": 18490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aybe:348976-volkswagen-golfvariant": {
+      "title": "Volkswagen Golf Variant",
+      "price": 24490,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2878824-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 84899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2706190-pl-bmw-3series": {
+      "title": "BMW 3 Series",
+      "price": 92899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2799811-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 75899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2803401-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 74899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2645003-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 82899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2644991-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 85899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2847481-pl-bmw-series1": {
+      "title": "BMW Series 1",
+      "price": 90899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2754373-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 102899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2652042-pl-volkswagen-arteon": {
+      "title": "Volkswagen Arteon",
+      "price": 108899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3068449-pl-audi-q3": {
+      "title": "Audi Q3",
+      "price": 102899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3018854-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 84899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2895765-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 88899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2678561-pl-volkswagen-golf": {
+      "title": "Volkswagen Golf",
+      "price": 84899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2784710-pl-bmw-series2active": {
+      "title": "BMW Series 2 Active",
+      "price": 78899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2670609-pl-bmw-2grantourer": {
+      "title": "BMW 2 Gran Tourer",
+      "price": 90899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2868364-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 91899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2520692-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 69899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2840024-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 71899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2840000-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 62899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2528286-pl-audi-a4": {
+      "title": "Audi A4 Avant",
+      "price": 84899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2990311-pl-volkswagen-touran": {
+      "title": "Volkswagen Touran",
+      "price": 89899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2627669-pl-audi-q3": {
+      "title": "Audi Q3",
+      "price": 87899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2748870-pl-volkswagen-taigo": {
+      "title": "Volkswagen Taigo",
+      "price": 87899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2654196-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 98899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2714932-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 79899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2835740-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 80899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2709904-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 98899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2884480-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 80899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2698050-pl-mercedes-benz-a-class": {
+      "title": "Mercedes-Benz A-Class",
+      "price": 99899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2675803-pl-audi-a4": {
+      "title": "Audi A4",
+      "price": 103899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2933710-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 99899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2708053-pl-audi-a4": {
+      "title": "Audi A4",
+      "price": 104899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2611154-pl-bmw-3series": {
+      "title": "BMW 3 Series",
+      "price": 73899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3169711-pl-audi-a3": {
+      "title": "Audi A3",
+      "price": 104899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3093218-pl-bmw-x1": {
+      "title": "BMW X1",
+      "price": 79899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3068324-pl-bmw-x2": {
+      "title": "BMW X2",
+      "price": 93899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2933809-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 97899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2744255-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 85899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2522959-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 76899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2709652-pl-bmw-series3touring": {
+      "title": "BMW Series 3 Touring",
+      "price": 98899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3067253-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 75899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2621634-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 97899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2589523-pl-volkswagen-passat": {
+      "title": "Volkswagen Passat",
+      "price": 63899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2833169-pl-volkswagen-arteon": {
+      "title": "Volkswagen Arteon",
+      "price": 82899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2707433-pl-bmw-series2active": {
+      "title": "BMW Series 2 Active",
+      "price": 72899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:3067226-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 76899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2720789-pl-volkswagen-taigo": {
+      "title": "Volkswagen Taigo",
+      "price": 75899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2529909-pl-volkswagen-touran": {
+      "title": "Volkswagen Touran",
+      "price": 79899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2644977-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 98899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2956549-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 74899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "aypl:2802758-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 94899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-24",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 136,
+      "failures": 137,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
@@ -2390,6 +3198,14 @@
       "initialized": true
     },
     "corpowonen": {
+      "failures": 0,
+      "initialized": true
+    },
+    "ayvens-be": {
+      "failures": 0,
+      "initialized": true
+    },
+    "ayvens-pl": {
       "failures": 0,
       "initialized": true
     }
@@ -2464,5 +3280,9 @@
     "2721EP": 16.4,
     "2652DB": 8.6,
     "3069XL": 8.3
+  },
+  "fx": {
+    "date": "2026-10-24",
+    "pln": 4.3945
   }
 }
