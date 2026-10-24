@@ -1952,7 +1952,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-24T04:33:45.637Z"
     },
     "corpo:67083": {
       "title": "Edmond Hellenraadstraat 62",
@@ -2008,7 +2009,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-24T04:33:45.637Z"
     },
     "corpo:67181": {
       "title": "Kiplingstraat 19",
@@ -2348,13 +2350,29 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
       "gone": false
+    },
+    "corpo:65695": {
+      "title": "Mathenesserdijk 126-b01",
+      "price": 245000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-24T04:33:45.637Z",
+      "gone": false
+    },
+    "corpo:72018": {
+      "title": "Van Speykstraat 160",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-24T04:33:45.637Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-23",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 109,
+      "failures": 110,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
