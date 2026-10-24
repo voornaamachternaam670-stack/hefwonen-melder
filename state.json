@@ -3284,5 +3284,8 @@
   "fx": {
     "date": "2026-10-24",
     "pln": 4.3945
+  },
+  "darija": {
+    "introSent": true
   }
 }

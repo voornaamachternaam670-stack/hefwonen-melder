@@ -595,6 +595,108 @@ function nlNow() {
   return { date: `${parts.year}-${parts.month}-${parts.day}`, hour: Number(parts.hour) };
 }
 
+// ---------- Darija: woorden van de dag (kanaal "Darija", alleen zenden) ----------
+
+const DARIJA_CHAT_ID = process.env.TELEGRAM_CHAT_ID_DARIJA || '-1004363303061';
+const DARIJA_HOUR = 7; // eerste run na 07:00 Nederlandse tijd
+const DARIJA_FILE = path.join(__dirname, 'darija.json');
+
+const dayNumber = (isoDate) => Math.floor(Date.parse(isoDate + 'T00:00:00Z') / 86400000);
+
+// Voorspelbare "willekeur" per datum, zodat een herhaalde run dezelfde quiz geeft.
+function seededShuffle(arr, seed) {
+  const a = arr.slice();
+  let s = seed;
+  for (let i = a.length - 1; i > 0; i--) {
+    s = (s * 1103515245 + 12345) % 2147483648;
+    const j = s % (i + 1);
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function darijaWordsMessage(words, startIdx, goal, newTheme) {
+  const first = startIdx + 1;
+  const last = startIdx + words.length;
+  const lines = [`🗣️ <b>Darija · ${esc(words[0].theme)}</b>`, `Woord ${first}–${last} van ${goal}`];
+  if (newTheme) lines.push(`📚 <i>Nieuw thema: ${esc(words[0].theme)}</i>`);
+  words.forEach((w, i) => {
+    lines.push('', `<b>${first + i}. ${esc(w.d)}</b> · ${esc(w.nl)}`);
+    if (w.ex) lines.push(`💬 <i>${esc(w.ex)}</i>`, `     ${esc(w.exnl || '')}`);
+    if (w.tip) lines.push(`💡 ${esc(w.tip)}`);
+  });
+  return lines.join('\n');
+}
+
+function darijaQuizMessage(all, idxEnd, seed) {
+  // Woorden van de afgelopen 7 dagen + een paar oudere ter herhaling.
+  const weekStart = Math.max(0, idxEnd - 35);
+  const thisWeek = seededShuffle(all.slice(weekStart, idxEnd), seed).slice(0, 5);
+  const older = seededShuffle(all.slice(0, weekStart), seed + 7).slice(0, 2);
+  const qs = seededShuffle([...thisWeek, ...older], seed + 13);
+  const lines = ['🧠 <b>Darija · weekquiz</b>', 'Tik op het verborgen antwoord om het te zien.', ''];
+  qs.forEach((w, i) => {
+    if (i % 2 === 0) lines.push(`${i + 1}. Wat betekent <b>${esc(w.d)}</b>?`, `     👉 <tg-spoiler>${esc(w.nl)}</tg-spoiler>`);
+    else lines.push(`${i + 1}. Hoe zeg je <b>${esc(w.nl)}</b> in het Darija?`, `     👉 <tg-spoiler>${esc(w.d)}</tg-spoiler>`);
+  });
+  lines.push('', 'Bsse7tek! Morgen weer nieuwe woorden. 👋');
+  return lines.join('\n');
+}
+
+async function runDarija(state, nl) {
+  let data;
+  try { data = JSON.parse(fs.readFileSync(DARIJA_FILE, 'utf8')); }
+  catch (e) { console.warn('Darija: darija.json niet leesbaar:', e.message); return; }
+  const st = (state.darija = state.darija || {});
+  const all = data.themes.flatMap((t) => t.words.map((w) => ({ ...w, theme: t.name })));
+
+  if (!st.introSent) {
+    await send(
+      '🗣️ <b>Welkom bij Darija, woord van de dag!</b>\n\n' +
+      `Elke ochtend krijg je hier ${data.perDay} nieuwe woorden, per thema. Op vrijdag volgt een weekquiz met verborgen antwoorden.\n\n` +
+      '✍️ <b>Zo lees je de letters</b>\n' +
+      '<b>3</b> · keelklank (ع), knijp je keel licht samen en zeg "a"\n' +
+      '<b>7</b> · hese h diep uit je keel (ح)\n' +
+      '<b>9</b> · diepe k achter in je keel (ق)\n' +
+      '<b>kh</b> · harde g zoals in "lachen"\n' +
+      '<b>gh</b> · zachte g, bijna een Franse r\n' +
+      '<b>sh</b> · sj zoals in "sjaal"\n\n' +
+      'Bslama! 👋', null, DARIJA_CHAT_ID);
+    st.introSent = true;
+  }
+
+  if (nl.date < data.start || nl.hour < DARIJA_HOUR || st.lastDate === nl.date) return;
+  const day = dayNumber(nl.date) - dayNumber(data.start);
+  const idx = day * data.perDay;
+  const words = all.slice(idx, idx + data.perDay);
+
+  if (words.length === 0) {
+    if (!st.emptyNotified) {
+      await send('<b>Darija</b>\nDe woordenlijst is op. Vraag Claude om de volgende woorden toe te voegen.');
+      st.emptyNotified = true;
+    }
+    return;
+  }
+
+  const prevTheme = idx > 0 ? all[idx - 1].theme : null;
+  await send(darijaWordsMessage(words, idx, data.goal, prevTheme !== words[0].theme), null, DARIJA_CHAT_ID);
+
+  // Vrijdag: weekquiz.
+  if (new Date(nl.date + 'T12:00:00Z').getUTCDay() === 5) {
+    await send(darijaQuizMessage(all, idx + words.length, dayNumber(nl.date)), null, DARIJA_CHAT_ID);
+  }
+
+  // Op tijd waarschuwen (in de eigen chat) dat de lijst bijna op is.
+  const daysLeft = Math.floor((all.length - idx - words.length) / data.perDay);
+  if (daysLeft <= 7 && st.lowWarnedAt !== all.length) {
+    await send(`<b>Darija</b>\nNog ${daysLeft} dag(en) aan woorden over (${all.length} van ${data.goal}). Vraag Claude om de volgende woorden toe te voegen.`);
+    st.lowWarnedAt = all.length;
+  }
+
+  st.lastDate = nl.date;
+  console.log(`Darija: woorden ${idx + 1}-${idx + words.length} verstuurd.`);
+}
+
 // ---------- hoofdlogica ----------
 
 async function processSource(source, state, nl, now) {
@@ -693,6 +795,11 @@ async function main() {
   for (const src of Object.values(state.sources)) {
     if (src.failures >= FAIL_ALERT_AFTER && src.alerted === undefined) src.alerted = true;
   }
+
+  // Darija los van de melders: een fout hier mag de rest niet tegenhouden.
+  try { await runDarija(state, nl); }
+  catch (e) { console.error('Darija mislukt:', e.message); }
+  if (process.argv.includes('--darija-only')) { saveState(state); return; }
 
   const results = {};
   for (const s of SOURCES) {
