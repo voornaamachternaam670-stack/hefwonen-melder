@@ -2375,7 +2375,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 123,
+      "failures": 124,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
