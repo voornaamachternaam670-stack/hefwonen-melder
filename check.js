@@ -389,7 +389,8 @@ const corpowonen = {
 
 // ---------- bron 5 en 6: Ayvens occasions (België en Polen) -> aparte autochat ----------
 
-const AUTO_CHAT_ID = process.env.TELEGRAM_CHAT_ID_AUTO || '';
+// Telegram-groep "Automelder" (een chatnummer is niet geheim; het bot-token wel, dat staat in de Secrets).
+const AUTO_CHAT_ID = process.env.TELEGRAM_CHAT_ID_AUTO || '-5353313333';
 const AYVENS_BASE = 'https://usedcars.ayvens.com';
 const AYVENS_MERKEN = 'audi+bmw+mercedes-benz+volkswagen';
 const AYVENS_MAX_EUR = 25000;
