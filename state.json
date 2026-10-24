@@ -2371,11 +2371,11 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-23",
+  "lastHeartbeat": "2026-10-24",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 112,
+      "failures": 113,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
