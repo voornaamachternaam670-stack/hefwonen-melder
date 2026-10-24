@@ -387,7 +387,128 @@ const corpowonen = {
   },
 };
 
-const SOURCES = [hefwonen, ikwilhuren, zuidwestwonen, corpowonen];
+// ---------- bron 5 en 6: Ayvens occasions (België en Polen) -> aparte autochat ----------
+
+const AUTO_CHAT_ID = process.env.TELEGRAM_CHAT_ID_AUTO || '';
+const AYVENS_BASE = 'https://usedcars.ayvens.com';
+const AYVENS_MERKEN = 'audi+bmw+mercedes-benz+volkswagen';
+const AYVENS_MAX_EUR = 25000;
+const AYVENS_PAGE_SIZE = 120;
+const AYVENS_MAX_PAGES = 20;
+
+const AYVENS_FUEL = {
+  'Petrol': 'Benzine',
+  'Hybrid': 'Hybride',
+  'Hybrid: Gasoline/Electric': 'Hybride',
+  'Mild Hybrid: Gasoline/Electric': 'Mild hybride',
+  'Plug-in Hybrid: Gasoline/Electric': 'Plug-in hybride',
+};
+const AYVENS_STATUS = {
+  'Available': 'Beschikbaar',
+  'Coming soon': 'Binnenkort beschikbaar',
+  'Reserved': 'Gereserveerd',
+  'Reserved for UCL': 'Gereserveerd',
+};
+
+const fmtNum = (n) => Math.round(n).toLocaleString('nl-NL');
+
+// Wisselkoers PLN per euro van de ECB, 1x per dag opgehaald en in state bewaard.
+async function plnPerEur(state, nl) {
+  const fx = state.fx || {};
+  if (fx.date === nl.date && fx.pln) return fx.pln;
+  try {
+    const xml = await getText('https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml');
+    const m = xml.match(/currency=['"]PLN['"]\s+rate=['"]([\d.]+)['"]/);
+    if (!m) throw new Error('PLN-koers niet gevonden');
+    state.fx = { date: nl.date, pln: Number(m[1]) };
+    return state.fx.pln;
+  } catch (e) {
+    if (fx.pln) { console.warn('ECB-koers ophalen mislukt, gebruik vorige:', e.message); return fx.pln; }
+    throw e;
+  }
+}
+
+function parseAyvensTiles(html) {
+  const out = [];
+  for (const chunk of html.split('class="product product-pid"').slice(1)) {
+    const tr = chunk.match(/data-tracking-productclick="([^"]+)"/);
+    if (!tr) continue;
+    let p;
+    try { p = JSON.parse(tr[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&')).find((x) => x.ecommerce)?.ecommerce.click.products[0]; }
+    catch { continue; }
+    if (!p || !p.id) continue;
+    const link = chunk.match(/class="link stretched-link" href="([^"]+)"/);
+    const img = chunk.match(/data-src="([^"]+)"/);
+    out.push({ p, href: link ? link[1] : null, img: img ? img[1].replace(/&amp;/g, '&').replace(/sw=\d+&sh=\d+/, 'sw=800&sh=600') : null });
+  }
+  return out;
+}
+
+function makeAyvens({ id, name, locale, path, keyPrefix, currency }) {
+  return {
+    id,
+    name,
+    app: 'Automelder',
+    chat: AUTO_CHAT_ID,
+    icon: '🚗',
+    unit: "auto's",
+    page: `${AYVENS_BASE}/${locale}/${path}/${AYVENS_MERKEN}/`,
+    owns: (key) => key.startsWith(keyPrefix),
+
+    async fetch(state, nl) {
+      const rate = currency === 'PLN' ? await plnPerEur(state, nl) : 1;
+      const byKey = new Map();
+      const seenPids = new Set();
+      for (let page = 0; page < AYVENS_MAX_PAGES; page++) {
+        if (page) await sleep(500);
+        const url = `${this.page}?prefn1=gearType&prefv1=Automatic&start=${page * AYVENS_PAGE_SIZE}&sz=${AYVENS_PAGE_SIZE}`;
+        const tiles = parseAyvensTiles(await getText(url));
+        if (page === 0 && tiles.length === 0) throw new Error(`${name}: geen auto's gevonden; waarschijnlijk is de site veranderd`);
+        const before = seenPids.size;
+        for (const { p } of tiles) seenPids.add(p.id);
+        for (const { p, href, img } of tiles) {
+          const fuel = AYVENS_FUEL[p.dimension2];
+          if (!fuel || p.dimension3 !== 'Automatic' || p.dimension22 === 'Sold') continue; // geen diesel/elektrisch/verkocht
+          const eur = p.price / rate;
+          if (!(eur <= AYVENS_MAX_EUR)) continue;
+          const reg = (p.dimension56 || '').match(/^(\d{4})-(\d{2})/);
+          byKey.set(keyPrefix + p.id, {
+            key: keyPrefix + p.id,
+            title: `${p.brand && !String(p.name).startsWith(p.brand) ? p.brand + ' ' : ''}${p.name}`,
+            price: p.price, // in eigen valuta, zodat koersschommelingen geen prijswijziging lijken
+            currency,
+            rate,
+            statusCode: p.dimension22 === 'Available' ? 'available' : p.dimension22,
+            statusLabel: AYVENS_STATUS[p.dimension22] || p.dimension22,
+            lines: [
+              p.variant,
+              currency === 'PLN' ? `€ ${fmtNum(eur)} (${fmtNum(p.price)} zł)` : `€ ${fmtNum(p.price)}`,
+              [fuel, 'Automaat', p.dimension5 != null ? `${fmtNum(p.dimension5)} km` : null, reg ? `${reg[2]}-${reg[1]}` : null].filter(Boolean).join(' · '),
+            ],
+            photo: img,
+            url: href ? (href.startsWith('http') ? href : AYVENS_BASE + href) : this.page,
+          });
+        }
+        // Laatste pagina, of een pagina die alleen al bekende auto's herhaalt.
+        if (tiles.length < AYVENS_PAGE_SIZE || seenPids.size === before) break;
+      }
+      const listings = [...byKey.values()];
+      console.log(`${name}: ${listings.length} auto's binnen de filters${currency === 'PLN' ? ` (koers ${rate} zł/€)` : ''}`);
+      return { listings, complete: true };
+    },
+  };
+}
+
+const ayvensBE = makeAyvens({ id: 'ayvens-be', name: 'Ayvens België', locale: 'nl-be', path: 'autos', keyPrefix: 'aybe:', currency: 'EUR' });
+const ayvensPL = makeAyvens({ id: 'ayvens-pl', name: 'Ayvens Polen', locale: 'pl-pl', path: 'samochody', keyPrefix: 'aypl:', currency: 'PLN' });
+
+// Geld formatteren voor prijswijzigingen: zloty omrekenen naar euro, met de zloty erbij.
+function money(v, l) {
+  if (l.currency === 'PLN') return `€ ${fmtNum(v / l.rate)} (${fmtNum(v)} zł)`;
+  return `€ ${v.toLocaleString('nl-NL')}`;
+}
+
+const SOURCES = [hefwonen, ikwilhuren, zuidwestwonen, corpowonen, ayvensBE, ayvensPL];
 
 // ---------- Telegram ----------
 
@@ -403,12 +524,12 @@ async function tg(method, body) {
   return json;
 }
 
-async function send(text, photo) {
+async function send(text, photo, chat) {
   if (DRY) {
-    console.log('--- [dry] ' + (photo ? '(met foto) ' : '') + '\n' + text.replace(/<[^>]+>/g, '') + '\n');
+    console.log('--- [dry] ' + (chat ? `[chat ${chat}] ` : '') + (photo ? '(met foto) ' : '') + '\n' + text.replace(/<[^>]+>/g, '') + '\n');
     return;
   }
-  const chat_id = process.env.TELEGRAM_CHAT_ID;
+  const chat_id = chat || process.env.TELEGRAM_CHAT_ID;
   if (photo) {
     try {
       // Foto zelf downloaden en uploaden: Telegram accepteert .webp-URL's niet altijd als foto.
@@ -431,6 +552,13 @@ async function send(text, photo) {
 
 function describe(l, headline) {
   const lines = [`<b>${esc(headline)}</b>`, `<b>${esc(l.title)}</b>`];
+  if (l.lines) {
+    // Bronnen met een eigen opmaak (auto's).
+    for (const x of l.lines) if (x) lines.push(esc(x));
+    if (l.statusLabel) lines.push(`Status: ${esc(l.statusLabel)}`);
+    lines.push(`<a href="${esc(l.url)}">Bekijk advertentie</a>`);
+    return lines.join('\n');
+  }
   if (l.place) lines.push(esc(l.place));
   const facts = [];
   if (l.priceText) {
@@ -471,6 +599,8 @@ function nlNow() {
 async function processSource(source, state, nl, now) {
   const src = (state.sources[source.id] = state.sources[source.id] || {});
   const firstRun = !src.initialized;
+  const app = source.app || 'Huurmelder';
+  const chat = source.chat || undefined;
 
   let result;
   try {
@@ -484,15 +614,15 @@ async function processSource(source, state, nl, now) {
     const longOffline = Date.parse(now) - Date.parse(src.failingSince) >= OFFLINE_ALERT_AFTER_MS;
     if (!src.alerted && (e.offline ? longOffline : src.failures >= FAIL_ALERT_AFTER)) {
       const text = e.offline
-        ? `<b>Huurmelder: ${esc(source.name)} is al ruim 3 uur onbereikbaar</b>\nDe site ligt er waarschijnlijk tijdelijk uit. De melder blijft het proberen en laat het weten als het weer werkt.\nFout: ${esc(e.message)}`
-        : `<b>Huurmelder: ${esc(source.name)} kan niet meer gelezen worden</b>\nDe site is waarschijnlijk aangepast, de melder moet bijgewerkt worden.\nFout: ${esc(e.message)}`;
-      await send(text).catch(() => {});
+        ? `<b>${app}: ${esc(source.name)} is al ruim 3 uur onbereikbaar</b>\nDe site ligt er waarschijnlijk tijdelijk uit. De melder blijft het proberen en laat het weten als het weer werkt.\nFout: ${esc(e.message)}`
+        : `<b>${app}: ${esc(source.name)} kan niet meer gelezen worden</b>\nDe site is waarschijnlijk aangepast, de melder moet bijgewerkt worden.\nFout: ${esc(e.message)}`;
+      await send(text, null, chat).catch(() => {});
       src.alerted = true;
     }
     return { ok: false };
   }
   if (src.alerted) {
-    await send(`<b>Huurmelder</b>\n${esc(source.name)} wordt weer normaal gelezen. ✅`);
+    await send(`<b>${app}</b>\n${esc(source.name)} wordt weer normaal gelezen. ✅`, null, chat);
   }
   src.failures = 0;
   delete src.failingSince;
@@ -506,11 +636,11 @@ async function processSource(source, state, nl, now) {
     let headline = null;
 
     if (!old) {
-      headline = `🏠 Nieuw bij ${source.name}`;
+      headline = `${source.icon || '🏠'} Nieuw bij ${source.name}`;
     } else if (old.price != null && l.price != null && old.price !== l.price) {
       // Ook als hij weg was: bijv. een koopwoning die onder de maximumprijs zakt.
       const diff = l.price - old.price;
-      headline = `💶 Prijswijziging bij ${source.name}: € ${old.price.toLocaleString('nl-NL')} → € ${l.price.toLocaleString('nl-NL')} (${diff > 0 ? '+' : '−'}€ ${Math.abs(diff).toLocaleString('nl-NL')})`;
+      headline = `💶 Prijs${diff < 0 ? 'verlaging' : 'verhoging'} bij ${source.name}: ${money(old.price, l)} → ${money(l.price, l)}`;
     } else if (old.gone) {
       headline = `🔁 Weer online bij ${source.name}`;
     } else if (old.statusCode && old.statusCode !== 'available' && l.statusCode === 'available') {
@@ -518,7 +648,7 @@ async function processSource(source, state, nl, now) {
     }
 
     if (headline && !firstRun) {
-      await send(describe(l, headline), l.photo);
+      await send(describe(l, headline), l.photo, chat);
       sent++;
     }
 
@@ -564,27 +694,45 @@ async function main() {
   }
 
   const results = {};
-  for (const s of SOURCES) results[s.id] = await processSource(s, state, nl, now);
+  for (const s of SOURCES) {
+    // Autobronnen pas draaien als de aparte autochat is ingesteld.
+    if (s.app === 'Automelder' && !s.chat && !DRY) {
+      console.log(`${s.name}: overgeslagen, TELEGRAM_CHAT_ID_AUTO is niet ingesteld`);
+      results[s.id] = { ok: true, skipped: true };
+      continue;
+    }
+    results[s.id] = await processSource(s, state, nl, now);
+  }
+  const active = SOURCES.filter((s) => !results[s.id].skipped);
+  const apps = [...new Set(active.map((s) => s.app || 'Huurmelder'))];
 
-  const started = SOURCES.filter((s) => results[s.id].firstRun);
-  if (started.length) {
-    const what = started.map((s) => `${s.name}: ${results[s.id].count} advertenties`).join('\n');
-    await send(`<b>Huurmelder: nieuwe bron actief</b>\nHuidig aanbod vastgelegd.\n${esc(what)}\nVanaf nu krijg je hiervan ook meldingen.`);
+  // Startbericht en dagelijkse "leeft nog" per melder, elk in zijn eigen chat.
+  for (const app of apps) {
+    const group = active.filter((s) => (s.app || 'Huurmelder') === app);
+    const chat = group[0].chat || undefined;
+    const started = group.filter((s) => results[s.id].firstRun);
+    if (started.length) {
+      const what = started.map((s) => `${s.name}: ${results[s.id].count} ${s.unit || 'advertenties'}`).join('\n');
+      await send(`<b>${app}: nieuwe bron actief</b>\nHuidig aanbod vastgelegd.\n${esc(what)}\nVanaf nu krijg je hiervan ook meldingen.`, null, chat);
+    }
   }
 
   if (nl.hour >= HEARTBEAT_HOUR && state.lastHeartbeat !== nl.date) {
-    const lines = SOURCES.map((s) => {
-      const items = Object.entries(state.listings).filter(([k, v]) => s.owns(k) && !v.gone && (s.id !== 'hefwonen' || k.startsWith('rent:')));
-      const vrij = items.filter(([, v]) => v.statusCode === 'available').length;
-      const status = results[s.id].ok ? '' : ' ⚠️ laatste check mislukt';
-      return `${esc(s.name)}: ${items.length} woningen (${vrij} beschikbaar)${status}`;
-    });
-    await send(`<b>Huurmelder leeft nog</b> 👋\n${lines.join('\n')}`);
+    for (const app of apps) {
+      const group = active.filter((s) => (s.app || 'Huurmelder') === app);
+      const lines = group.map((s) => {
+        const items = Object.entries(state.listings).filter(([k, v]) => s.owns(k) && !v.gone && (s.id !== 'hefwonen' || k.startsWith('rent:')));
+        const vrij = items.filter(([, v]) => v.statusCode === 'available').length;
+        const status = results[s.id].ok ? '' : ' ⚠️ laatste check mislukt';
+        return `${esc(s.name)}: ${items.length} ${s.unit || 'woningen'} (${vrij} beschikbaar)${status}`;
+      });
+      await send(`<b>${app} leeft nog</b> 👋\n${lines.join('\n')}`, null, group[0].chat || undefined);
+    }
     state.lastHeartbeat = nl.date;
   }
 
   saveState(state);
-  if (SOURCES.every((s) => !results[s.id].ok)) process.exitCode = 1;
+  if (active.every((s) => !results[s.id].ok)) process.exitCode = 1;
 }
 
 main().catch((e) => {
