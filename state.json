@@ -3185,15 +3185,14 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 189,
+      "failures": 190,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-25",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-25T20:31:27.386Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
