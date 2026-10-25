@@ -3180,18 +3180,19 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-24",
+  "lastHeartbeat": "2026-10-25",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 161,
+      "failures": 162,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-25",
-      "failures": 0,
-      "initialized": true
+      "failures": 1,
+      "initialized": true,
+      "failingSince": "2026-10-25T07:12:35.265Z"
     },
     "zuidwestwonen": {
       "failures": 0,
