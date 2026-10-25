@@ -2280,7 +2280,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-22T18:04:49.496Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-25T18:08:45.279Z"
     },
     "corpo:73377": {
       "title": "Tijmweg 164",
@@ -3184,7 +3185,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 183,
+      "failures": 184,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
