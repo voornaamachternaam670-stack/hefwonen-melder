@@ -3184,12 +3184,12 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 160,
+      "failures": 161,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-24",
+      "lastFullScan": "2026-10-25",
       "failures": 0,
       "initialized": true
     },
@@ -3286,6 +3286,7 @@
     "pln": 4.3945
   },
   "darija": {
-    "introSent": true
+    "introSent": true,
+    "lastDate": "2026-10-25"
   }
 }
