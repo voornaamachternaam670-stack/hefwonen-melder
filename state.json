@@ -3184,15 +3184,14 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 157,
+      "failures": 158,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-24",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-25T04:10:27.109Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
