@@ -1558,8 +1558,8 @@
     "corpo:72112": {
       "title": "Joostingstraat 19",
       "price": 385000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3184,7 +3184,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 171,
+      "failures": 172,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
