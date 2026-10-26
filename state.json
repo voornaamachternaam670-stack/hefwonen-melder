@@ -1799,8 +1799,8 @@
     "corpo:61708": {
       "title": "Weizichtstraat 21",
       "price": 320000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2022,7 +2022,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T16:21:49.089Z"
     },
     "corpo:66895": {
       "title": "Kleine Kreek 84",
@@ -2424,8 +2425,8 @@
     "aybe:386512-volkswagen-passat": {
       "title": "Volkswagen Passat",
       "price": 19990,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2674,8 +2675,8 @@
     "aybe:380050-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 24990,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2690,8 +2691,8 @@
     "aybe:381013-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 22790,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
