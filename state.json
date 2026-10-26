@@ -3194,6 +3194,30 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-26T13:49:03.377Z",
       "gone": false
+    },
+    "park:13215197": {
+      "title": "Te huur: parkeerplaats aan de Jufferstraat",
+      "price": 150,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-26T15:25:00.655Z",
+      "gone": false
+    },
+    "park:13215200": {
+      "title": "Te huur: motorparkeerplaats aan de Jufferstraat",
+      "price": 50,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-26T15:25:00.655Z",
+      "gone": false
+    },
+    "ikw:2ed275248b1f3c978330285457c89c80": {
+      "title": "Appartement Boezemlaan 40 N",
+      "price": 1670,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-26T15:25:00.655Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-26",
