@@ -3181,11 +3181,11 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-25",
+  "lastHeartbeat": "2026-10-26",
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 207,
+      "failures": 208,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
