@@ -3226,6 +3226,14 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-26T15:25:00.655Z",
       "gone": false
+    },
+    "zww:90722": {
+      "title": "Samaritaanstraat 28",
+      "price": 944.37,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-26T19:22:31.886Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-26",
