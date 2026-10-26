@@ -2730,7 +2730,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T02:41:42.001Z"
     },
     "aybe:379844-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
@@ -3185,15 +3186,14 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 200,
+      "failures": 201,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-25",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-26T02:08:25.887Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
