@@ -2308,7 +2308,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "zww:90556": {
       "title": "Poortugaalstraat 32",
@@ -2316,7 +2317,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "zww:90576": {
       "title": "M.A. van de Puttestraat 7",
@@ -2324,7 +2326,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "zww:90711": {
       "title": "Van Dishoeckstraat 292",
@@ -2332,7 +2335,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "zww:90712": {
       "title": "Verkuijl Quakkelaarstraat 181",
@@ -2340,7 +2344,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "zww:90715": {
       "title": "Jacob Marislaan 5",
@@ -2348,7 +2353,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "zww:90716": {
       "title": "Van Dishoeckstraat 588",
@@ -2356,7 +2362,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-23T18:03:41.429Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T18:31:13.720Z"
     },
     "corpo:65695": {
       "title": "Mathenesserdijk 126-b01",
