@@ -3234,6 +3234,30 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-26T19:22:31.886Z",
       "gone": false
+    },
+    "aypl:2722452-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 109899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-26T23:21:14.449Z",
+      "gone": false
+    },
+    "aypl:2752370-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 109899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-26T23:21:14.449Z",
+      "gone": false
+    },
+    "aypl:2636623-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 109899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-26T23:21:14.449Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-26",
@@ -3336,8 +3360,8 @@
     "3069XL": 8.3
   },
   "fx": {
-    "date": "2026-10-26",
-    "pln": 4.3945
+    "date": "2026-10-27",
+    "pln": 4.4038
   },
   "darija": {
     "introSent": true,
