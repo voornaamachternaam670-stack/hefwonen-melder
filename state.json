@@ -166,7 +166,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T10:43:49.234Z"
     },
     "ikw:6e40a9b982c4f1ace767f82a0ee4b96c": {
       "title": "Appartement Poldermolenplein 102",
@@ -3185,9 +3186,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 211,
-      "failingSince": "2026-10-21T12:10:43.695Z",
-      "alerted": true
+      "failures": 0
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-26",
