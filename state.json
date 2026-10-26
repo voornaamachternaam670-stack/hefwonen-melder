@@ -243,8 +243,8 @@
     "ikw:2220d5926230ce9e9063ba0894512bfa": {
       "title": "Appartement Van Oldenbarneveltplaats 16 D",
       "price": 1850,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -363,8 +363,8 @@
     "ikw:5cf657d0817bb339f80973178c6612e5": {
       "title": "Appartement Van Oldenbarneveltplaats 16 B",
       "price": 1850,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -3185,12 +3185,12 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 206,
+      "failures": 207,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-25",
+      "lastFullScan": "2026-10-26",
       "failures": 0,
       "initialized": true
     },
@@ -3288,6 +3288,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-25"
+    "lastDate": "2026-10-26"
   }
 }
