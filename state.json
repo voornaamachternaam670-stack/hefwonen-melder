@@ -2408,8 +2408,8 @@
     "aybe:385642-bmw-x2": {
       "title": "BMW X2",
       "price": 24190,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2459,7 +2459,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T13:49:03.377Z"
     },
     "aybe:386594-mercedes-benz-cla": {
       "title": "Mercedes-Benz CLA",
@@ -2555,7 +2556,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T13:49:03.377Z"
     },
     "aybe:384302-volkswagen-golf": {
       "title": "Volkswagen Golf",
@@ -2784,8 +2786,8 @@
     "aypl:2706190-pl-bmw-3series": {
       "title": "BMW 3 Series",
       "price": 92899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2824,8 +2826,8 @@
     "aypl:2847481-pl-bmw-series1": {
       "title": "BMW Series 1",
       "price": 90899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2856,8 +2858,8 @@
     "aypl:3018854-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 84899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3083,7 +3085,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T13:49:03.377Z"
     },
     "aypl:2709652-pl-bmw-series3touring": {
       "title": "BMW Series 3 Touring",
@@ -3131,7 +3134,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T13:49:03.377Z"
     },
     "aypl:3067226-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3147,7 +3151,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T13:49:03.377Z"
     },
     "aypl:2529909-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
@@ -3163,7 +3168,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-26T13:49:03.377Z"
     },
     "aypl:2956549-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
@@ -3179,6 +3185,14 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
+      "gone": false
+    },
+    "ikw:33b261201ffdc0a68f994c77b1b07162": {
+      "title": "Appartement Laan op Zuid 1518",
+      "price": 1425,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-26T13:49:03.377Z",
       "gone": false
     }
   },
