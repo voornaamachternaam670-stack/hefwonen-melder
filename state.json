@@ -2811,8 +2811,8 @@
     "aypl:2645003-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 82899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3175,8 +3175,8 @@
     "aypl:2956549-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 74899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
