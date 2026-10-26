@@ -1677,7 +1677,7 @@
     },
     "corpo:67151": {
       "title": "Pleinweg 39-C",
-      "price": 315000,
+      "price": 300000,
       "statusCode": "available",
       "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
@@ -1725,7 +1725,7 @@
     },
     "corpo:67223": {
       "title": "Sint-Maartensdijkstraat 41",
-      "price": 275000,
+      "price": 260000,
       "statusCode": "available",
       "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
@@ -3185,7 +3185,7 @@
   "sources": {
     "hefwonen": {
       "initialized": true,
-      "failures": 209,
+      "failures": 210,
       "failingSince": "2026-10-21T12:10:43.695Z",
       "alerted": true
     },
