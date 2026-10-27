@@ -172,8 +172,8 @@
     "ikw:6e40a9b982c4f1ace767f82a0ee4b96c": {
       "title": "Appartement Poldermolenplein 102",
       "price": 1214,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -236,8 +236,8 @@
     "ikw:a45bd0b8a3c01a40761df93c6a6711b3": {
       "title": "Appartement 's-gravelandseweg 1047",
       "price": 1221,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -460,8 +460,8 @@
     "ikw:8ebbc9d75b935405b4fb5c59253804f9": {
       "title": "Eengezinswoning Astanaplein 76",
       "price": 1425,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -484,8 +484,8 @@
     "ikw:90781503dc5b10ee22e520f8a88d2c44": {
       "title": "Appartement Hoge Filterweg 638",
       "price": 1200,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -604,8 +604,8 @@
     "ikw:8e65be7fa89eb433cb382ce74f3bebc3": {
       "title": "Appartement Diepeveenstraat 46",
       "price": 1613,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -628,8 +628,8 @@
     "ikw:c2486386c4c62e4dca400d7eb60f6025": {
       "title": "Appartement Karl Weisbardstraat 51",
       "price": 1990,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -913,7 +913,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T06:01:06.231Z"
     },
     "ikw:64044c521881506d97a60e7c2a898b29": {
       "title": "Appartement Karl Weisbardstraat 353",
@@ -3283,7 +3284,7 @@
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-26",
+      "lastFullScan": "2026-10-27",
       "failures": 0,
       "initialized": true
     },
@@ -3381,6 +3382,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-26"
+    "lastDate": "2026-10-27"
   }
 }
