@@ -2198,8 +2198,8 @@
     "corpo:65816": {
       "title": "Willem Buytewechstraat 196-A03",
       "price": 199000,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "statusCode": "available",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
