@@ -1568,8 +1568,8 @@
     "corpo:67187": {
       "title": "Kiplingstraat 67",
       "price": 225000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
