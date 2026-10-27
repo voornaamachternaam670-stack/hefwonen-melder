@@ -1808,8 +1808,8 @@
     "corpo:73034": {
       "title": "Westzeedijk 639",
       "price": 276250,
-      "statusCode": "available",
-      "statusLabel": "Koopgarant",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
