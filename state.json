@@ -3301,9 +3301,8 @@
       "initialized": true
     },
     "ayvens-pl": {
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-27T07:32:56.590Z"
+      "failures": 0,
+      "initialized": true
     }
   },
   "geoCache": {
