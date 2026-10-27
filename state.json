@@ -2758,7 +2758,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T15:04:46.547Z"
     },
     "aybe:366414-mercedes-benz-asedan": {
       "title": "Mercedes-Benz A Sedan",
@@ -2771,8 +2772,8 @@
     "aybe:380866-volkswagen-taigo": {
       "title": "Volkswagen Taigo",
       "price": 18490,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
