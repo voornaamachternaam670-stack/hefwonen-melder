@@ -2734,7 +2734,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T15:48:16.946Z"
     },
     "aybe:380106-audi-a4avant": {
       "title": "Audi A4 Avant",
@@ -2742,7 +2743,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T15:48:16.946Z"
     },
     "aybe:379844-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
@@ -2750,7 +2752,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T15:48:16.946Z"
     },
     "aybe:378021-bmw-x2": {
       "title": "BMW X2",
@@ -2758,8 +2761,7 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": true,
-      "goneSince": "2026-10-27T15:04:46.547Z"
+      "gone": false
     },
     "aybe:366414-mercedes-benz-asedan": {
       "title": "Mercedes-Benz A Sedan",
@@ -3308,6 +3310,14 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-27T14:10:31.482Z",
       "gone": false
+    },
+    "ikw:4ea0272aef14af47e520af4d93a22d9b": {
+      "title": "Appartement Hoge Filterweg 234",
+      "price": 1250,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-27T15:48:16.946Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-27",
@@ -3407,7 +3417,8 @@
     "2652KC": 7.7,
     "2721EP": 16.4,
     "2652DB": 8.6,
-    "3069XL": 8.3
+    "3069XL": 8.3,
+    "3063KD": 3.2
   },
   "fx": {
     "date": "2026-10-27",
