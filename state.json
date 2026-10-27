@@ -3258,6 +3258,22 @@
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-26T23:21:14.449Z",
       "gone": false
+    },
+    "corpo:72924": {
+      "title": "Sagiusstraat 18",
+      "price": 310000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-27T05:24:59.019Z",
+      "gone": false
+    },
+    "corpo:49908": {
+      "title": "Vaart ZZ 71-C",
+      "price": 1275,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-27T05:24:59.019Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-26",
