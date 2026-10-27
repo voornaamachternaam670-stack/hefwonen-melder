@@ -3183,8 +3183,8 @@
     "aypl:2956549-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 74899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
