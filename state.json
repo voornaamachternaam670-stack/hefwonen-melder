@@ -2769,7 +2769,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T16:33:08.785Z"
     },
     "aybe:380866-volkswagen-taigo": {
       "title": "Volkswagen Taigo",
@@ -2777,7 +2778,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T16:33:08.785Z"
     },
     "aybe:348976-volkswagen-golfvariant": {
       "title": "Volkswagen Golf Variant",
@@ -3049,7 +3051,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T16:33:08.785Z"
     },
     "aypl:3169711-pl-audi-a3": {
       "title": "Audi A3",
@@ -3189,7 +3192,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-27T16:33:08.785Z"
     },
     "aypl:2802758-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3317,6 +3321,22 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-27T15:48:16.946Z",
+      "gone": false
+    },
+    "aybe:346229-mercedes-benz-clasb": {
+      "title": "Mercedes-Benz CLA SB",
+      "price": 23690,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-27T16:33:08.785Z",
+      "gone": false
+    },
+    "aybe:386870-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 22990,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-27T16:33:08.785Z",
       "gone": false
     }
   },
