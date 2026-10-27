@@ -2682,8 +2682,8 @@
     "aybe:380050-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 24990,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2722,8 +2722,8 @@
     "aybe:380791-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 23990,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
