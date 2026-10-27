@@ -2795,8 +2795,8 @@
     "aypl:2706190-pl-bmw-3series": {
       "title": "BMW 3 Series",
       "price": 92899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2843,8 +2843,8 @@
     "aypl:2754373-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 102899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3238,7 +3238,7 @@
     },
     "aypl:2722452-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
-      "price": 109899,
+      "price": 102899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-26T23:21:14.449Z",
@@ -3254,9 +3254,9 @@
     },
     "aypl:2636623-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
-      "price": 109899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "price": 105899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-26T23:21:14.449Z",
       "gone": false
     },
