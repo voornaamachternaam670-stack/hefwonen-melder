@@ -3338,6 +3338,14 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-10-27T16:33:08.785Z",
       "gone": false
+    },
+    "zww:90735": {
+      "title": "Van Dishoeckstraat 256",
+      "price": 717.88,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-27T19:29:50.239Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-27",
