@@ -1359,9 +1359,9 @@
     },
     "corpo:66022": {
       "title": "Cannemanstraat 93",
-      "price": 390000,
+      "price": 375000,
       "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusLabel": "Open huis",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1751,9 +1751,9 @@
     },
     "corpo:66024": {
       "title": "Van Harmelenstraat 101",
-      "price": 362500,
+      "price": 347500,
       "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusLabel": "Open huis",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2890,7 +2890,7 @@
     },
     "aypl:2784710-pl-bmw-series2active": {
       "title": "BMW Series 2 Active",
-      "price": 78899,
+      "price": 69899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2907,8 +2907,8 @@
     "aypl:2868364-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 91899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3115,7 +3115,7 @@
     },
     "aypl:2621634-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
-      "price": 97899,
+      "price": 93899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3274,6 +3274,30 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-10-27T05:24:59.019Z",
+      "gone": false
+    },
+    "ikw:e684162b8bc5d4618ead32ef30fe3eca": {
+      "title": "Appartement Jufferstraat 15 X",
+      "price": 1596,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-27T13:20:00.215Z",
+      "gone": false
+    },
+    "ikw:8faeccfc90b035facc62b46178d3d2c9": {
+      "title": "Appartement Karl Weisbardstraat 97",
+      "price": 1574,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-27T13:20:00.215Z",
+      "gone": false
+    },
+    "ikw:141b8bc155d72649d8b138525be5a6f0": {
+      "title": "Eengezinswoning Paul Desmondsingel 104",
+      "price": 1603,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-27T13:20:00.215Z",
       "gone": false
     }
   },
