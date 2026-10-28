@@ -3347,6 +3347,38 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-27T19:29:50.239Z",
       "gone": false
+    },
+    "corpo:72816": {
+      "title": "Ring 14",
+      "price": 235000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-28T05:25:48.921Z",
+      "gone": false
+    },
+    "corpo:72098": {
+      "title": "Beukelsweg 39-B",
+      "price": 365000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-28T05:25:48.921Z",
+      "gone": false
+    },
+    "corpo:72845": {
+      "title": "Gordelweg 101-A",
+      "price": 375000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-28T05:25:48.921Z",
+      "gone": false
+    },
+    "corpo:66666": {
+      "title": "Van Hardenbroekstraat 21",
+      "price": 300000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-28T05:25:48.921Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-27",
@@ -3357,9 +3389,8 @@
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-27",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-28T04:49:04.142Z"
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
