@@ -1988,8 +1988,8 @@
     "corpo:66415": {
       "title": "Groenezoom 169",
       "price": 350000,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "statusCode": "available",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3380,6 +3380,22 @@
       "statusLabel": "Nieuw",
       "firstSeen": "2026-10-28T05:25:48.921Z",
       "gone": false
+    },
+    "ikw:b4a9196a9a9dd5d07bfb9b59bde4d08c": {
+      "title": "Appartement Van Oldenbarneveltplaats 24 F",
+      "price": 1850,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-28T10:23:53.606Z",
+      "gone": false
+    },
+    "ikw:f727b7fbff4c73bff563d9d96b0cd8fd": {
+      "title": "Eengezinswoning Beauvoirstraat, Simone de 31",
+      "price": 1600,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-28T10:23:53.606Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-28",
@@ -3480,7 +3496,8 @@
     "2721EP": 16.4,
     "2652DB": 8.6,
     "3069XL": 8.3,
-    "3063KD": 3.2
+    "3063KD": 3.2,
+    "3076JC": 6.5
   },
   "fx": {
     "date": "2026-10-28",
