@@ -172,8 +172,8 @@
     "ikw:6e40a9b982c4f1ace767f82a0ee4b96c": {
       "title": "Appartement Poldermolenplein 102",
       "price": 1214,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -308,8 +308,8 @@
     "ikw:782d29f48e9f55f837790d823d8c9a75": {
       "title": "Appartement Poldermolenplein 96",
       "price": 1370,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -524,8 +524,8 @@
     "ikw:04a826b79b8baffe00c234fbe7bf53b9": {
       "title": "Appartement Jufferhof 50 K",
       "price": 1159,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -556,8 +556,8 @@
     "ikw:bdaf9b9a037dff2434f41c9b6c3c3d4f": {
       "title": "Appartement Karl Weisbardstraat 107",
       "price": 1580,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -732,8 +732,8 @@
     "ikw:29d6b38133f8e88a9d8aa2c1060cdc68": {
       "title": "Appartement Samuel Soesmanstraat 102",
       "price": 1564,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -887,7 +887,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-28T06:09:38.624Z"
     },
     "ikw:957b26e0f4e6c3a456e121baba0eb9c3": {
       "title": "Appartement Laan op Zuid 1196",
@@ -3388,7 +3389,7 @@
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-27",
+      "lastFullScan": "2026-10-28",
       "failures": 0,
       "initialized": true
     },
@@ -3487,6 +3488,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-27"
+    "lastDate": "2026-10-28"
   }
 }
