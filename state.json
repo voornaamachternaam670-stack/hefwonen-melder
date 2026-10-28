@@ -1324,7 +1324,8 @@
       "statusCode": "available",
       "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-28T16:45:20.882Z"
     },
     "corpo:72948": {
       "title": "Belgischestraat 16-A",
@@ -1482,7 +1483,7 @@
       "title": "Galjootstraat 14-a",
       "price": 220000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1490,7 +1491,7 @@
       "title": "Gordelweg 101-C",
       "price": 390000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2394,8 +2395,8 @@
     "aybe:382482-volkswagen-golf": {
       "title": "Volkswagen Golf",
       "price": 22290,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2539,8 +2540,8 @@
     "aybe:385316-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 24490,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2877,7 +2878,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-28T16:45:20.882Z"
     },
     "aypl:2895765-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3075,8 +3077,8 @@
     "aypl:3068324-pl-bmw-x2": {
       "title": "BMW X2",
       "price": 93899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3108,8 +3110,8 @@
     "aypl:2709652-pl-bmw-series3touring": {
       "title": "BMW Series 3 Touring",
       "price": 98899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3174,8 +3176,8 @@
     "aypl:2529909-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
       "price": 79899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3267,7 +3269,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-26T23:21:14.449Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-28T16:45:20.882Z"
     },
     "corpo:72924": {
       "title": "Sagiusstraat 18",
@@ -3396,6 +3399,30 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-28T10:23:53.606Z",
       "gone": false
+    },
+    "ikw:62ab4d6aa071da16e1153d0105bd7a0b": {
+      "title": "Eengezinswoning Adrianapolder 75",
+      "price": 1505,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-28T16:45:20.882Z",
+      "gone": false
+    },
+    "aybe:388611-mercedes-benz-glb": {
+      "title": "Mercedes-Benz GLB",
+      "price": 24690,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-28T16:45:20.882Z",
+      "gone": false
+    },
+    "aybe:386591-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 20490,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-28T16:45:20.882Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-28",
@@ -3497,7 +3524,8 @@
     "2652DB": 8.6,
     "3069XL": 8.3,
     "3063KD": 3.2,
-    "3076JC": 6.5
+    "3076JC": 6.5,
+    "2992ZK": 8.9
   },
   "fx": {
     "date": "2026-10-28",
