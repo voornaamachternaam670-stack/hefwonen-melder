@@ -1539,7 +1539,7 @@
       "title": "Jaffadwarsstraat 71",
       "price": 375000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1651,7 +1651,7 @@
       "title": "Oostmaaslaan 225-D",
       "price": 337000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2241,7 +2241,7 @@
       "title": "Lodewijk Pincoffsweg 23",
       "price": 332000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-22T04:13:24.291Z",
       "gone": false
     },
@@ -3422,6 +3422,22 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-28T16:45:20.882Z",
+      "gone": false
+    },
+    "zww:90750": {
+      "title": "De Kungsholmstraat 9",
+      "price": 983.77,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-28T21:22:01.697Z",
+      "gone": false
+    },
+    "zww:90763": {
+      "title": "Ribesstraat 30",
+      "price": 722.11,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-28T21:22:01.697Z",
       "gone": false
     }
   },
