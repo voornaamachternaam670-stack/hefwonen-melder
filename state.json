@@ -2684,8 +2684,8 @@
     "aybe:380050-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 24990,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2874,8 +2874,8 @@
     "aypl:3018854-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 84899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
