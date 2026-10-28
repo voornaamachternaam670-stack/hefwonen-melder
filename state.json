@@ -2726,7 +2726,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-28T03:20:00.577Z"
     },
     "aybe:364651-mercedes-benz-asedan": {
       "title": "Mercedes-Benz A Sedan",
