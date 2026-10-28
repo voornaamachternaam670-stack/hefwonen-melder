@@ -3357,8 +3357,9 @@
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-27",
-      "failures": 0,
-      "initialized": true
+      "failures": 1,
+      "initialized": true,
+      "failingSince": "2026-10-28T04:49:04.142Z"
     },
     "zuidwestwonen": {
       "failures": 0,
