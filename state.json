@@ -46,7 +46,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T19:42:02.875Z"
     },
     "rent:13144158": {
       "title": "Carry van Bruggensingel 1",
@@ -102,7 +103,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T19:42:02.875Z"
     },
     "rent:13191200": {
       "title": "Laan op Zuid 663",
@@ -2169,8 +2171,8 @@
     "corpo:66710": {
       "title": "Van Speykstraat 116",
       "price": 330000,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "statusCode": "available",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2592,8 +2594,8 @@
     "aybe:384259-bmw-x1": {
       "title": "BMW X1",
       "price": 20790,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2801,7 +2803,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T19:42:02.875Z"
     },
     "aypl:2706190-pl-bmw-3series": {
       "title": "BMW 3 Series",
@@ -2869,12 +2872,11 @@
     },
     "aypl:3068449-pl-audi-q3": {
       "title": "Audi Q3",
-      "price": 102899,
+      "price": 95899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": true,
-      "goneSince": "2026-10-29T14:12:05.350Z"
+      "gone": false
     },
     "aypl:3018854-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -2927,12 +2929,11 @@
     },
     "aypl:2520692-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
-      "price": 69899,
+      "price": 66899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": true,
-      "goneSince": "2026-10-29T14:12:05.350Z"
+      "gone": false
     },
     "aypl:2840024-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
@@ -2952,12 +2953,11 @@
     },
     "aypl:2528286-pl-audi-a4": {
       "title": "Audi A4 Avant",
-      "price": 84899,
+      "price": 79899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": true,
-      "goneSince": "2026-10-29T14:12:05.350Z"
+      "gone": false
     },
     "aypl:2990311-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
@@ -2993,7 +2993,7 @@
     },
     "aypl:2714932-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 79899,
+      "price": 77899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3041,7 +3041,7 @@
     },
     "aypl:2933710-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
-      "price": 99899,
+      "price": 94899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3075,12 +3075,11 @@
     },
     "aypl:3093218-pl-bmw-x1": {
       "title": "BMW X1",
-      "price": 79899,
+      "price": 77899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": true,
-      "goneSince": "2026-10-29T14:12:05.350Z"
+      "gone": false
     },
     "aypl:3068324-pl-bmw-x2": {
       "title": "BMW X2",
@@ -3210,7 +3209,7 @@
     },
     "aypl:2802758-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 94899,
+      "price": 88899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3254,7 +3253,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-26T19:22:31.886Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T19:42:02.875Z"
     },
     "aypl:2722452-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
@@ -3267,8 +3267,8 @@
     "aypl:2752370-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 104899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-26T23:21:14.449Z",
       "gone": false
     },
@@ -3348,8 +3348,8 @@
     "aybe:386870-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 22990,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-27T16:33:08.785Z",
       "gone": false
     },
@@ -3485,9 +3485,49 @@
     "aypl:2621946-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 105899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
+      "firstSeen": "2026-10-29T14:12:05.350Z",
+      "gone": false
+    },
+    "rent:13227943": {
+      "title": "Briggemandreef 59",
+      "price": 1076,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
-      "firstSeen": "2026-10-29T14:12:05.350Z",
+      "firstSeen": "2026-10-29T19:42:02.875Z",
+      "gone": false
+    },
+    "rent:13229779": {
+      "title": "Jan Evertsenplaats 155",
+      "price": 1299,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-29T19:42:02.875Z",
+      "gone": false
+    },
+    "zww:90767": {
+      "title": "Van Dishoeckstraat 236",
+      "price": 635.53,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-29T19:42:02.875Z",
+      "gone": false
+    },
+    "zww:90776": {
+      "title": "Grevelingenstraat 21",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-29T19:42:02.875Z",
+      "gone": false
+    },
+    "aybe:384861-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 24590,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-29T19:42:02.875Z",
       "gone": false
     }
   },
