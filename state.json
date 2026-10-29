@@ -1097,8 +1097,8 @@
     "corpo:72050": {
       "title": "Boutenburg 89",
       "price": 325000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1153,8 +1153,8 @@
     "corpo:66445": {
       "title": "Papendrechtstraat 27",
       "price": 290000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1715,8 +1715,8 @@
     "corpo:73044": {
       "title": "Sara Cornelia Molen 10",
       "price": 315000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1977,7 +1977,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "corpo:72727": {
       "title": "Fazantstraat 49-B",
@@ -2196,7 +2197,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "corpo:65816": {
       "title": "Willem Buytewechstraat 196-A03",
@@ -2242,7 +2244,7 @@
       "title": "Lodewijk Pincoffsweg 23",
       "price": 332000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Nieuw, Open huis",
       "firstSeen": "2026-10-22T04:13:24.291Z",
       "gone": false
     },
@@ -2541,8 +2543,8 @@
     "aybe:385316-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 24490,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2590,8 +2592,8 @@
     "aybe:384259-bmw-x1": {
       "title": "BMW X1",
       "price": 20790,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2613,7 +2615,7 @@
     },
     "aybe:364982-bmw-2grancoupe": {
       "title": "BMW 2 Gran Coup&eacute;",
-      "price": 24990,
+      "price": 23890,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2629,7 +2631,7 @@
     },
     "aybe:382434-audi-a3sedan": {
       "title": "Audi A3 Sedan",
-      "price": 21290,
+      "price": 20290,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2796,8 +2798,8 @@
     "aypl:2878824-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 84899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2871,7 +2873,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "aypl:3018854-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -2908,7 +2911,7 @@
     },
     "aypl:2670609-pl-bmw-2grantourer": {
       "title": "BMW 2 Gran Tourer",
-      "price": 90899,
+      "price": 85899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2928,7 +2931,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "aypl:2840024-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
@@ -2952,7 +2956,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "aypl:2990311-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
@@ -3065,7 +3070,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "aypl:3093218-pl-bmw-x1": {
       "title": "BMW X1",
@@ -3073,7 +3079,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "aypl:3068324-pl-bmw-x2": {
       "title": "BMW X2",
@@ -3093,7 +3100,7 @@
     },
     "aypl:2744255-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 85899,
+      "price": 82899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3114,7 +3121,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "aypl:3067253-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3258,9 +3266,9 @@
     },
     "aypl:2752370-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
-      "price": 109899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "price": 104899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-26T23:21:14.449Z",
       "gone": false
     },
@@ -3423,7 +3431,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-28T16:45:20.882Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T14:12:05.350Z"
     },
     "zww:90750": {
       "title": "De Kungsholmstraat 9",
@@ -3447,6 +3456,38 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-10-29T07:01:36.632Z",
+      "gone": false
+    },
+    "bog:13214686": {
+      "title": "in de Fuik 9",
+      "price": 1553.33,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-29T14:12:05.350Z",
+      "gone": false
+    },
+    "ikw:870060a4ab747c782ef35eea47562a23": {
+      "title": "Appartement Van Oldenbarneveltplaats 28 G",
+      "price": 1890,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-29T14:12:05.350Z",
+      "gone": false
+    },
+    "aybe:384289-mercedes-benz-clasb": {
+      "title": "Mercedes-Benz CLA SB",
+      "price": 24390,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-29T14:12:05.350Z",
+      "gone": false
+    },
+    "aypl:2621946-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 105899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-29T14:12:05.350Z",
       "gone": false
     }
   },
