@@ -1517,8 +1517,8 @@
     "corpo:72908": {
       "title": "Hontenissestraat 147",
       "price": 215000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1766,7 +1766,7 @@
       "title": "Vasaristraat 144",
       "price": 330000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3501,8 +3501,8 @@
     "rent:13229779": {
       "title": "Jan Evertsenplaats 155",
       "price": 1299,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-10-29T19:42:02.875Z",
       "gone": false
     },
@@ -3634,8 +3634,8 @@
     "2992ZK": 8.9
   },
   "fx": {
-    "date": "2026-10-29",
-    "pln": 4.4045
+    "date": "2026-10-30",
+    "pln": 4.3938
   },
   "darija": {
     "introSent": true,
