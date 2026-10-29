@@ -268,8 +268,8 @@
     "ikw:3adf83556b01f27e1252bbba156e6789": {
       "title": "Appartement Laan Op Zuid 1583",
       "price": 1233,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -300,16 +300,16 @@
     "ikw:04ec669ad719d7fed78771c413ec4725": {
       "title": "Appartement Laan op Zuid 1544",
       "price": 1500,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:782d29f48e9f55f837790d823d8c9a75": {
       "title": "Appartement Poldermolenplein 96",
       "price": 1370,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -428,8 +428,8 @@
     "ikw:e77acf671b29fef8ba0140e6f3a274ee": {
       "title": "Appartement Louis Pregerkade 162",
       "price": 1492,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -532,8 +532,8 @@
     "ikw:a816f2fbb29985b1274f80a6d1bd2bef": {
       "title": "Appartement Louis Pregerkade 180",
       "price": 1491,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -644,8 +644,8 @@
     "ikw:878e32b30c077162d00e09e2a7aae62d": {
       "title": "Appartement 's-gravelandseweg 923",
       "price": 1290,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -660,8 +660,8 @@
     "ikw:f9b0327dd0555a6f6b8a1c58c15f2ffd": {
       "title": "Appartement Laan op Zuid 1510",
       "price": 1430,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -708,8 +708,8 @@
     "ikw:126a46278837381b9fa2a6ada8fc099f": {
       "title": "Eengezinswoning John Coltranestraat 50",
       "price": 1603,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -756,8 +756,8 @@
     "ikw:8c2b79e85ced7a9bd68d37e05b7ac74d": {
       "title": "Eengezinswoning Dirkje Goedhartstraat 114",
       "price": 1688,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -859,7 +859,7 @@
     },
     "ikw:70aa51a4d6bc837f556425813c248358": {
       "title": "Appartement Van Oldenbarneveltplaats 14 C",
-      "price": 2215,
+      "price": 2150,
       "statusCode": "verhuurd-onder-voorbehoud",
       "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
@@ -1236,7 +1236,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-29T07:01:36.632Z"
     },
     "corpo:66715": {
       "title": "Ring 6",
@@ -1515,7 +1516,7 @@
       "title": "Hontenissestraat 147",
       "price": 215000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2248,8 +2249,8 @@
     "ikw:e32b905ea7ef0ef0139b16c506072588": {
       "title": "Appartement Mia Van Ijperenplein 22",
       "price": 1784,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-22T10:37:33.256Z",
       "gone": false
     },
@@ -3209,7 +3210,7 @@
     },
     "ikw:33b261201ffdc0a68f994c77b1b07162": {
       "title": "Appartement Laan op Zuid 1518",
-      "price": 1425,
+      "price": 1450,
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-26T13:49:03.377Z",
@@ -3439,16 +3440,24 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-28T21:22:01.697Z",
       "gone": false
+    },
+    "corpo:66856": {
+      "title": "Bredehof 27",
+      "price": 325000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-29T07:01:36.632Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-28",
+  "lastHeartbeat": "2026-10-29",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-28",
+      "lastFullScan": "2026-10-29",
       "failures": 0,
       "initialized": true
     },
@@ -3549,6 +3558,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-28"
+    "lastDate": "2026-10-29"
   }
 }
