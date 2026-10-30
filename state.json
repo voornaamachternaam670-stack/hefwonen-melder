@@ -2395,8 +2395,8 @@
     "aybe:378462-volkswagen-golf": {
       "title": "Volkswagen Golf",
       "price": 21290,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2411,8 +2411,8 @@
     "aybe:387432-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 22390,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3362,7 +3362,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-27T19:29:50.239Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-30T20:53:18.261Z"
     },
     "corpo:72816": {
       "title": "Ring 14",
@@ -3596,6 +3597,30 @@
       "statusCode": "Coming soon",
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-10-30T16:16:47.859Z",
+      "gone": false
+    },
+    "rent:13235101": {
+      "title": "Bergselaan 310 C",
+      "price": 1121,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-10-30T20:53:18.261Z",
+      "gone": false
+    },
+    "zww:90780": {
+      "title": "Piet Heinkade 23",
+      "price": 506.79,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T20:53:18.261Z",
+      "gone": false
+    },
+    "zww:90785": {
+      "title": "Margrietenlaan 48",
+      "price": 700.11,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T20:53:18.261Z",
       "gone": false
     }
   },
