@@ -1649,7 +1649,7 @@
       "title": "Nassauhaven 264",
       "price": 330000,
       "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusLabel": "Open huis",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1681,7 +1681,7 @@
       "title": "Pleinweg 27-C",
       "price": 250000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1704,8 +1704,8 @@
     "corpo:73018": {
       "title": "Rilland Bathstraat 142",
       "price": 230000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1752,8 +1752,8 @@
     "corpo:73132": {
       "title": "Van Hardenbroekstraat 1",
       "price": 365000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3045,8 +3045,8 @@
     "aypl:2933710-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
       "price": 94899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3103,8 +3103,8 @@
     "aypl:2744255-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 82899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3557,6 +3557,46 @@
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-30T09:44:47.036Z",
       "gone": false
+    },
+    "ikw:e670b487a772f8f49b9358e3322acb9f": {
+      "title": "Appartement 's-gravelandseweg 1025",
+      "price": 1214,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T16:16:47.859Z",
+      "gone": false
+    },
+    "ikw:6ea76a4e3388e09778881224724b9a00": {
+      "title": "Appartement Posthoornstraat 320",
+      "price": 1975,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T16:16:47.859Z",
+      "gone": false
+    },
+    "ikw:005b5864aaefbc39ad0b053790e256cb": {
+      "title": "Appartement Boezemlaan 50 H",
+      "price": 1675,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T16:16:47.859Z",
+      "gone": false
+    },
+    "ikw:14c6f4dc07cb7f415787d7ddccc57865": {
+      "title": "Appartement Van Der Hoevenplein 272",
+      "price": 1520,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T16:16:47.859Z",
+      "gone": false
+    },
+    "aypl:2700419-pl-bmw-series1": {
+      "title": "BMW Series 1",
+      "price": 89899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-10-30T16:16:47.859Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-30",
@@ -3660,7 +3700,9 @@
     "3063KD": 3.2,
     "3076JC": 6.5,
     "2992ZK": 8.9,
-    "3071ZM": 2.7
+    "3071ZM": 2.7,
+    "3011WD": 0.5,
+    "2711DA": 15.2
   },
   "fx": {
     "date": "2026-10-30",
