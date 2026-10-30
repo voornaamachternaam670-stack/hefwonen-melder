@@ -289,7 +289,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-30T09:44:47.036Z"
     },
     "ikw:c2042ff9733e9c80a91835100cecf236": {
       "title": "Appartement Diepeveenstraat 50",
@@ -406,8 +407,8 @@
     "ikw:620988105277f448d06338b70d07e6f4": {
       "title": "Eengezinswoning Oosterscheldestraat 82",
       "price": 1625,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -462,8 +463,8 @@
     "ikw:8ebbc9d75b935405b4fb5c59253804f9": {
       "title": "Eengezinswoning Astanaplein 76",
       "price": 1425,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -477,17 +478,17 @@
     },
     "ikw:292e6711f6013a84d0502b9679a2fab0": {
       "title": "Appartement Laan op Zuid 1204",
-      "price": 1750,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "price": 1850,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:90781503dc5b10ee22e520f8a88d2c44": {
       "title": "Appartement Hoge Filterweg 638",
       "price": 1200,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -518,8 +519,8 @@
     "ikw:dd7877c27bfc33ab484eb5d7f31d0e09": {
       "title": "Eengezinswoning Simon Carmiggeltstraat 74",
       "price": 1570,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -569,7 +570,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-30T09:44:47.036Z"
     },
     "ikw:dd8f7475313d97153f4383291b208214": {
       "title": "Appartement Boezemlaan 51 H",
@@ -625,7 +627,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-30T09:44:47.036Z"
     },
     "ikw:c2486386c4c62e4dca400d7eb60f6025": {
       "title": "Appartement Karl Weisbardstraat 51",
@@ -646,8 +649,8 @@
     "ikw:878e32b30c077162d00e09e2a7aae62d": {
       "title": "Appartement 's-gravelandseweg 923",
       "price": 1290,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -686,8 +689,8 @@
     "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
       "title": "Appartement 's-gravelandseweg 729",
       "price": 1440,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -734,8 +737,8 @@
     "ikw:29d6b38133f8e88a9d8aa2c1060cdc68": {
       "title": "Appartement Samuel Soesmanstraat 102",
       "price": 1564,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -773,9 +776,9 @@
     },
     "ikw:848c26f9260175411fdd5f4adb681743": {
       "title": "Appartement Laan op Zuid 1352",
-      "price": 1825,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "price": 1800,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -1702,7 +1705,7 @@
       "title": "Rilland Bathstraat 142",
       "price": 230000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3242,8 +3245,8 @@
     "ikw:2ed275248b1f3c978330285457c89c80": {
       "title": "Appartement Boezemlaan 40 N",
       "price": 1670,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-26T15:25:00.655Z",
       "gone": false
     },
@@ -3412,8 +3415,8 @@
     "ikw:62ab4d6aa071da16e1153d0105bd7a0b": {
       "title": "Eengezinswoning Adrianapolder 75",
       "price": 1505,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-28T16:45:20.882Z",
       "gone": false
     },
@@ -3488,13 +3491,14 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-29T14:12:05.350Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-30T09:44:47.036Z"
     },
     "rent:13227943": {
       "title": "Briggemandreef 59",
       "price": 1076,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-10-29T19:42:02.875Z",
       "gone": false
     },
@@ -3529,16 +3533,40 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-10-29T19:42:02.875Z",
       "gone": false
+    },
+    "ikw:12d3659b4e599461823cef467f1f6bee": {
+      "title": "Eengezinswoning Stokerstraat 11",
+      "price": 2150,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-10-30T09:44:47.036Z",
+      "gone": false
+    },
+    "corpo:73405": {
+      "title": "Oranje-Nassaustraat 18",
+      "price": 340000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-10-30T09:44:47.036Z",
+      "gone": false
+    },
+    "aybe:386898-audi-a1sportback": {
+      "title": "Audi A1 Sportback",
+      "price": 22790,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-10-30T09:44:47.036Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-29",
+  "lastHeartbeat": "2026-10-30",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-29",
+      "lastFullScan": "2026-10-30",
       "failures": 0,
       "initialized": true
     },
@@ -3631,7 +3659,8 @@
     "3069XL": 8.3,
     "3063KD": 3.2,
     "3076JC": 6.5,
-    "2992ZK": 8.9
+    "2992ZK": 8.9,
+    "3071ZM": 2.7
   },
   "fx": {
     "date": "2026-10-30",
@@ -3639,6 +3668,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-29"
+    "lastDate": "2026-10-30"
   }
 }
