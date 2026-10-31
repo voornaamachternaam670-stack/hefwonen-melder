@@ -2249,7 +2249,7 @@
       "title": "Lodewijk Pincoffsweg 23",
       "price": 332000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-22T04:13:24.291Z",
       "gone": false
     },
@@ -2388,7 +2388,7 @@
       "title": "Van Speykstraat 160",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-24T04:33:45.637Z",
       "gone": false
     },
@@ -3377,7 +3377,7 @@
       "title": "Beukelsweg 39-B",
       "price": 365000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-28T05:25:48.921Z",
       "gone": false
     },
@@ -3632,8 +3632,9 @@
     },
     "ikwilhuren": {
       "lastFullScan": "2026-10-30",
-      "failures": 0,
-      "initialized": true
+      "failures": 1,
+      "initialized": true,
+      "failingSince": "2026-10-31T00:21:50.943Z"
     },
     "zuidwestwonen": {
       "failures": 0,
@@ -3730,8 +3731,8 @@
     "2711DA": 15.2
   },
   "fx": {
-    "date": "2026-10-30",
-    "pln": 4.3938
+    "date": "2026-10-31",
+    "pln": 4.4038
   },
   "darija": {
     "introSent": true,
