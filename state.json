@@ -1567,8 +1567,8 @@
     "corpo:72992": {
       "title": "Japarastraat 83",
       "price": 242250,
-      "statusCode": "available",
-      "statusLabel": "Nieuw, Koopgarant",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3647,7 +3647,7 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-30",
+  "lastHeartbeat": "2026-10-31",
   "sources": {
     "hefwonen": {
       "initialized": true,
