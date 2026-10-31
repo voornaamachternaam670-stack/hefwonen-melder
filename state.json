@@ -343,8 +343,8 @@
     "ikw:8d79fcee63a68933e2182f11f89f1e9d": {
       "title": "Appartement Jufferhof 50 A",
       "price": 1201,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -359,8 +359,8 @@
     "ikw:60db1e4689e0b5ad1946437f4c46df40": {
       "title": "Appartement Van Oldenbarneveltplaats 22 B",
       "price": 1850,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -407,8 +407,8 @@
     "ikw:620988105277f448d06338b70d07e6f4": {
       "title": "Eengezinswoning Oosterscheldestraat 82",
       "price": 1625,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -554,7 +554,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:bdaf9b9a037dff2434f41c9b6c3c3d4f": {
       "title": "Appartement Karl Weisbardstraat 107",
@@ -587,7 +588,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:f2e2478e7bbc9ccb842478b40924623d": {
       "title": "Eengezinswoning Gildebrink 5",
@@ -603,13 +605,14 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:8e65be7fa89eb433cb382ce74f3bebc3": {
       "title": "Appartement Diepeveenstraat 46",
       "price": 1613,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -676,7 +679,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:2a9a84a1de0954d8d625b88d080944d0": {
       "title": "Appartement Wijnhaven 77 D",
@@ -684,7 +688,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
       "title": "Appartement 's-gravelandseweg 729",
@@ -772,7 +777,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:848c26f9260175411fdd5f4adb681743": {
       "title": "Appartement Laan op Zuid 1352",
@@ -812,7 +818,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T06:05:53.833Z"
     },
     "ikw:9f79c05f0f156a2cd22df2918fe13ab3": {
       "title": "Appartement Van Oldenbarneveltplaats 18 E",
@@ -825,8 +832,8 @@
     "ikw:e84c5af805e32d7771399fad0e136b22": {
       "title": "Appartement Van Oldenbarneveltplaats 14 K",
       "price": 1990,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -849,16 +856,16 @@
     "ikw:ece9f73968886d698bb8bfd28058b534": {
       "title": "Appartement Karl Weisbardstraat 337",
       "price": 2004,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:4fce2cb07d825bc2a54eb3f37ed8911a": {
       "title": "Appartement Drierivierenlaan 471",
       "price": 1325,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -3221,8 +3228,8 @@
     "ikw:33b261201ffdc0a68f994c77b1b07162": {
       "title": "Appartement Laan op Zuid 1518",
       "price": 1450,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-26T13:49:03.377Z",
       "gone": false
     },
@@ -3408,8 +3415,8 @@
     "ikw:f727b7fbff4c73bff563d9d96b0cd8fd": {
       "title": "Eengezinswoning Beauvoirstraat, Simone de 31",
       "price": 1600,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-28T10:23:53.606Z",
       "gone": false
     },
@@ -3622,6 +3629,22 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-30T20:53:18.261Z",
       "gone": false
+    },
+    "corpo:73336": {
+      "title": "Kaneelhof 23",
+      "price": 242250,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Koopgarant",
+      "firstSeen": "2026-10-31T06:05:53.833Z",
+      "gone": false
+    },
+    "corpo:73037": {
+      "title": "Nassauhaven 108",
+      "price": 305000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-10-31T06:05:53.833Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-10-30",
@@ -3631,10 +3654,9 @@
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-30",
-      "failures": 1,
-      "initialized": true,
-      "failingSince": "2026-10-31T00:21:50.943Z"
+      "lastFullScan": "2026-10-31",
+      "failures": 0,
+      "initialized": true
     },
     "zuidwestwonen": {
       "failures": 0,
@@ -3736,6 +3758,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-30"
+    "lastDate": "2026-10-31"
   }
 }
