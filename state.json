@@ -2924,8 +2924,8 @@
     "aypl:2670609-pl-bmw-2grantourer": {
       "title": "BMW 2 Gran Tourer",
       "price": 85899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
