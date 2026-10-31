@@ -3451,7 +3451,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-28T21:22:01.697Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T20:29:14.069Z"
     },
     "zww:90763": {
       "title": "Ribesstraat 30",
@@ -3459,7 +3460,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-28T21:22:01.697Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T20:29:14.069Z"
     },
     "corpo:66856": {
       "title": "Bredehof 27",
@@ -3620,7 +3622,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-30T20:53:18.261Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-10-31T20:29:14.069Z"
     },
     "zww:90785": {
       "title": "Margrietenlaan 48",
