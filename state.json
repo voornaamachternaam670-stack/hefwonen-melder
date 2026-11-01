@@ -3342,8 +3342,8 @@
     "ikw:4ea0272aef14af47e520af4d93a22d9b": {
       "title": "Appartement Hoge Filterweg 234",
       "price": 1250,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-27T15:48:16.946Z",
       "gone": false
     },
@@ -3650,14 +3650,14 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-10-31",
+  "lastHeartbeat": "2026-11-01",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-10-31",
+      "lastFullScan": "2026-11-01",
       "failures": 0,
       "initialized": true
     },
@@ -3761,6 +3761,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-10-31"
+    "lastDate": "2026-11-01"
   }
 }
