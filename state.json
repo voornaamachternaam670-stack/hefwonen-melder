@@ -3526,7 +3526,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-29T19:42:02.875Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-01T20:42:44.843Z"
     },
     "zww:90776": {
       "title": "Grevelingenstraat 21",
@@ -3534,7 +3535,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-29T19:42:02.875Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-01T20:42:44.843Z"
     },
     "aybe:384861-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
