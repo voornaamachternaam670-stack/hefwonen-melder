@@ -2607,7 +2607,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-02T22:08:03.278Z"
     },
     "aybe:382308-mercedes-benz-asedan": {
       "title": "Mercedes-Benz A Sedan",
@@ -3095,8 +3096,8 @@
     "aypl:3068324-pl-bmw-x2": {
       "title": "BMW X2",
       "price": 93899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3379,8 +3380,8 @@
     "corpo:72816": {
       "title": "Ring 14",
       "price": 235000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-28T05:25:48.921Z",
       "gone": false
     },
@@ -3545,8 +3546,8 @@
     "aybe:384861-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 24590,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-29T19:42:02.875Z",
       "gone": false
     },
@@ -3569,8 +3570,8 @@
     "aybe:386898-audi-a1sportback": {
       "title": "Audi A1 Sportback",
       "price": 22790,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-30T09:44:47.036Z",
       "gone": false
     },
@@ -3637,7 +3638,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-10-30T20:53:18.261Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-02T22:08:03.278Z"
     },
     "corpo:73336": {
       "title": "Kaneelhof 23",
@@ -3661,6 +3663,30 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-02T12:52:36.259Z",
+      "gone": false
+    },
+    "rent:13250511": {
+      "title": "Putselaan 6 D",
+      "price": 1304,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-02T22:08:03.278Z",
+      "gone": false
+    },
+    "rent:13250512": {
+      "title": "Willebrordusstraat 111 B",
+      "price": 1210,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-02T22:08:03.278Z",
+      "gone": false
+    },
+    "aypl:2835699-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 88899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-02T22:08:03.278Z",
       "gone": false
     }
   },
