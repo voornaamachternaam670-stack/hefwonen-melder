@@ -262,8 +262,8 @@
     "ikw:ca1d66782372849ea08ec95347890552": {
       "title": "Appartement Jufferstraat 13 D",
       "price": 1922,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -335,8 +335,8 @@
     "ikw:014ec220053408f08bae934f059eea07": {
       "title": "Eengezinswoning Paul Desmondsingel 80",
       "price": 1603,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -367,8 +367,8 @@
     "ikw:5cf657d0817bb339f80973178c6612e5": {
       "title": "Appartement Van Oldenbarneveltplaats 16 B",
       "price": 1850,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -594,8 +594,8 @@
     "ikw:f2e2478e7bbc9ccb842478b40924623d": {
       "title": "Eengezinswoning Gildebrink 5",
       "price": 1485,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -611,8 +611,8 @@
     "ikw:8e65be7fa89eb433cb382ce74f3bebc3": {
       "title": "Appartement Diepeveenstraat 46",
       "price": 1613,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -1158,7 +1158,7 @@
       "title": "Osdorper Ban 89",
       "price": 327500,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2539,8 +2539,8 @@
     "aybe:384711-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 24490,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2830,7 +2830,8 @@
       "statusCode": "Coming soon",
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-02T12:52:36.259Z"
     },
     "aypl:2803401-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3052,8 +3053,8 @@
     "aypl:2933710-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
       "price": 94899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3113,7 +3114,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-02T12:52:36.259Z"
     },
     "aypl:2522959-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
@@ -3163,7 +3165,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-02T12:52:36.259Z"
     },
     "aypl:2707433-pl-bmw-series2active": {
       "title": "BMW Series 2 Active",
@@ -3180,7 +3183,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-02T12:52:36.259Z"
     },
     "aypl:2720789-pl-volkswagen-taigo": {
       "title": "Volkswagen Taigo",
@@ -3334,8 +3338,8 @@
     "ikw:6e0b483539b54d7b2bb8f930c0c293eb": {
       "title": "Appartement Louis Pregerkade 318",
       "price": 1159,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-27T14:10:31.482Z",
       "gone": false
     },
@@ -3415,8 +3419,8 @@
     "ikw:f727b7fbff4c73bff563d9d96b0cd8fd": {
       "title": "Eengezinswoning Beauvoirstraat, Simone de 31",
       "price": 1600,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-28T10:23:53.606Z",
       "gone": false
     },
@@ -3605,8 +3609,8 @@
     "aypl:2700419-pl-bmw-series1": {
       "title": "BMW Series 1",
       "price": 89899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-30T16:16:47.859Z",
       "gone": false
     },
@@ -3650,16 +3654,24 @@
       "statusLabel": "Nieuw, Open huis",
       "firstSeen": "2026-10-31T06:05:53.833Z",
       "gone": false
+    },
+    "aybe:388737-audi-q2": {
+      "title": "Audi Q2",
+      "price": 22390,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-02T12:52:36.259Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-01",
+  "lastHeartbeat": "2026-11-02",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-01",
+      "lastFullScan": "2026-11-02",
       "failures": 0,
       "initialized": true
     },
@@ -3763,6 +3775,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-01"
+    "lastDate": "2026-11-02"
   }
 }
