@@ -30,7 +30,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "rent:13120408": {
       "title": "Huigendijk 3",
@@ -55,7 +56,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "rent:13144746": {
       "title": "Albert Camusplaats 159",
@@ -63,7 +65,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "rent:13181037": {
       "title": "Burgemeester Brokxlaan 2064",
@@ -639,7 +642,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "ikw:9fee49e04f9a7fbf9c75fab995d50b9f": {
       "title": "Appartement Laan op Zuid 1218",
@@ -694,8 +698,8 @@
     "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
       "title": "Appartement 's-gravelandseweg 729",
       "price": 1440,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -726,8 +730,8 @@
     "ikw:c21c1742f8e5c1761d662f718c4740be": {
       "title": "Appartement Karl Weisbardstraat 139",
       "price": 1801,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -1094,7 +1098,7 @@
       "title": "Boutenburg 271",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1118,7 +1122,7 @@
       "title": "Boutenburg 9",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1455,8 +1459,8 @@
     "corpo:66726": {
       "title": "Edmond Hellenraadstraat 44",
       "price": 275000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2022,7 +2026,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "corpo:66349": {
       "title": "Kemperweg 136",
@@ -2048,7 +2053,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "corpo:67185": {
       "title": "Langegeer 97",
@@ -2064,7 +2070,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "corpo:67186": {
       "title": "Pantelleriapad 75",
@@ -2539,8 +2546,8 @@
     "aybe:384711-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 24490,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2563,8 +2570,8 @@
     "aybe:382928-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 24990,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2588,8 +2595,8 @@
     "aybe:384302-volkswagen-golf": {
       "title": "Volkswagen Golf",
       "price": 23790,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2780,7 +2787,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T11:14:37.982Z"
     },
     "aybe:366414-mercedes-benz-asedan": {
       "title": "Mercedes-Benz A Sedan",
@@ -2853,8 +2861,8 @@
     "aypl:2644991-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 85899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3257,8 +3265,8 @@
     "ikw:2ed275248b1f3c978330285457c89c80": {
       "title": "Appartement Boezemlaan 40 N",
       "price": 1670,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-26T15:25:00.655Z",
       "gone": false
     },
@@ -3315,8 +3323,8 @@
     "ikw:e684162b8bc5d4618ead32ef30fe3eca": {
       "title": "Appartement Jufferstraat 15 X",
       "price": 1596,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-27T13:20:00.215Z",
       "gone": false
     },
@@ -3331,8 +3339,8 @@
     "ikw:141b8bc155d72649d8b138525be5a6f0": {
       "title": "Eengezinswoning Paul Desmondsingel 104",
       "price": 1603,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-27T13:20:00.215Z",
       "gone": false
     },
@@ -3688,16 +3696,32 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-02T22:08:03.278Z",
       "gone": false
+    },
+    "ikw:d835b9631d2d2c019069a4b071d0fd80": {
+      "title": "Jan Stuytstraat 80",
+      "price": 1414,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-03T11:14:37.982Z",
+      "gone": false
+    },
+    "corpo:73117": {
+      "title": "Jaffa 32-E",
+      "price": 360000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-11-03T11:14:37.982Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-02",
+  "lastHeartbeat": "2026-11-03",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-02",
+      "lastFullScan": "2026-11-03",
       "failures": 0,
       "initialized": true
     },
@@ -3793,7 +3817,8 @@
     "2992ZK": 8.9,
     "3071ZM": 2.7,
     "3011WD": 0.5,
-    "2711DA": 15.2
+    "2711DA": 15.2,
+    "2662JB": 8.4
   },
   "fx": {
     "date": "2026-11-03",
@@ -3801,6 +3826,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-02"
+    "lastDate": "2026-11-03"
   }
 }
