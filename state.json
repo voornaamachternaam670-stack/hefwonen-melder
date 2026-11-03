@@ -1169,8 +1169,8 @@
     "corpo:66445": {
       "title": "Papendrechtstraat 27",
       "price": 290000,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "statusCode": "available",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1739,8 +1739,8 @@
     "corpo:65863": {
       "title": "Schinnenbaan 108",
       "price": 330000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2428,7 +2428,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T18:28:32.802Z"
     },
     "aybe:387498-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
@@ -2498,8 +2499,8 @@
     "aybe:386594-mercedes-benz-cla": {
       "title": "Mercedes-Benz CLA",
       "price": 24790,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2598,7 +2599,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T18:28:32.802Z"
     },
     "aybe:383766-audi-a1sportback": {
       "title": "Audi A1 Sportback",
@@ -2917,9 +2919,9 @@
     },
     "aypl:2678561-pl-volkswagen-golf": {
       "title": "Volkswagen Golf",
-      "price": 84899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "price": 79899,
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2937,7 +2939,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-03T18:28:32.802Z"
     },
     "aypl:2868364-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -2957,7 +2960,7 @@
     },
     "aypl:2840024-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
-      "price": 71899,
+      "price": 65899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2965,7 +2968,7 @@
     },
     "aypl:2840000-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
-      "price": 62899,
+      "price": 59899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2981,7 +2984,7 @@
     },
     "aypl:2990311-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
-      "price": 89899,
+      "price": 84899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2989,7 +2992,7 @@
     },
     "aypl:2627669-pl-audi-q3": {
       "title": "Audi Q3",
-      "price": 87899,
+      "price": 84899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3005,7 +3008,7 @@
     },
     "aypl:2654196-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
-      "price": 98899,
+      "price": 94899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3053,7 +3056,7 @@
     },
     "aypl:2675803-pl-audi-a4": {
       "title": "Audi A4",
-      "price": 103899,
+      "price": 100899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3069,7 +3072,7 @@
     },
     "aypl:2708053-pl-audi-a4": {
       "title": "Audi A4",
-      "price": 104899,
+      "price": 101899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3111,7 +3114,7 @@
     },
     "aypl:2933809-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
-      "price": 97899,
+      "price": 92899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3146,7 +3149,7 @@
     },
     "aypl:3067253-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 75899,
+      "price": 71899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3206,7 +3209,7 @@
     },
     "aypl:2529909-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
-      "price": 79899,
+      "price": 74899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3444,8 +3447,8 @@
     "aybe:388611-mercedes-benz-glb": {
       "title": "Mercedes-Benz GLB",
       "price": 24690,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-28T16:45:20.882Z",
       "gone": false
     },
@@ -3711,6 +3714,38 @@
       "statusCode": "available",
       "statusLabel": "Nieuw, Open huis",
       "firstSeen": "2026-11-03T11:14:37.982Z",
+      "gone": false
+    },
+    "ikw:5e5b808361e244a618535e45ce1d8147": {
+      "title": "Eengezinswoning Oosterscheldestraat 120",
+      "price": 1600,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-03T18:28:32.802Z",
+      "gone": false
+    },
+    "aypl:2923115-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 89899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-03T18:28:32.802Z",
+      "gone": false
+    },
+    "aypl:2636801-pl-mercedes-benz-a-class": {
+      "title": "Mercedes-Benz A-Class",
+      "price": 109899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-03T18:28:32.802Z",
+      "gone": false
+    },
+    "aypl:2659891-pl-volkswagen-arteon": {
+      "title": "Volkswagen Arteon",
+      "price": 108899,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-03T18:28:32.802Z",
       "gone": false
     }
   },
