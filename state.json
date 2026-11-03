@@ -1380,7 +1380,7 @@
       "title": "Cannemanstraat 93",
       "price": 375000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1772,7 +1772,7 @@
       "title": "Van Harmelenstraat 101",
       "price": 347500,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3747,6 +3747,22 @@
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-03T18:28:32.802Z",
       "gone": false
+    },
+    "zww:90799": {
+      "title": "Jan Vermeerlaan 26",
+      "price": 892.37,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-03T23:35:37.158Z",
+      "gone": false
+    },
+    "zww:90800": {
+      "title": "Kalffstraat 10",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-03T23:35:37.158Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-03",
@@ -3856,8 +3872,8 @@
     "2662JB": 8.4
   },
   "fx": {
-    "date": "2026-11-03",
-    "pln": 4.4185
+    "date": "2026-11-04",
+    "pln": 4.419
   },
   "darija": {
     "introSent": true,
