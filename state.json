@@ -91,7 +91,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T18:36:32.354Z"
     },
     "rent:13189959": {
       "title": "Dennekruid 31",
@@ -1198,8 +1199,8 @@
     "corpo:73035": {
       "title": "Schoorlstraat 85",
       "price": 400000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1673,7 +1674,7 @@
       "title": "Oostmaaslaan 225-D",
       "price": 337000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1973,7 +1974,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T18:36:32.354Z"
     },
     "corpo:65985": {
       "title": "Dr. Zamenhofstraat 32-C",
@@ -2164,7 +2166,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T18:36:32.354Z"
     },
     "corpo:66667": {
       "title": "Van Hardenbroekstraat 33",
@@ -2504,8 +2507,8 @@
     "aybe:386594-mercedes-benz-cla": {
       "title": "Mercedes-Benz CLA",
       "price": 24790,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2576,8 +2579,8 @@
     "aybe:382928-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 24990,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3155,8 +3158,8 @@
     "aypl:3067253-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 71899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3171,8 +3174,8 @@
     "aypl:2589523-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
       "price": 63899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3371,8 +3374,8 @@
     "aybe:346229-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 23690,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-27T16:33:08.785Z",
       "gone": false
     },
@@ -3759,7 +3762,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-03T23:35:37.158Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T18:36:32.354Z"
     },
     "zww:90800": {
       "title": "Kalffstraat 10",
@@ -3791,6 +3795,54 @@
       "statusCode": "available",
       "statusLabel": "Nieuw, Koopgarant",
       "firstSeen": "2026-11-04T11:05:59.474Z",
+      "gone": false
+    },
+    "aybe:389180-bmw-x2": {
+      "title": "BMW X2",
+      "price": 24190,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-04T18:36:32.354Z",
+      "gone": false
+    },
+    "aybe:387506-bmw-3touring": {
+      "title": "BMW 3 Touring",
+      "price": 24590,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-04T18:36:32.354Z",
+      "gone": false
+    },
+    "aybe:387426-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 24790,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-04T18:36:32.354Z",
+      "gone": false
+    },
+    "aybe:386528-mercedes-benz-cla": {
+      "title": "Mercedes-Benz CLA",
+      "price": 23590,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-04T18:36:32.354Z",
+      "gone": false
+    },
+    "aybe:387531-mercedes-benz-a": {
+      "title": "Mercedes-Benz A",
+      "price": 24990,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-04T18:36:32.354Z",
+      "gone": false
+    },
+    "aybe:381579-mercedes-benz-clasb": {
+      "title": "Mercedes-Benz CLA SB",
+      "price": 23890,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     }
   },
