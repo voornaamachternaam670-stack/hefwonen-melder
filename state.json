@@ -1666,7 +1666,7 @@
       "title": "Nassauhaven 264",
       "price": 330000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3672,7 +3672,7 @@
       "title": "Nassauhaven 108",
       "price": 305000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-31T06:05:53.833Z",
       "gone": false
     },
@@ -3844,6 +3844,78 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
+    },
+    "rent:13258853": {
+      "title": "Makreelstraat 9",
+      "price": 1055,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "rent:13258854": {
+      "title": "Marlijnstraat 11",
+      "price": 1278,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90827": {
+      "title": "Van Reenenstraat 5",
+      "price": 935.61,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90828": {
+      "title": "Hercules Segherslaan 44",
+      "price": 633.92,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90829": {
+      "title": "Hercules Segherslaan 262",
+      "price": 628.43,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90820": {
+      "title": "Van Dishoeckstraat 380",
+      "price": 757.89,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90825": {
+      "title": "Doctor Ottestraat 27",
+      "price": 728.32,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90826": {
+      "title": "Geulstraat 79",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
+    },
+    "zww:90814": {
+      "title": "Van Hogendorpweg 56",
+      "price": 282500,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-11-04T23:55:03.595Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-04",
@@ -3954,8 +4026,8 @@
     "3072LM": 2.3
   },
   "fx": {
-    "date": "2026-11-04",
-    "pln": 4.419
+    "date": "2026-11-05",
+    "pln": 4.399
   },
   "darija": {
     "introSent": true,
