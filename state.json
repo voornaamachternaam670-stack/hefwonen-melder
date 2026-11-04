@@ -22,7 +22,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T11:05:59.474Z"
     },
     "rent:13037430": {
       "title": "Heemskerkstraat 5 B",
@@ -306,8 +307,8 @@
     "ikw:04ec669ad719d7fed78771c413ec4725": {
       "title": "Appartement Laan op Zuid 1544",
       "price": 1500,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -346,8 +347,8 @@
     "ikw:8d79fcee63a68933e2182f11f89f1e9d": {
       "title": "Appartement Jufferhof 50 A",
       "price": 1201,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -442,8 +443,8 @@
     "ikw:27b6aae34d391c1b175b67260c79fb41": {
       "title": "Appartement 's-gravelandseweg 919",
       "price": 1415,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -533,7 +534,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T11:05:59.474Z"
     },
     "ikw:a816f2fbb29985b1274f80a6d1bd2bef": {
       "title": "Appartement Louis Pregerkade 180",
@@ -698,24 +700,24 @@
     "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
       "title": "Appartement 's-gravelandseweg 729",
       "price": 1440,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:9ccc247c5451494aa95932a81e6b6e8c": {
       "title": "Appartement Laan Op Zuid 1479",
       "price": 1569,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:776b0b1e6ebdd4a2ec8ac8aa317cb135": {
       "title": "Appartement Jufferstraat 13 E",
       "price": 1785,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -730,24 +732,24 @@
     "ikw:c21c1742f8e5c1761d662f718c4740be": {
       "title": "Appartement Karl Weisbardstraat 139",
       "price": 1801,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:15e45370fff02a714cad92bc1ab0332e": {
       "title": "Appartement Louis Pregerkade 442",
       "price": 1617,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:29d6b38133f8e88a9d8aa2c1060cdc68": {
       "title": "Appartement Samuel Soesmanstraat 102",
       "price": 1564,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -860,8 +862,8 @@
     "ikw:ece9f73968886d698bb8bfd28058b534": {
       "title": "Appartement Karl Weisbardstraat 337",
       "price": 2004,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -1044,7 +1046,8 @@
       "statusCode": "available",
       "statusLabel": "Nieuw in verkoop",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T11:05:59.474Z"
     },
     "zww:90511": {
       "title": "Schaepmanstraat 169",
@@ -1060,7 +1063,8 @@
       "statusCode": "available",
       "statusLabel": "Nieuw in verkoop",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T11:05:59.474Z"
     },
     "zww:90543": {
       "title": "Beatrixlaan 123",
@@ -1068,7 +1072,8 @@
       "statusCode": "available",
       "statusLabel": "Nieuw in verkoop",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-04T11:05:59.474Z"
     },
     "rent:13209944": {
       "title": "Susannadijk 141",
@@ -2863,8 +2868,8 @@
     "aypl:2644991-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 85899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3763,16 +3768,40 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-03T23:35:37.158Z",
       "gone": false
+    },
+    "ikw:d0b8d2bd918ea9efa0f0a95f06ac1975": {
+      "title": "Appartement 's-gravelandseweg 759",
+      "price": 1173,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T11:05:59.474Z",
+      "gone": false
+    },
+    "ikw:04c0d0cb53cd61878f4b849865509e63": {
+      "title": "Appartement Nico Koomanskade 639",
+      "price": 1350,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-04T11:05:59.474Z",
+      "gone": false
+    },
+    "corpo:66844": {
+      "title": "Sibajakstraat 25",
+      "price": 314500,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Koopgarant",
+      "firstSeen": "2026-11-04T11:05:59.474Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-03",
+  "lastHeartbeat": "2026-11-04",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-03",
+      "lastFullScan": "2026-11-04",
       "failures": 0,
       "initialized": true
     },
@@ -3869,7 +3898,8 @@
     "3071ZM": 2.7,
     "3011WD": 0.5,
     "2711DA": 15.2,
-    "2662JB": 8.4
+    "2662JB": 8.4,
+    "3072LM": 2.3
   },
   "fx": {
     "date": "2026-11-04",
@@ -3877,6 +3907,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-03"
+    "lastDate": "2026-11-04"
   }
 }
