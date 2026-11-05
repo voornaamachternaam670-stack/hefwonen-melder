@@ -1893,7 +1893,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-05T05:05:04.127Z"
     },
     "corpo:66660": {
       "title": "Adrianastraat 69",
@@ -2442,8 +2443,8 @@
     "aybe:387498-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 21990,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
