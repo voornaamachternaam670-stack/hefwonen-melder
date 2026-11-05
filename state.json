@@ -1028,7 +1028,8 @@
       "statusCode": "available",
       "statusLabel": "Nieuw in verkoop",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-05T20:38:00.995Z"
     },
     "zww:90140": {
       "title": "Schaepmanstraat 29",
@@ -1101,7 +1102,7 @@
       "title": "Boutenburg 233",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1117,7 +1118,7 @@
       "title": "Boutenburg 341",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1567,7 +1568,7 @@
       "title": "Jaffadwarsstraat 71",
       "price": 375000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1678,8 +1679,8 @@
     "corpo:72668": {
       "title": "Oostmaaslaan 225-D",
       "price": 337000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1717,9 +1718,9 @@
     },
     "corpo:72481": {
       "title": "Rhijnauwensingel 21",
-      "price": 285000,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "price": 279000,
+      "statusCode": "available",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2212,8 +2213,8 @@
     "corpo:67089": {
       "title": "Veenoord 372",
       "price": 263500,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "statusCode": "available",
+      "statusLabel": "Koopgarant",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2940,8 +2941,8 @@
     "aypl:2678561-pl-volkswagen-golf": {
       "title": "Volkswagen Golf",
       "price": 79899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3171,8 +3172,8 @@
     "aypl:3067253-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 71899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3813,24 +3814,24 @@
     "aybe:389180-bmw-x2": {
       "title": "BMW X2",
       "price": 24190,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
     "aybe:387506-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 24590,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
     "aybe:387426-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 24790,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -3845,8 +3846,8 @@
     "aybe:387531-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 24990,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -3880,7 +3881,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T23:55:03.595Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-05T20:38:00.995Z"
     },
     "zww:90828": {
       "title": "Hercules Segherslaan 44",
@@ -3888,7 +3890,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T23:55:03.595Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-05T20:38:00.995Z"
     },
     "zww:90829": {
       "title": "Hercules Segherslaan 262",
@@ -3896,7 +3899,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T23:55:03.595Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-05T20:38:00.995Z"
     },
     "zww:90820": {
       "title": "Van Dishoeckstraat 380",
@@ -3936,6 +3940,30 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-11-05T13:07:21.733Z",
+      "gone": false
+    },
+    "rent:13264132": {
+      "title": "Schuilenburg 15",
+      "price": 1739,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-05T20:38:00.995Z",
+      "gone": false
+    },
+    "zww:90830": {
+      "title": "Menno van Coehoorngracht 25",
+      "price": 658.07,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-05T20:38:00.995Z",
+      "gone": false
+    },
+    "corpo:72765": {
+      "title": "Ruivenstraat 189",
+      "price": 370000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw, Open huis",
+      "firstSeen": "2026-11-05T20:38:00.995Z",
       "gone": false
     }
   },
@@ -4052,6 +4080,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-04"
+    "lastDate": "2026-11-05"
   }
 }
