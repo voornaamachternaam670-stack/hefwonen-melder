@@ -1649,7 +1649,7 @@
       "title": "Moerkerkestraat 4-B",
       "price": 265000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2571,7 +2571,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-06T21:04:16.360Z"
     },
     "aybe:385741-volkswagen-golf": {
       "title": "Volkswagen Golf",
@@ -2854,7 +2855,7 @@
     },
     "aypl:2706190-pl-bmw-3series": {
       "title": "BMW 3 Series",
-      "price": 92899,
+      "price": 88899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2879,7 +2880,7 @@
     },
     "aypl:2645003-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
-      "price": 82899,
+      "price": 78899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2895,7 +2896,7 @@
     },
     "aypl:2847481-pl-bmw-series1": {
       "title": "BMW Series 1",
-      "price": 90899,
+      "price": 88899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -2936,7 +2937,7 @@
     },
     "aypl:2895765-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 88899,
+      "price": 85899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3025,7 +3026,7 @@
     },
     "aypl:2748870-pl-volkswagen-taigo": {
       "title": "Volkswagen Taigo",
-      "price": 87899,
+      "price": 84899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3066,7 +3067,7 @@
     },
     "aypl:2884480-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 80899,
+      "price": 77899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3074,7 +3075,7 @@
     },
     "aypl:2698050-pl-mercedes-benz-a-class": {
       "title": "Mercedes-Benz A-Class",
-      "price": 99899,
+      "price": 95899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3790,7 +3791,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-03T23:35:37.158Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-06T21:04:16.360Z"
     },
     "ikw:d0b8d2bd918ea9efa0f0a95f06ac1975": {
       "title": "Appartement 's-gravelandseweg 759",
@@ -4033,6 +4035,46 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-06T15:38:57.074Z",
+      "gone": false
+    },
+    "rent:13269766": {
+      "title": "Laan op Zuid 865",
+      "price": 1154,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-06T21:04:16.360Z",
+      "gone": false
+    },
+    "rent:13270070": {
+      "title": "Laan op Zuid 873",
+      "price": 1440,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-06T21:04:16.360Z",
+      "gone": false
+    },
+    "zww:90854": {
+      "title": "Sottegemstraat 104",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T21:04:16.360Z",
+      "gone": false
+    },
+    "zww:90857": {
+      "title": "Ribesstraat 10",
+      "price": 584.78,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T21:04:16.360Z",
+      "gone": false
+    },
+    "aypl:2807183-pl-audi-a3": {
+      "title": "Audi A3",
+      "price": 88899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-06T21:04:16.360Z",
       "gone": false
     }
   },
