@@ -528,7 +528,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-06T07:53:18.200Z"
     },
     "ikw:04a826b79b8baffe00c234fbe7bf53b9": {
       "title": "Appartement Jufferhof 50 K",
@@ -669,8 +670,8 @@
     "ikw:22d11dbbf16d7af1b227ff4d7a83c7f6": {
       "title": "Appartement Jean Monnetring 209",
       "price": 1044,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -2000,7 +2001,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-06T07:53:18.200Z"
     },
     "corpo:66031": {
       "title": "Einsteinplaats 1013",
@@ -2279,8 +2281,8 @@
     "corpo:72365": {
       "title": "Lodewijk Pincoffsweg 23",
       "price": 332000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-22T04:13:24.291Z",
       "gone": false
     },
@@ -3290,8 +3292,8 @@
     "ikw:2ed275248b1f3c978330285457c89c80": {
       "title": "Appartement Boezemlaan 40 N",
       "price": 1670,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-26T15:25:00.655Z",
       "gone": false
     },
@@ -3603,8 +3605,8 @@
     "aybe:386898-audi-a1sportback": {
       "title": "Audi A1 Sportback",
       "price": 22790,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-30T09:44:47.036Z",
       "gone": false
     },
@@ -3619,8 +3621,8 @@
     "ikw:6ea76a4e3388e09778881224724b9a00": {
       "title": "Appartement Posthoornstraat 320",
       "price": 1975,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-30T16:16:47.859Z",
       "gone": false
     },
@@ -3966,16 +3968,32 @@
       "statusLabel": "Nieuw, Open huis",
       "firstSeen": "2026-11-05T20:38:00.995Z",
       "gone": false
+    },
+    "corpo:66764": {
+      "title": "Spitsenhagen 16",
+      "price": 390000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-06T07:53:18.200Z",
+      "gone": false
+    },
+    "corpo:73565": {
+      "title": "Stavenissestraat 278",
+      "price": 217500,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-06T07:53:18.200Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-05",
+  "lastHeartbeat": "2026-11-06",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-05",
+      "lastFullScan": "2026-11-06",
       "failures": 0,
       "initialized": true
     },
@@ -4081,6 +4099,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-05"
+    "lastDate": "2026-11-06"
   }
 }
