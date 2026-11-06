@@ -1856,8 +1856,8 @@
     "corpo:65789": {
       "title": "Zonnehof 34",
       "price": 310000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1884,7 +1884,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-06T15:38:57.074Z"
     },
     "corpo:72127": {
       "title": "2e Hogenbanweg 88",
@@ -2218,7 +2219,8 @@
       "statusCode": "available",
       "statusLabel": "Koopgarant",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-06T15:38:57.074Z"
     },
     "corpo:67018": {
       "title": "Vondelweg 95-G",
@@ -2453,8 +2455,8 @@
     "aybe:387498-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 21990,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2566,8 +2568,8 @@
     "aybe:384711-volkswagen-passatvariant": {
       "title": "Volkswagen Passat Variant",
       "price": 24490,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2910,16 +2912,16 @@
     "aypl:2652042-pl-volkswagen-arteon": {
       "title": "Volkswagen Arteon",
       "price": 108899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
     "aypl:3068449-pl-audi-q3": {
       "title": "Audi Q3",
       "price": 95899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3234,8 +3236,8 @@
     "aypl:2529909-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
       "price": 74899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3605,8 +3607,8 @@
     "aybe:386898-audi-a1sportback": {
       "title": "Audi A1 Sportback",
       "price": 22790,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-30T09:44:47.036Z",
       "gone": false
     },
@@ -3679,8 +3681,8 @@
     "corpo:73336": {
       "title": "Kaneelhof 23",
       "price": 242250,
-      "statusCode": "available",
-      "statusLabel": "Nieuw, Koopgarant",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-31T06:05:53.833Z",
       "gone": false
     },
@@ -3841,8 +3843,8 @@
     "aybe:386528-mercedes-benz-cla": {
       "title": "Mercedes-Benz CLA",
       "price": 23590,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -3948,8 +3950,8 @@
     "rent:13264132": {
       "title": "Schuilenburg 15",
       "price": 1739,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-11-05T20:38:00.995Z",
       "gone": false
     },
@@ -3983,6 +3985,54 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-11-06T07:53:18.200Z",
+      "gone": false
+    },
+    "ikw:cf0679a02a8126fe780481b6346e86ea": {
+      "title": "Appartement Stieltjesstraat 166",
+      "price": 1659,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T15:38:57.074Z",
+      "gone": false
+    },
+    "ikw:b60154df93577a727c29de1a969dc73f": {
+      "title": "Appartement Samuel Soesmanstraat 74",
+      "price": 1701,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T15:38:57.074Z",
+      "gone": false
+    },
+    "ikw:1d0723cb4970c8646b7037f38baf64f4": {
+      "title": "Appartement Karl Weisbardstraat 333",
+      "price": 1607,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T15:38:57.074Z",
+      "gone": false
+    },
+    "ikw:3e54241493e0a980ba2b5421cddbff1c": {
+      "title": "Appartement Louis Pregerkade 24",
+      "price": 1491,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T15:38:57.074Z",
+      "gone": false
+    },
+    "ikw:c11305a6cfbbc03ba8930b975235305d": {
+      "title": "Appartement Samuel Soesmanstraat 46",
+      "price": 1228,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T15:38:57.074Z",
+      "gone": false
+    },
+    "ikw:fdac45b6dc3be32419394cd33c224c2b": {
+      "title": "Eengezinswoning Horsenserf 11",
+      "price": 1609,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-06T15:38:57.074Z",
       "gone": false
     }
   },
@@ -4091,7 +4141,9 @@
     "3011WD": 0.5,
     "2711DA": 15.2,
     "2662JB": 8.4,
-    "3072LM": 2.3
+    "3072LM": 2.3,
+    "3232PT": 21.4,
+    "3067DW": 6.1
   },
   "fx": {
     "date": "2026-11-06",
