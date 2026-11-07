@@ -4088,6 +4088,14 @@
       "statusLabel": "Nieuw",
       "firstSeen": "2026-11-07T06:49:07.792Z",
       "gone": false
+    },
+    "rent:13275378": {
+      "title": "Albert Rousselsingel 12",
+      "price": 1250,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-07T21:59:39.763Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-07",
