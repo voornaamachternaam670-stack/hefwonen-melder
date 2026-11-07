@@ -204,8 +204,8 @@
     "ikw:bed12122813c7857c1ca15df76fd429d": {
       "title": "Appartement Hoornsingel 1 F",
       "price": 1450,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -301,8 +301,8 @@
     "ikw:c2042ff9733e9c80a91835100cecf236": {
       "title": "Appartement Diepeveenstraat 50",
       "price": 1324,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -445,8 +445,8 @@
     "ikw:27b6aae34d391c1b175b67260c79fb41": {
       "title": "Appartement 's-gravelandseweg 919",
       "price": 1415,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -517,8 +517,8 @@
     "ikw:201ba7700a6077a04b4139e66f449eae": {
       "title": "Appartement Jean Monnetring 193",
       "price": 1036,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -880,7 +880,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-07T06:49:07.792Z"
     },
     "ikw:70aa51a4d6bc837f556425813c248358": {
       "title": "Appartement Van Oldenbarneveltplaats 14 C",
@@ -1274,7 +1275,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-07T06:49:07.792Z"
     },
     "corpo:65376": {
       "title": "Jaap Edendreef 8",
@@ -2215,12 +2217,11 @@
     },
     "corpo:67089": {
       "title": "Veenoord 372",
-      "price": 263500,
+      "price": 310000,
       "statusCode": "available",
-      "statusLabel": "Koopgarant",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": true,
-      "goneSince": "2026-11-06T15:38:57.074Z"
+      "gone": false
     },
     "corpo:67018": {
       "title": "Vondelweg 95-G",
@@ -3746,8 +3747,8 @@
     "ikw:5e5b808361e244a618535e45ce1d8147": {
       "title": "Eengezinswoning Oosterscheldestraat 120",
       "price": 1600,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-03T18:28:32.802Z",
       "gone": false
     },
@@ -4076,6 +4077,14 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-06T21:04:16.360Z",
       "gone": false
+    },
+    "corpo:72436": {
+      "title": "Lissabonerf 32",
+      "price": 349000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-07T06:49:07.792Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-06",
@@ -4085,7 +4094,7 @@
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-06",
+      "lastFullScan": "2026-11-07",
       "failures": 0,
       "initialized": true
     },
@@ -4185,7 +4194,8 @@
     "2662JB": 8.4,
     "3072LM": 2.3,
     "3232PT": 21.4,
-    "3067DW": 6.1
+    "3067DW": 6.1,
+    "2729JB": 16.3
   },
   "fx": {
     "date": "2026-11-07",
@@ -4193,6 +4203,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-06"
+    "lastDate": "2026-11-07"
   }
 }
