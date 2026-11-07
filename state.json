@@ -3916,7 +3916,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T23:55:03.595Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-07T18:17:15.182Z"
     },
     "zww:90825": {
       "title": "Doctor Ottestraat 27",
@@ -3924,7 +3925,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T23:55:03.595Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-07T18:17:15.182Z"
     },
     "zww:90826": {
       "title": "Geulstraat 79",
@@ -3932,7 +3934,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T23:55:03.595Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-07T18:17:15.182Z"
     },
     "zww:90814": {
       "title": "Van Hogendorpweg 56",
