@@ -2939,8 +2939,8 @@
     "aypl:2895765-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 85899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3028,8 +3028,8 @@
     "aypl:2748870-pl-volkswagen-taigo": {
       "title": "Volkswagen Taigo",
       "price": 84899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -4087,7 +4087,7 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-06",
+  "lastHeartbeat": "2026-11-07",
   "sources": {
     "hefwonen": {
       "initialized": true,
