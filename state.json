@@ -4092,8 +4092,8 @@
     "rent:13275378": {
       "title": "Albert Rousselsingel 12",
       "price": 1250,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-11-07T21:59:39.763Z",
       "gone": false
     }
