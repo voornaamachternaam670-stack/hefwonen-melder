@@ -3830,8 +3830,8 @@
     "aybe:387506-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 24590,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -3967,7 +3967,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-05T20:38:00.995Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-08T18:59:32.856Z"
     },
     "corpo:72765": {
       "title": "Ruivenstraat 189",
