@@ -2456,8 +2456,8 @@
     "aybe:387498-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 21990,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -4098,14 +4098,14 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-07",
+  "lastHeartbeat": "2026-11-08",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-07",
+      "lastFullScan": "2026-11-08",
       "failures": 0,
       "initialized": true
     },
@@ -4214,6 +4214,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-07"
+    "lastDate": "2026-11-08"
   }
 }
