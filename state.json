@@ -4097,6 +4097,14 @@
       "statusLabel": "Onder optie",
       "firstSeen": "2026-11-07T21:59:39.763Z",
       "gone": false
+    },
+    "zww:90703": {
+      "title": "Arbeidstraat 9",
+      "price": 916.82,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-08T22:45:29.535Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-08",
