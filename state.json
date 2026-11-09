@@ -2890,8 +2890,8 @@
     "aypl:2644991-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 85899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2906,8 +2906,8 @@
     "aypl:2754373-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 102899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3061,8 +3061,8 @@
     "aypl:2709904-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 98899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3130,7 +3130,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-09T09:40:42.183Z"
     },
     "aypl:3068324-pl-bmw-x2": {
       "title": "BMW X2",
@@ -3197,7 +3198,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-09T09:40:42.183Z"
     },
     "aypl:2833169-pl-volkswagen-arteon": {
       "title": "Volkswagen Arteon",
@@ -3451,8 +3453,8 @@
     "ikw:b4a9196a9a9dd5d07bfb9b59bde4d08c": {
       "title": "Appartement Van Oldenbarneveltplaats 24 F",
       "price": 1850,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-28T10:23:53.606Z",
       "gone": false
     },
@@ -3862,8 +3864,8 @@
     "aybe:381579-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 23890,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -4107,14 +4109,14 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-08",
+  "lastHeartbeat": "2026-11-09",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-08",
+      "lastFullScan": "2026-11-09",
       "failures": 0,
       "initialized": true
     },
@@ -4223,6 +4225,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-08"
+    "lastDate": "2026-11-09"
   }
 }
