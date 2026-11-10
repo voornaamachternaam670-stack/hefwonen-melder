@@ -4224,6 +4224,30 @@
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-10T18:08:58.098Z",
       "gone": false
+    },
+    "rent:13288135": {
+      "title": "Lier 1",
+      "price": 1229,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-10T23:16:20.838Z",
+      "gone": false
+    },
+    "rent:13290863": {
+      "title": "Tarbotstraat 56",
+      "price": 1147,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-10T23:16:20.838Z",
+      "gone": false
+    },
+    "zww:90795": {
+      "title": "Kleine Kerkstraat 3",
+      "price": 842.92,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-10T23:16:20.838Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-10",
@@ -4337,8 +4361,8 @@
     "2729JB": 16.3
   },
   "fx": {
-    "date": "2026-11-10",
-    "pln": 4.3843
+    "date": "2026-11-11",
+    "pln": 4.387
   },
   "darija": {
     "introSent": true,
