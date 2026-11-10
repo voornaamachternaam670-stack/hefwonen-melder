@@ -309,8 +309,8 @@
     "ikw:04ec669ad719d7fed78771c413ec4725": {
       "title": "Appartement Laan op Zuid 1544",
       "price": 1500,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -376,7 +376,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-10T10:29:45.401Z"
     },
     "ikw:2294e1e117647009be143059cdb6639e": {
       "title": "Appartement Van Oldenbarneveltplaats 32 H",
@@ -437,8 +438,8 @@
     "ikw:e77acf671b29fef8ba0140e6f3a274ee": {
       "title": "Appartement Louis Pregerkade 162",
       "price": 1492,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -606,7 +607,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-10T10:29:45.401Z"
     },
     "ikw:fb26b54ef5aa02de3b3bbbdf5dc727c9": {
       "title": "Appartement Van Oldenbarneveltplaats 28 J",
@@ -762,8 +764,8 @@
     "ikw:c3c728db96f8af0a911dd07733e36a20": {
       "title": "Appartement Cypruslaan 129",
       "price": 1875,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -2843,7 +2845,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-10T10:29:45.401Z"
     },
     "aypl:2878824-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
@@ -2874,8 +2877,8 @@
     "aypl:2803401-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 74899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2906,8 +2909,8 @@
     "aypl:2754373-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 102899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2976,7 +2979,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-10T10:29:45.401Z"
     },
     "aypl:2520692-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
@@ -3241,8 +3245,8 @@
     "aypl:2529909-pl-volkswagen-touran": {
       "title": "Volkswagen Touran",
       "price": 74899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3270,7 +3274,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-10T10:29:45.401Z"
     },
     "ikw:33b261201ffdc0a68f994c77b1b07162": {
       "title": "Appartement Laan op Zuid 1518",
@@ -3408,7 +3413,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-27T16:33:08.785Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-10T10:29:45.401Z"
     },
     "zww:90735": {
       "title": "Van Dishoeckstraat 256",
@@ -4167,16 +4173,24 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-09T20:10:48.102Z",
       "gone": false
+    },
+    "corpo:73433": {
+      "title": "Groene Hilledijk 474-B",
+      "price": 235000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-10T10:29:45.401Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-09",
+  "lastHeartbeat": "2026-11-10",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-09",
+      "lastFullScan": "2026-11-10",
       "failures": 0,
       "initialized": true
     },
@@ -4285,6 +4299,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-09"
+    "lastDate": "2026-11-10"
   }
 }
