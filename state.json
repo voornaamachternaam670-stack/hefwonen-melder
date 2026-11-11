@@ -268,24 +268,24 @@
     "ikw:ca1d66782372849ea08ec95347890552": {
       "title": "Appartement Jufferstraat 13 D",
       "price": 1922,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:3adf83556b01f27e1252bbba156e6789": {
       "title": "Appartement Laan Op Zuid 1583",
       "price": 1233,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:520fe40183026e7f80ee0de10a390e3c": {
       "title": "Appartement Laan Op Zuid 1497",
       "price": 1822,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -309,8 +309,8 @@
     "ikw:04ec669ad719d7fed78771c413ec4725": {
       "title": "Appartement Laan op Zuid 1544",
       "price": 1500,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -341,8 +341,8 @@
     "ikw:014ec220053408f08bae934f059eea07": {
       "title": "Eengezinswoning Paul Desmondsingel 80",
       "price": 1603,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -390,8 +390,8 @@
     "ikw:c5a18068d147ceab047eb090f43bd77b": {
       "title": "Appartement Oostplein 519",
       "price": 1581,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -570,8 +570,8 @@
     "ikw:bdaf9b9a037dff2434f41c9b6c3c3d4f": {
       "title": "Appartement Karl Weisbardstraat 107",
       "price": 1580,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -718,7 +718,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-11T10:19:35.217Z"
     },
     "ikw:776b0b1e6ebdd4a2ec8ac8aa317cb135": {
       "title": "Appartement Jufferstraat 13 E",
@@ -726,7 +727,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-11T10:19:35.217Z"
     },
     "ikw:126a46278837381b9fa2a6ada8fc099f": {
       "title": "Eengezinswoning John Coltranestraat 50",
@@ -751,7 +753,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-11T10:19:35.217Z"
     },
     "ikw:29d6b38133f8e88a9d8aa2c1060cdc68": {
       "title": "Appartement Samuel Soesmanstraat 102",
@@ -772,8 +775,8 @@
     "ikw:583acf128ae54339780e8772a55fce7f": {
       "title": "Appartement Oostplein 553",
       "price": 1300,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -798,8 +801,8 @@
     "ikw:848c26f9260175411fdd5f4adb681743": {
       "title": "Appartement Laan op Zuid 1352",
       "price": 1800,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -814,8 +817,8 @@
     "ikw:6f7cf9a2745d91da5cb4d3315d95e7c8": {
       "title": "Eengezinswoning Paul Desmondsingel 66",
       "price": 1605,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -904,8 +907,8 @@
     "ikw:7f37cbba86c44811ab720e0c3200ff16": {
       "title": "Appartement Samuel Soesmanstraat 116",
       "price": 1802,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -2280,7 +2283,7 @@
       "title": "Dorpsweg 165-C",
       "price": 250000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-22T04:13:24.291Z",
       "gone": false
     },
@@ -2491,8 +2494,8 @@
     "aybe:364743-volkswagen-golf": {
       "title": "Volkswagen Golf",
       "price": 18790,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3359,7 +3362,8 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-10-27T05:24:59.019Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-11T10:19:35.217Z"
     },
     "ikw:e684162b8bc5d4618ead32ef30fe3eca": {
       "title": "Appartement Jufferstraat 15 X",
@@ -3545,8 +3549,8 @@
     "aybe:384289-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 24390,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-29T14:12:05.350Z",
       "gone": false
     },
@@ -3742,8 +3746,8 @@
     "ikw:d835b9631d2d2c019069a4b071d0fd80": {
       "title": "Jan Stuytstraat 80",
       "price": 1414,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-03T11:14:37.982Z",
       "gone": false
     },
@@ -3874,8 +3878,8 @@
     "aybe:381579-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 23890,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -4248,16 +4252,24 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-10T23:16:20.838Z",
       "gone": false
+    },
+    "corpo:73751": {
+      "title": "Groene Hilledijk 432-C",
+      "price": 235000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-11T10:19:35.217Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-10",
+  "lastHeartbeat": "2026-11-11",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-10",
+      "lastFullScan": "2026-11-11",
       "failures": 0,
       "initialized": true
     },
@@ -4366,6 +4378,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-10"
+    "lastDate": "2026-11-11"
   }
 }
