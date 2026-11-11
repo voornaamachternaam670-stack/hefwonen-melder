@@ -1512,8 +1512,8 @@
     "corpo:72364": {
       "title": "Friesestraat 29",
       "price": 270000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1536,8 +1536,8 @@
     "corpo:61759": {
       "title": "Hingmanstraat 22",
       "price": 300000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -3458,8 +3458,8 @@
     "corpo:66666": {
       "title": "Van Hardenbroekstraat 21",
       "price": 300000,
-      "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-28T05:25:48.921Z",
       "gone": false
     },
@@ -4260,6 +4260,30 @@
       "statusLabel": "Nieuw",
       "firstSeen": "2026-11-11T10:19:35.217Z",
       "gone": false
+    },
+    "ikw:fc32089b46e10fa3821694a6f71b35c4": {
+      "title": "Appartement Hoornsingel 3 E",
+      "price": 1450,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-11T17:56:44.796Z",
+      "gone": false
+    },
+    "ikw:1bdfe2c60b4bb5a0b5a480e173222b21": {
+      "title": "Appartement Hoge Filterweg 644",
+      "price": 1300,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-11T17:56:44.796Z",
+      "gone": false
+    },
+    "ikw:e4a7be8579bcbd53165d03ad902b0e62": {
+      "title": "Appartement Hoge Filterweg 570",
+      "price": 1300,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-11T17:56:44.796Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-11",
@@ -4370,7 +4394,9 @@
     "3072LM": 2.3,
     "3232PT": 21.4,
     "3067DW": 6.1,
-    "2729JB": 16.3
+    "2729JB": 16.3,
+    "2624NM": 12.5,
+    "3063KL": 3.1
   },
   "fx": {
     "date": "2026-11-11",
