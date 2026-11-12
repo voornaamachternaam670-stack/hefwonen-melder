@@ -252,16 +252,16 @@
     "ikw:2220d5926230ce9e9063ba0894512bfa": {
       "title": "Appartement Van Oldenbarneveltplaats 16 D",
       "price": 1850,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:3e97ea3dc5b3d97b89309477110ba653": {
       "title": "Appartement Jufferhof 50 S",
       "price": 1764,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -390,8 +390,8 @@
     "ikw:c5a18068d147ceab047eb090f43bd77b": {
       "title": "Appartement Oostplein 519",
       "price": 1581,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -587,8 +587,8 @@
     "ikw:dd8f7475313d97153f4383291b208214": {
       "title": "Appartement Boezemlaan 51 H",
       "price": 1665,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -633,7 +633,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T07:21:50.224Z"
     },
     "ikw:a5feda9882ce2a59db44ff6f69d631d4": {
       "title": "Appartement Jufferstraat 11 H",
@@ -907,8 +908,8 @@
     "ikw:7f37cbba86c44811ab720e0c3200ff16": {
       "title": "Appartement Samuel Soesmanstraat 116",
       "price": 1802,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -2301,7 +2302,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-22T10:37:33.256Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T07:21:50.224Z"
     },
     "corpo:66436": {
       "title": "Van Mourik Broekmanstraat 19-3",
@@ -3474,8 +3476,8 @@
     "ikw:f727b7fbff4c73bff563d9d96b0cd8fd": {
       "title": "Eengezinswoning Beauvoirstraat, Simone de 31",
       "price": 1600,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-28T10:23:53.606Z",
       "gone": false
     },
@@ -4036,16 +4038,16 @@
     "ikw:3e54241493e0a980ba2b5421cddbff1c": {
       "title": "Appartement Louis Pregerkade 24",
       "price": 1491,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-06T15:38:57.074Z",
       "gone": false
     },
     "ikw:c11305a6cfbbc03ba8930b975235305d": {
       "title": "Appartement Samuel Soesmanstraat 46",
       "price": 1228,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-06T15:38:57.074Z",
       "gone": false
     },
@@ -4307,16 +4309,32 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-12T00:11:30.142Z",
       "gone": false
+    },
+    "corpo:73128": {
+      "title": "Gordelweg 62-A",
+      "price": 360000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-12T07:21:50.224Z",
+      "gone": false
+    },
+    "corpo:72858": {
+      "title": "Grote Kreek 28",
+      "price": 250000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-12T07:21:50.224Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-11",
+  "lastHeartbeat": "2026-11-12",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-11",
+      "lastFullScan": "2026-11-12",
       "failures": 0,
       "initialized": true
     },
@@ -4427,6 +4445,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-11"
+    "lastDate": "2026-11-12"
   }
 }
