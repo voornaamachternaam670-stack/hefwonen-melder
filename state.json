@@ -126,7 +126,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T16:06:47.520Z"
     },
     "bog:12112258": {
       "title": "Briggemandreef 20",
@@ -1166,8 +1167,8 @@
     "corpo:72424": {
       "title": "Millingenhof 163",
       "price": 375000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1401,8 +1402,8 @@
     "corpo:66022": {
       "title": "Cannemanstraat 93",
       "price": 375000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1521,8 +1522,8 @@
     "corpo:72445": {
       "title": "Galjootstraat 14-a",
       "price": 220000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -1664,7 +1665,7 @@
     },
     "corpo:66233": {
       "title": "Moermondstraat 14",
-      "price": 297500,
+      "price": 285000,
       "statusCode": "available",
       "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
@@ -2196,7 +2197,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T16:06:47.520Z"
     },
     "corpo:4812": {
       "title": "Van Hardenbroekstraat 9",
@@ -2467,7 +2469,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T16:06:47.520Z"
     },
     "aybe:385642-bmw-x2": {
       "title": "BMW X2",
@@ -2545,8 +2548,8 @@
     "aybe:384989-bmw-x2": {
       "title": "BMW X2",
       "price": 21190,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2883,8 +2886,8 @@
     "aypl:2803401-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 74899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2899,8 +2902,8 @@
     "aypl:2644991-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 85899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2932,8 +2935,8 @@
     "aypl:3068449-pl-audi-q3": {
       "title": "Audi Q3",
       "price": 95899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3058,7 +3061,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T16:06:47.520Z"
     },
     "aypl:2835740-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3104,8 +3108,8 @@
     "aypl:2933710-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
       "price": 89899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3677,7 +3681,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-30T20:53:18.261Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T16:06:47.520Z"
     },
     "zww:90780": {
       "title": "Piet Heinkade 23",
@@ -3727,7 +3732,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-11-02T22:08:03.278Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-12T16:06:47.520Z"
     },
     "rent:13250512": {
       "title": "Willebrordusstraat 111 B",
@@ -3846,8 +3852,8 @@
     "aybe:387506-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 24590,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -4289,8 +4295,8 @@
     "rent:13293750": {
       "title": "Susannadijk 107",
       "price": 961,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-11-12T00:11:30.142Z",
       "gone": false
     },
@@ -4324,6 +4330,14 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-11-12T07:21:50.224Z",
+      "gone": false
+    },
+    "ikw:123f5ffeb42d9773f4c6d9467919b6a1": {
+      "title": "Appartement Laan op Zuid 1367",
+      "price": 1525,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-12T16:06:47.520Z",
       "gone": false
     }
   },
@@ -4437,7 +4451,8 @@
     "3067DW": 6.1,
     "2729JB": 16.3,
     "2624NM": 12.5,
-    "3063KL": 3.1
+    "3063KL": 3.1,
+    "2614LW": 13.3
   },
   "fx": {
     "date": "2026-11-12",
