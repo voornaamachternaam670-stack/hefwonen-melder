@@ -3755,7 +3755,7 @@
       "title": "Jaffa 32-E",
       "price": 360000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-11-03T11:14:37.982Z",
       "gone": false
     },
@@ -3781,8 +3781,7 @@
       "statusCode": "Coming soon",
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-03T18:28:32.802Z",
-      "gone": true,
-      "goneSince": "2026-11-06T01:07:21.349Z"
+      "gone": false
     },
     "aypl:2659891-pl-volkswagen-arteon": {
       "title": "Volkswagen Arteon",
@@ -3990,7 +3989,7 @@
       "title": "Ruivenstraat 189",
       "price": 370000,
       "statusCode": "available",
-      "statusLabel": "Nieuw, Open huis",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-11-05T20:38:00.995Z",
       "gone": false
     },
@@ -4284,6 +4283,30 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-11T17:56:44.796Z",
       "gone": false
+    },
+    "rent:13293750": {
+      "title": "Susannadijk 107",
+      "price": 961,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-12T00:11:30.142Z",
+      "gone": false
+    },
+    "zww:90906": {
+      "title": "Salvador Dalístraat 73",
+      "price": 982.66,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-12T00:11:30.142Z",
+      "gone": false
+    },
+    "zww:90913": {
+      "title": "Van Dishoeckstraat 308",
+      "price": 653.51,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-12T00:11:30.142Z",
+      "gone": false
     }
   },
   "lastHeartbeat": "2026-11-11",
@@ -4399,8 +4422,8 @@
     "3063KL": 3.1
   },
   "fx": {
-    "date": "2026-11-11",
-    "pln": 4.387
+    "date": "2026-11-12",
+    "pln": 4.4038
   },
   "darija": {
     "introSent": true,
