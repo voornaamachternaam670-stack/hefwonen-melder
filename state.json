@@ -261,8 +261,8 @@
     "ikw:3e97ea3dc5b3d97b89309477110ba653": {
       "title": "Appartement Jufferhof 50 S",
       "price": 1764,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -358,16 +358,16 @@
     "ikw:759467208ab98827987bfbecb37842d1": {
       "title": "Appartement 's-gravelandseweg 927",
       "price": 1002,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:60db1e4689e0b5ad1946437f4c46df40": {
       "title": "Appartement Van Oldenbarneveltplaats 22 B",
       "price": 1850,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -447,8 +447,8 @@
     "ikw:27b6aae34d391c1b175b67260c79fb41": {
       "title": "Appartement 's-gravelandseweg 919",
       "price": 1415,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -482,7 +482,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-13T09:59:33.057Z"
     },
     "ikw:292e6711f6013a84d0502b9679a2fab0": {
       "title": "Appartement Laan op Zuid 1204",
@@ -571,8 +572,8 @@
     "ikw:bdaf9b9a037dff2434f41c9b6c3c3d4f": {
       "title": "Appartement Karl Weisbardstraat 107",
       "price": 1580,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -677,7 +678,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-13T09:59:33.057Z"
     },
     "ikw:f9b0327dd0555a6f6b8a1c58c15f2ffd": {
       "title": "Appartement Laan op Zuid 1510",
@@ -777,8 +779,8 @@
     "ikw:583acf128ae54339780e8772a55fce7f": {
       "title": "Appartement Oostplein 553",
       "price": 1300,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -847,7 +849,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-13T09:59:33.057Z"
     },
     "ikw:e84c5af805e32d7771399fad0e136b22": {
       "title": "Appartement Van Oldenbarneveltplaats 14 K",
@@ -893,8 +896,8 @@
     "ikw:70aa51a4d6bc837f556425813c248358": {
       "title": "Appartement Van Oldenbarneveltplaats 14 C",
       "price": 2150,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -909,8 +912,8 @@
     "ikw:7f37cbba86c44811ab720e0c3200ff16": {
       "title": "Appartement Samuel Soesmanstraat 116",
       "price": 1802,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -3315,8 +3318,8 @@
     "ikw:2ed275248b1f3c978330285457c89c80": {
       "title": "Appartement Boezemlaan 40 N",
       "price": 1670,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-26T15:25:00.655Z",
       "gone": false
     },
@@ -3548,8 +3551,8 @@
     "ikw:870060a4ab747c782ef35eea47562a23": {
       "title": "Appartement Van Oldenbarneveltplaats 28 G",
       "price": 1890,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-29T14:12:05.350Z",
       "gone": false
     },
@@ -3755,8 +3758,8 @@
     "ikw:d835b9631d2d2c019069a4b071d0fd80": {
       "title": "Jan Stuytstraat 80",
       "price": 1414,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-11-03T11:14:37.982Z",
       "gone": false
     },
@@ -3821,8 +3824,8 @@
     "ikw:d0b8d2bd918ea9efa0f0a95f06ac1975": {
       "title": "Appartement 's-gravelandseweg 759",
       "price": 1173,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T11:05:59.474Z",
       "gone": false
     },
@@ -4210,8 +4213,8 @@
     "ikw:616917be0d980eb8eb73f41465d52571": {
       "title": "Appartement 's-gravelandseweg 995",
       "price": 1002,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-10T18:08:58.098Z",
       "gone": false
     },
@@ -4346,8 +4349,8 @@
     "rent:13297227": {
       "title": "Burgemeester Brokxlaan 1746",
       "price": 1230,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-11-12T22:13:29.349Z",
       "gone": false
     },
@@ -4374,16 +4377,24 @@
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-12T22:13:29.349Z",
       "gone": false
+    },
+    "corpo:73750": {
+      "title": "Menno ter Braakstraat 16",
+      "price": 217500,
+      "statusCode": "available",
+      "statusLabel": "Nieuw",
+      "firstSeen": "2026-11-13T09:59:33.057Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-12",
+  "lastHeartbeat": "2026-11-13",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-12",
+      "lastFullScan": "2026-11-13",
       "failures": 0,
       "initialized": true
     },
@@ -4495,6 +4506,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-12"
+    "lastDate": "2026-11-13"
   }
 }
