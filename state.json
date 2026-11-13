@@ -1422,7 +1422,7 @@
       "title": "Da Costastraat 117",
       "price": 340000,
       "statusCode": "available",
-      "statusLabel": "Open huis",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -4265,7 +4265,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-10T23:16:20.838Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-13T22:51:44.583Z"
     },
     "corpo:73751": {
       "title": "Groene Hilledijk 432-C",
@@ -4361,7 +4362,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-12T22:13:29.349Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-13T22:51:44.583Z"
     },
     "zww:90853": {
       "title": "Ahornstraat 4",
@@ -4401,6 +4403,38 @@
       "statusCode": "Coming soon",
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-13T17:37:54.489Z",
+      "gone": false
+    },
+    "rent:13303146": {
+      "title": "Brasemstraat 54",
+      "price": 1229,
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
+      "firstSeen": "2026-11-13T22:51:44.583Z",
+      "gone": false
+    },
+    "zww:90775": {
+      "title": "Van Visvlietstraat 6",
+      "price": 920.9,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-13T22:51:44.583Z",
+      "gone": false
+    },
+    "zww:90961": {
+      "title": "President Rooseveltlaan 679",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-13T22:51:44.583Z",
+      "gone": false
+    },
+    "zww:90962": {
+      "title": "Vlissingsestraat 31",
+      "price": 677.82,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-13T22:51:44.583Z",
       "gone": false
     }
   },
