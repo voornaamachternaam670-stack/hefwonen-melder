@@ -2430,7 +2430,7 @@
       "title": "Mathenesserdijk 126-b01",
       "price": 245000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-24T04:33:45.637Z",
       "gone": false
     },
@@ -2438,7 +2438,7 @@
       "title": "Van Speykstraat 160",
       "price": 325000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-24T04:33:45.637Z",
       "gone": false
     },
@@ -2555,7 +2555,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-13T17:37:54.489Z"
     },
     "aybe:385755-bmw-x1": {
       "title": "BMW X1",
@@ -3285,7 +3286,7 @@
     },
     "aypl:2802758-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
-      "price": 84899,
+      "price": 77899,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
@@ -3542,7 +3543,7 @@
     },
     "bog:13214686": {
       "title": "in de Fuik 9",
-      "price": 1553.33,
+      "price": 1353.33,
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-29T14:12:05.350Z",
@@ -4237,8 +4238,8 @@
     "aypl:2453608-pl-bmw-3series": {
       "title": "BMW 3 Series",
       "price": 106899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-10T18:08:58.098Z",
       "gone": false
     },
@@ -4384,6 +4385,22 @@
       "statusCode": "available",
       "statusLabel": "Nieuw",
       "firstSeen": "2026-11-13T09:59:33.057Z",
+      "gone": false
+    },
+    "aybe:389421-mercedes-benz-asedan": {
+      "title": "Mercedes-Benz A Sedan",
+      "price": 19490,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-13T17:37:54.489Z",
+      "gone": false
+    },
+    "aypl:2574030-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 99899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-13T17:37:54.489Z",
       "gone": false
     }
   },
