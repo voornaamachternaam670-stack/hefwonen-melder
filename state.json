@@ -4318,7 +4318,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-12T00:11:30.142Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-14T20:42:46.376Z"
     },
     "zww:90913": {
       "title": "Van Dishoeckstraat 308",
@@ -4326,7 +4327,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-12T00:11:30.142Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-14T20:42:46.376Z"
     },
     "corpo:73128": {
       "title": "Gordelweg 62-A",
