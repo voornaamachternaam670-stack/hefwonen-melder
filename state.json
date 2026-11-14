@@ -189,8 +189,8 @@
     "ikw:810871f4811a87435558af662b303e9c": {
       "title": "Appartement 's-gravelandseweg 565 C",
       "price": 1765,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -305,7 +305,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-14T09:48:26.467Z"
     },
     "ikw:04ec669ad719d7fed78771c413ec4725": {
       "title": "Appartement Laan op Zuid 1544",
@@ -326,16 +327,16 @@
     "ikw:7e513308efe718863679cc0d7fb859df": {
       "title": "Eengezinswoning Parkstraat 71",
       "price": 1644,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:ab40f9bc803e3f9a1eadccfd7a6d47ad": {
       "title": "Appartement Stieltjesstraat 196",
       "price": 1659,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -407,8 +408,8 @@
     "ikw:429ed786b91a8009926e4be3d47666e2": {
       "title": "Eengezinswoning King Pleasurepad 9",
       "price": 1609,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "gereserveerd",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -523,7 +524,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-14T09:48:26.467Z"
     },
     "ikw:dd7877c27bfc33ab484eb5d7f31d0e09": {
       "title": "Eengezinswoning Simon Carmiggeltstraat 74",
@@ -2701,8 +2703,8 @@
     "aybe:383968-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 21490,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2910,7 +2912,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-14T09:48:26.467Z"
     },
     "aypl:2847481-pl-bmw-series1": {
       "title": "BMW Series 1",
@@ -2990,8 +2993,8 @@
     "aypl:2868364-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 85899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3857,8 +3860,8 @@
     "aybe:387506-bmw-3touring": {
       "title": "BMW 3 Touring",
       "price": 24590,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -4033,8 +4036,8 @@
     "ikw:b60154df93577a727c29de1a969dc73f": {
       "title": "Appartement Samuel Soesmanstraat 74",
       "price": 1701,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-06T15:38:57.074Z",
       "gone": false
     },
@@ -4206,8 +4209,8 @@
     "ikw:16beba1dfe4c4c646eb8dd121b229de0": {
       "title": "Appartement Laan Op Zuid 1619",
       "price": 1466,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-10T18:08:58.098Z",
       "gone": false
     },
@@ -4438,14 +4441,14 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-13",
+  "lastHeartbeat": "2026-11-14",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-13",
+      "lastFullScan": "2026-11-14",
       "failures": 0,
       "initialized": true
     },
@@ -4557,6 +4560,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-13"
+    "lastDate": "2026-11-14"
   }
 }
