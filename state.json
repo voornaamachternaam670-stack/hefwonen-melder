@@ -4408,8 +4408,8 @@
     "rent:13303146": {
       "title": "Brasemstraat 54",
       "price": 1229,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
       "firstSeen": "2026-11-13T22:51:44.583Z",
       "gone": false
     },
@@ -4552,8 +4552,8 @@
     "2614LW": 13.3
   },
   "fx": {
-    "date": "2026-11-13",
-    "pln": 4.4088
+    "date": "2026-11-14",
+    "pln": 4.4113
   },
   "darija": {
     "introSent": true,
