@@ -1583,8 +1583,8 @@
     "corpo:73010": {
       "title": "Jaffadwarsstraat 71",
       "price": 375000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -4069,8 +4069,8 @@
     "ikw:fdac45b6dc3be32419394cd33c224c2b": {
       "title": "Eengezinswoning Horsenserf 11",
       "price": 1609,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-06T15:38:57.074Z",
       "gone": false
     },
@@ -4451,7 +4451,7 @@
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-14",
+      "lastFullScan": "2026-11-15",
       "failures": 0,
       "initialized": true
     },
@@ -4563,6 +4563,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-14"
+    "lastDate": "2026-11-15"
   }
 }
