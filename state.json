@@ -2505,8 +2505,8 @@
     "aybe:364743-volkswagen-golf": {
       "title": "Volkswagen Golf",
       "price": 18790,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -4444,7 +4444,7 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-14",
+  "lastHeartbeat": "2026-11-15",
   "sources": {
     "hefwonen": {
       "initialized": true,
