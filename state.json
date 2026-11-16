@@ -327,16 +327,16 @@
     "ikw:7e513308efe718863679cc0d7fb859df": {
       "title": "Eengezinswoning Parkstraat 71",
       "price": 1644,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
     "ikw:ab40f9bc803e3f9a1eadccfd7a6d47ad": {
       "title": "Appartement Stieltjesstraat 196",
       "price": 1659,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -408,8 +408,8 @@
     "ikw:429ed786b91a8009926e4be3d47666e2": {
       "title": "Eengezinswoning King Pleasurepad 9",
       "price": 1609,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -660,7 +660,7 @@
     },
     "ikw:9fee49e04f9a7fbf9c75fab995d50b9f": {
       "title": "Appartement Laan op Zuid 1218",
-      "price": 1800,
+      "price": 1900,
       "statusCode": "verhuurd-onder-voorbehoud",
       "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
@@ -713,8 +713,8 @@
     "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
       "title": "Appartement 's-gravelandseweg 729",
       "price": 1440,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -807,8 +807,8 @@
     "ikw:848c26f9260175411fdd5f4adb681743": {
       "title": "Appartement Laan op Zuid 1352",
       "price": 1800,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -2351,8 +2351,8 @@
     "corpo:73377": {
       "title": "Tijmweg 164",
       "price": 280000,
-      "statusCode": "vov",
-      "statusLabel": "Bijna verkocht",
+      "statusCode": "available",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-23T04:23:53.363Z",
       "gone": false
     },
@@ -2719,8 +2719,8 @@
     "aybe:381905-bmw-x1": {
       "title": "BMW X1",
       "price": 22390,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2738,7 +2738,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aybe:382609-bmw-1": {
       "title": "BMW 1",
@@ -2761,8 +2762,8 @@
     "aybe:382454-mercedes-benz-b": {
       "title": "Mercedes-Benz B",
       "price": 23890,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3042,16 +3043,16 @@
     "aypl:2627669-pl-audi-q3": {
       "title": "Audi Q3",
       "price": 84899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
     "aypl:2748870-pl-volkswagen-taigo": {
       "title": "Volkswagen Taigo",
       "price": 84899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3100,8 +3101,8 @@
     "aypl:2698050-pl-mercedes-benz-a-class": {
       "title": "Mercedes-Benz A-Class",
       "price": 95899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3111,7 +3112,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aypl:2933710-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
@@ -3127,7 +3129,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aypl:2611154-pl-bmw-3series": {
       "title": "BMW 3 Series",
@@ -3162,7 +3165,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aypl:2933809-pl-volkswagen-passat": {
       "title": "Volkswagen Passat",
@@ -3170,7 +3174,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aypl:2744255-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
@@ -3205,7 +3210,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aypl:2621634-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
@@ -3267,7 +3273,8 @@
       "statusCode": "available",
       "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T11:39:04.471Z"
     },
     "aypl:2644977-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
@@ -3555,8 +3562,8 @@
     "ikw:870060a4ab747c782ef35eea47562a23": {
       "title": "Appartement Van Oldenbarneveltplaats 28 G",
       "price": 1890,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-29T14:12:05.350Z",
       "gone": false
     },
@@ -3638,8 +3645,8 @@
     "aybe:386898-audi-a1sportback": {
       "title": "Audi A1 Sportback",
       "price": 22790,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-10-30T09:44:47.036Z",
       "gone": false
     },
@@ -3829,8 +3836,8 @@
     "ikw:d0b8d2bd918ea9efa0f0a95f06ac1975": {
       "title": "Appartement 's-gravelandseweg 759",
       "price": 1173,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-11-04T11:05:59.474Z",
       "gone": false
     },
@@ -3886,8 +3893,8 @@
     "aybe:387531-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
       "price": 24990,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -4446,14 +4453,14 @@
       "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-15",
+  "lastHeartbeat": "2026-11-16",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-15",
+      "lastFullScan": "2026-11-16",
       "failures": 0,
       "initialized": true
     },
@@ -4565,6 +4572,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-15"
+    "lastDate": "2026-11-16"
   }
 }
