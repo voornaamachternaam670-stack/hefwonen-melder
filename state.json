@@ -1342,8 +1342,8 @@
     "corpo:72817": {
       "title": "Henk Miliusstraat 48",
       "price": 400000,
-      "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusCode": "vov",
+      "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
       "gone": false
     },
@@ -2765,7 +2765,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T21:14:17.450Z"
     },
     "aybe:381013-bmw-3touring": {
       "title": "BMW 3 Touring",
@@ -3373,7 +3374,7 @@
       "title": "Sagiusstraat 18",
       "price": 310000,
       "statusCode": "available",
-      "statusLabel": "Nieuw",
+      "statusLabel": "Te koop",
       "firstSeen": "2026-10-27T05:24:59.019Z",
       "gone": false
     },
@@ -3762,8 +3763,8 @@
     "aypl:2835699-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 88899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-02T22:08:03.278Z",
       "gone": false
     },
@@ -3871,7 +3872,8 @@
       "statusCode": "Reserved",
       "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T21:14:17.450Z"
     },
     "aybe:387426-mercedes-benz-a": {
       "title": "Mercedes-Benz A",
@@ -4193,8 +4195,8 @@
     "aypl:2642859-pl-audi-q2": {
       "title": "Audi Q2",
       "price": 82899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-09T20:10:48.102Z",
       "gone": false
     },
@@ -4434,7 +4436,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-13T22:51:44.583Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T21:14:17.450Z"
     },
     "zww:90961": {
       "title": "President Rooseveltlaan 679",
@@ -4442,7 +4445,8 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-13T22:51:44.583Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-16T21:14:17.450Z"
     },
     "zww:90962": {
       "title": "Vlissingsestraat 31",
@@ -4450,6 +4454,79 @@
       "statusCode": "available",
       "statusLabel": "Te huur",
       "firstSeen": "2026-11-13T22:51:44.583Z",
+      "gone": true,
+      "goneSince": "2026-11-16T21:14:17.450Z"
+    },
+    "rent:13316026": {
+      "title": "Willebrordusstraat 95 D",
+      "price": 1122,
+      "statusCode": "unavailable",
+      "statusLabel": "Onder optie",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "ikw:eebe20fe3af782869efa6d2410c4f7f8": {
+      "title": "Appartement Sicilieboulevard 680",
+      "price": 1575,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "ikw:781517e5a7f82212eb80ed7fbbb3d834": {
+      "title": "Appartement Van Oldenbarneveltplaats 28 F",
+      "price": 1890,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "zww:90971": {
+      "title": "Bonenburg 47",
+      "price": 936.19,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "zww:90973": {
+      "title": "Van Dishoeckstraat 268",
+      "price": 609.09,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "zww:90966": {
+      "title": "Jan van Goyenlaan 28",
+      "price": 205000,
+      "statusCode": "available",
+      "statusLabel": "Nieuw in verkoop",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "aypl:2913871-pl-volkswagen-tiguan": {
+      "title": "Volkswagen Tiguan",
+      "price": 96899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "aypl:2800141-pl-volkswagen-t-roc": {
+      "title": "Volkswagen T-Roc",
+      "price": 71899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
+      "gone": false
+    },
+    "aypl:2881710-pl-audi-a4": {
+      "title": "Audi A4",
+      "price": 99899,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-16T21:14:17.450Z",
       "gone": false
     }
   },
@@ -4564,7 +4641,8 @@
     "2729JB": 16.3,
     "2624NM": 12.5,
     "3063KL": 3.1,
-    "2614LW": 13.3
+    "2614LW": 13.3,
+    "3059XT": 9.3
   },
   "fx": {
     "date": "2026-11-16",
