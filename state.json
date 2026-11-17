@@ -41,7 +41,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "rent:13124924": {
       "title": "Bierstraat 113",
@@ -76,7 +77,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T15:16:26.631Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "rent:13181340": {
       "title": "Burgemeester Brokxlaan 1960",
@@ -261,8 +263,8 @@
     "ikw:3e97ea3dc5b3d97b89309477110ba653": {
       "title": "Appartement Jufferhof 50 S",
       "price": 1764,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -359,8 +361,8 @@
     "ikw:759467208ab98827987bfbecb37842d1": {
       "title": "Appartement 's-gravelandseweg 927",
       "price": 1002,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -443,13 +445,14 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "ikw:27b6aae34d391c1b175b67260c79fb41": {
       "title": "Appartement 's-gravelandseweg 919",
       "price": 1415,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -513,8 +516,8 @@
     "ikw:318427acfc4768fb8e083d9887de9122": {
       "title": "Appartement Laan Op Zuid 1607",
       "price": 1586,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -713,8 +716,8 @@
     "ikw:6d26dc183581b3c5b87b321ce4ed71de": {
       "title": "Appartement 's-gravelandseweg 729",
       "price": 1440,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -748,8 +751,8 @@
     "ikw:c21c1742f8e5c1761d662f718c4740be": {
       "title": "Appartement Karl Weisbardstraat 139",
       "price": 1801,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "available",
+      "statusLabel": "Te huur",
       "firstSeen": "2026-10-20T17:59:06.397Z",
       "gone": false
     },
@@ -776,7 +779,8 @@
       "statusCode": "verhuurd",
       "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-20T17:59:06.397Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "ikw:583acf128ae54339780e8772a55fce7f": {
       "title": "Appartement Oostplein 553",
@@ -1102,7 +1106,8 @@
       "statusCode": "unavailable",
       "statusLabel": "Onder optie",
       "firstSeen": "2026-10-20T18:33:34.311Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "rent:13209945": {
       "title": "Susannadijk 71",
@@ -1162,12 +1167,11 @@
     },
     "corpo:66393": {
       "title": "Haardstee 28",
-      "price": 370000,
+      "price": 350000,
       "statusCode": "available",
-      "statusLabel": "Te koop",
+      "statusLabel": "Nieuw",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": true,
-      "goneSince": "2026-11-10T18:08:58.098Z"
+      "gone": false
     },
     "corpo:72424": {
       "title": "Millingenhof 163",
@@ -1858,7 +1862,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "corpo:66457": {
       "title": "Zijdewindestraat 118",
@@ -2286,7 +2291,8 @@
       "statusCode": "vov",
       "statusLabel": "Bijna verkocht",
       "firstSeen": "2026-10-21T14:20:38.656Z",
-      "gone": false
+      "gone": true,
+      "goneSince": "2026-11-17T12:57:22.698Z"
     },
     "corpo:66482": {
       "title": "Dorpsweg 165-C",
@@ -2521,8 +2527,8 @@
     "aybe:386560-bmw-1": {
       "title": "BMW 1",
       "price": 24190,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2920,8 +2926,8 @@
     "aypl:2847481-pl-bmw-series1": {
       "title": "BMW Series 1",
       "price": 88899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -2978,8 +2984,8 @@
     "aypl:2784710-pl-bmw-series2active": {
       "title": "BMW Series 2 Active",
       "price": 66899,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-10-24T18:27:43.554Z",
       "gone": false
     },
@@ -3662,16 +3668,16 @@
     "ikw:6ea76a4e3388e09778881224724b9a00": {
       "title": "Appartement Posthoornstraat 320",
       "price": 1975,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-30T16:16:47.859Z",
       "gone": false
     },
     "ikw:005b5864aaefbc39ad0b053790e256cb": {
       "title": "Appartement Boezemlaan 50 H",
       "price": 1675,
-      "statusCode": "verhuurd-onder-voorbehoud",
-      "statusLabel": "Verhuurd onder voorbehoud",
+      "statusCode": "verhuurd",
+      "statusLabel": "Verhuurd",
       "firstSeen": "2026-10-30T16:16:47.859Z",
       "gone": false
     },
@@ -3763,8 +3769,8 @@
     "aypl:2835699-pl-volkswagen-t-roc": {
       "title": "Volkswagen T-Roc",
       "price": 88899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-02T22:08:03.278Z",
       "gone": false
     },
@@ -3903,8 +3909,8 @@
     "aybe:381579-mercedes-benz-clasb": {
       "title": "Mercedes-Benz CLA SB",
       "price": 23890,
-      "statusCode": "available",
-      "statusLabel": "Beschikbaar",
+      "statusCode": "Reserved",
+      "statusLabel": "Gereserveerd",
       "firstSeen": "2026-11-04T18:36:32.354Z",
       "gone": false
     },
@@ -4195,8 +4201,8 @@
     "aypl:2642859-pl-audi-q2": {
       "title": "Audi Q2",
       "price": 82899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-09T20:10:48.102Z",
       "gone": false
     },
@@ -4227,8 +4233,8 @@
     "ikw:616917be0d980eb8eb73f41465d52571": {
       "title": "Appartement 's-gravelandseweg 995",
       "price": 1002,
-      "statusCode": "gereserveerd",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-10T18:08:58.098Z",
       "gone": false
     },
@@ -4251,8 +4257,8 @@
     "aypl:2453608-pl-bmw-3series": {
       "title": "BMW 3 Series",
       "price": 106899,
-      "statusCode": "Reserved",
-      "statusLabel": "Gereserveerd",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-10T18:08:58.098Z",
       "gone": false
     },
@@ -4292,8 +4298,8 @@
     "ikw:fc32089b46e10fa3821694a6f71b35c4": {
       "title": "Appartement Hoornsingel 3 E",
       "price": 1450,
-      "statusCode": "available",
-      "statusLabel": "Te huur",
+      "statusCode": "verhuurd-onder-voorbehoud",
+      "statusLabel": "Verhuurd onder voorbehoud",
       "firstSeen": "2026-11-11T17:56:44.796Z",
       "gone": false
     },
@@ -4417,8 +4423,8 @@
     "aypl:2574030-pl-volkswagen-tiguan": {
       "title": "Volkswagen Tiguan",
       "price": 99899,
-      "statusCode": "Coming soon",
-      "statusLabel": "Binnenkort beschikbaar",
+      "statusCode": "available",
+      "statusLabel": "Beschikbaar",
       "firstSeen": "2026-11-13T17:37:54.489Z",
       "gone": false
     },
@@ -4528,16 +4534,48 @@
       "statusLabel": "Binnenkort beschikbaar",
       "firstSeen": "2026-11-16T21:14:17.450Z",
       "gone": false
+    },
+    "ikw:f68d721e998028db3b07ca0ad4a9645b": {
+      "title": "Appartement Jufferstraat 11 W",
+      "price": 1654,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-17T12:57:22.698Z",
+      "gone": false
+    },
+    "ikw:4d9c7509838f453c8342cbd7ddfebeee": {
+      "title": "Appartement Louis Pregerkade 198",
+      "price": 1675,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-17T12:57:22.698Z",
+      "gone": false
+    },
+    "ikw:1907ae6fbbec0ee9059f15dd1c46be67": {
+      "title": "Eengezinswoning Lester Youngstraat 12",
+      "price": 1630,
+      "statusCode": "available",
+      "statusLabel": "Te huur",
+      "firstSeen": "2026-11-17T12:57:22.698Z",
+      "gone": false
+    },
+    "aybe:387618-bmw-3touring": {
+      "title": "BMW 3 Touring",
+      "price": 23890,
+      "statusCode": "Coming soon",
+      "statusLabel": "Binnenkort beschikbaar",
+      "firstSeen": "2026-11-17T12:57:22.698Z",
+      "gone": false
     }
   },
-  "lastHeartbeat": "2026-11-16",
+  "lastHeartbeat": "2026-11-17",
   "sources": {
     "hefwonen": {
       "initialized": true,
       "failures": 0
     },
     "ikwilhuren": {
-      "lastFullScan": "2026-11-16",
+      "lastFullScan": "2026-11-17",
       "failures": 0,
       "initialized": true
     },
@@ -4642,7 +4680,8 @@
     "2624NM": 12.5,
     "3063KL": 3.1,
     "2614LW": 13.3,
-    "3059XT": 9.3
+    "3059XT": 9.3,
+    "3069XM": 8.2
   },
   "fx": {
     "date": "2026-11-17",
@@ -4650,6 +4689,6 @@
   },
   "darija": {
     "introSent": true,
-    "lastDate": "2026-11-16"
+    "lastDate": "2026-11-17"
   }
 }
